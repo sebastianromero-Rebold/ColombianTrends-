@@ -94,8 +94,9 @@ def build_blocks(r, dashboard_url):
     blocks += [{"type": "divider"}, section("*💡  4. Recomendaciones de contenido para Homecenter*")]
     prio = {"alta": "🔴", "media": "🟠", "baja": "⚪"}
     for i, rec in enumerate((r.get("recommendations") or [])[:6], 1):
+        channels = [c for c in rec.get("channels") or [] if c != rec.get("format")]
         lines = [f"{prio.get(rec.get('priority'), '•')} *{esc(rec['title'])}*  ·  {esc(rec.get('format'))}"
-                 f" en {esc(', '.join(rec.get('channels') or []))}  ·  _{esc(rec.get('timing'))}_",
+                 + (f" en {esc(', '.join(channels))}" if channels else "") + f"  ·  _{esc(rec.get('timing'))}_",
                  esc(cut(rec.get("description"), 380))]
         if rec.get("hook"):
             lines.append(f"_Gancho:_ “{esc(cut(rec['hook'], 160))}”")
