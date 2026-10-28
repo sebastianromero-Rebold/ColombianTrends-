@@ -6,7 +6,8 @@ name: Radar diario
 on:
   push:
     branches: [main, "claude/**"]
-    paths: ["data/reports/**"]
+    # Cambiar destinatarios también dispara el envío (si el radar de hoy aún no se ha enviado).
+    paths: ["data/reports/**", "config/slack.json"]
   workflow_dispatch:
     inputs:
       date:

@@ -74,6 +74,26 @@ de Homecenter, cada una amarrada a tendencias o productos de A–C por su `id`: 
 gancho, qué productos destacar, cuándo publicar y por qué ahora. Nada genérico tipo
 "hacer contenido de decoración"; algo que un equipo creativo pueda producir hoy.
 
+### Cómo traer publicaciones de redes (no solo prensa)
+
+El radar es de **redes sociales**: al menos la mitad de los `examples` de cada sección deben ser
+publicaciones de TikTok, Instagram, X, YouTube, Facebook, Pinterest o Reddit, no notas de prensa.
+TikTok, Instagram y X suelen bloquear WebFetch, pero **no necesitas abrirlas**: WebSearch sí
+devuelve sus URLs, y esas URLs sirven como ejemplo verificado.
+
+- Busca con operadores de sitio: `site:tiktok.com remodelación apartamento Colombia`,
+  `site:tiktok.com homecenter`, `site:instagram.com/reel decoración navidad colombia`,
+  `site:x.com tendencia Colombia hoy`, `site:youtube.com/shorts hack hogar colombia`,
+  `site:reddit.com/r/Colombia herramientas`, `site:pinterest.com decoración sala pequeña`.
+- Las páginas `tiktok.com/discover/<tema>` y `tiktok.com/tag/<hashtag>` suelen salir en la
+  búsqueda y a veces se pueden abrir: listan videos con sus vistas.
+- YouTube y Reddit casi siempre se pueden abrir con WebFetch: úsalos para leer vistas, votos y
+  comentarios reales.
+- El engagement solo se reporta si lo viste en el snippet de búsqueda o en la página abierta.
+  Si no lo viste, deja `engagement` vacío: el enlace vale igual.
+- Usa la prensa para explicar el *por qué* de una tendencia, y las redes como evidencia de que
+  la gente está hablando de ella.
+
 ## 3. Escala de fuerza (`strength`, 1–5) — tu estimación, sé consistente
 
 - **5** — Masiva: tendencia #1 del día en varias plataformas o cobertura de medios nacionales.
