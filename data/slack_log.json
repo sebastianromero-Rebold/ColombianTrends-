@@ -1,10 +1,12 @@
 {
  "2026-10-28": {
-  "status": "enviado 16:08",
+  "status": "enviado 16:21",
   "targets": [
-   "C0CCYM2LWBG"
+   "C0CCYM2LWBG",
+   "D0CCKD3C8A3",
+   "D0CDV5SV996"
   ],
   "failed": [],
-  "at": "2026-10-28T16:08:15-05:00"
+  "at": "2026-10-28T16:21:04-05:00"
  }
 }
