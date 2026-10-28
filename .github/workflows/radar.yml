@@ -1,0 +1,69 @@
+name: Radar diario
+
+# El agente de Claude sube data/reports/AAAA-MM-DD.json (a main o a una rama claude/radar-*).
+# Este workflow lo trae a main, regenera el historial del dashboard y programa el mensaje
+# de Slack para las 8:00 a. m. (hora Colombia).
+on:
+  push:
+    branches: [main, "claude/**"]
+    paths: ["data/reports/**"]
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Fecha del reporte a enviar (AAAA-MM-DD). Vacío = el más reciente"
+        required: false
+      force:
+        description: "Reenviar aunque ya se haya enviado"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Traer el reporte desde la rama del agente
+        if: github.event_name == 'push' && github.ref_name != 'main'
+        run: |
+          git fetch origin "${{ github.ref_name }}"
+          git checkout FETCH_HEAD -- data/reports
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validar reportes y regenerar historial
+        run: |
+          for f in $(git diff --name-only HEAD -- data/reports; git ls-files --others --exclude-standard data/reports); do
+            python scripts/validate_report.py "$f"
+          done
+          python scripts/build_history.py
+
+      - name: Programar mensaje en Slack
+        env:
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+        run: python scripts/slack_send.py ${{ inputs.date }} ${{ inputs.force && '--force' || '' }}
+
+      - name: Guardar en main
+        if: always()
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Radar: historial y envío $(TZ=America/Bogota date +%F)"
+          git push origin main
+
+      - name: Borrar la rama del agente
+        if: success() && github.event_name == 'push' && github.ref_name != 'main'
+        run: git push origin --delete "${{ github.ref_name }}"

@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Radar de Tendencias · Rebold Intelligence</title>
+<link rel="icon" href="favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0b0b0c;--panel:#141416;--panel2:#1b1b1e;--line:#2a2a2f;--text:#f2f2f3;--muted:#9a9aa3;--faint:#6b6b74;
+  --accent:#ff7a1a;--accent-soft:rgba(255,122,26,.14);--good:#3ecf8e;--warn:#f5b942;--bad:#ff5d5d;
+  --s1:#3a2416;--s2:#6b3712;--s3:#a24d0f;--s4:#d9640f;--s5:#ff7a1a;
+}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--text);font:15px/1.5 Inter,system-ui,sans-serif}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+header{position:sticky;top:0;z-index:5;background:rgba(11,11,12,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar{max-width:1180px;margin:0 auto;padding:12px 20px;display:flex;align-items:center;gap:18px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font-weight:600;letter-spacing:.2px}
+.brand img{height:20px}.brand span{color:var(--muted);font-weight:500}
+nav{display:flex;gap:4px;margin-left:auto;flex-wrap:wrap}
+nav a{color:var(--muted);padding:6px 12px;border-radius:8px;font-weight:500}
+nav a.on,nav a:hover{color:var(--text);background:var(--panel2);text-decoration:none}
+main{max-width:1180px;margin:0 auto;padding:28px 20px 80px}
+h1{font-size:28px;line-height:1.2;margin:0 0 6px;font-weight:700;letter-spacing:-.3px}
+h2{font-size:18px;margin:36px 0 14px;display:flex;align-items:center;gap:10px}
+h2 .n{color:var(--accent);font-variant-numeric:tabular-nums}
+.sub{color:var(--muted)}
+.summary{background:var(--panel);border:1px solid var(--line);border-left:3px solid var(--accent);border-radius:12px;padding:16px 20px;margin-top:18px}
+.summary ul{margin:6px 0 0;padding-left:18px}.summary li{margin:4px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:flex;flex-direction:column;gap:8px}
+.card h3{margin:0;font-size:16px;line-height:1.3}
+.row{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.chip{font-size:12px;padding:2px 8px;border-radius:999px;background:var(--panel2);color:var(--muted);border:1px solid var(--line);white-space:nowrap}
+.chip.acc{background:var(--accent-soft);color:var(--accent);border-color:transparent}
+.chip.bad{color:var(--bad)}.chip.warn{color:var(--warn)}
+.dots{letter-spacing:1px;color:var(--accent);font-size:12px}.dots i{color:var(--line);font-style:normal}
+.mom{font-size:12px;color:var(--muted)}.mom.subiendo,.mom.pico{color:var(--good)}.mom.bajando{color:var(--bad)}
+.p{margin:0;color:#d6d6da;font-size:14px}.p b{color:var(--text);font-weight:600}
+.lbl{font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--faint);font-weight:600}
+.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
+.metric{background:var(--panel2);border-radius:8px;padding:6px 8px}
+.metric .v{font-weight:600;font-variant-numeric:tabular-nums}.metric .v.na{color:var(--faint);font-weight:500}
+.ex{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
+.ex li{font-size:13px;background:var(--panel2);border-radius:8px;padding:6px 10px}
+.ex .eng{color:var(--muted);font-size:12px}
+.rec{border-left:3px solid var(--line)}.rec.alta{border-left-color:var(--accent)}.rec.media{border-left-color:var(--warn)}
+.tools{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0 6px}
+.tools button{background:var(--panel);border:1px solid var(--line);color:var(--muted);padding:7px 14px;border-radius:8px;font:inherit;font-weight:500;cursor:pointer}
+.tools button.on{color:var(--text);border-color:var(--accent);background:var(--accent-soft)}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px;margin-top:14px}
+.kpi{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.kpi .v{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:11px;text-transform:uppercase;letter-spacing:.6px;color:var(--faint);font-weight:600;padding:8px 10px;border-bottom:1px solid var(--line)}
+td{padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+td.num{text-align:right;font-variant-numeric:tabular-nums}th.num{text-align:right}
+.tablewrap{background:var(--panel);border:1px solid var(--line);border-radius:12px;overflow-x:auto}
+.cells{display:flex;gap:2px}.cells span{width:9px;height:16px;border-radius:2px;background:var(--panel2)}
+.cells span.s1{background:var(--s1)}.cells span.s2{background:var(--s2)}.cells span.s3{background:var(--s3)}.cells span.s4{background:var(--s4)}.cells span.s5{background:var(--s5)}
+.hbar{display:grid;grid-template-columns:170px 1fr 48px;gap:10px;align-items:center;margin:7px 0;font-size:14px}
+.hbar .t{height:10px;background:var(--panel2);border-radius:5px;overflow:hidden}.hbar .t div{height:100%;background:var(--accent);border-radius:5px}
+.hbar .v{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.archive a{display:flex;justify-content:space-between;gap:16px;padding:12px 16px;border-bottom:1px solid var(--line);color:var(--text)}
+.archive a:hover{background:var(--panel2);text-decoration:none}.archive .d{font-weight:600;white-space:nowrap}
+.empty{text-align:center;padding:80px 20px;color:var(--muted)}
+.foot{color:var(--faint);font-size:12px;margin-top:40px}
+.daynav{display:flex;gap:8px;margin-left:auto}
+.daynav a{padding:4px 10px;border:1px solid var(--line);border-radius:8px;font-size:13px}
+@media (max-width:720px){.two{grid-template-columns:1fr}.grid{grid-template-columns:1fr}.hbar{grid-template-columns:110px 1fr 40px}h1{font-size:22px}nav{margin-left:0}.metrics{grid-template-columns:1fr 1fr 1fr}}
+</style>
+</head>
+<body>
+<header><div class="bar">
+  <div class="brand"><img src="logo_white.png" alt="Rebold"> <span>Radar de tendencias · Colombia + Homecenter</span></div>
+  <nav id="nav">
+    <a href="#/" data-r="dia">Hoy</a>
+    <a href="#/ranking/7" data-r="ranking">Rankings</a>
+    <a href="#/archivo" data-r="archivo">Archivo</a>
+  </nav>
+</div></header>
+<main id="app"><div class="empty">Cargando…</div></main>
+
+<script>
+const $app = document.getElementById('app');
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const safeUrl = u => /^https?:\/\//i.test(u || '') ? esc(u) : '#';
+const DAYS = ['domingo','lunes','martes','miércoles','jueves','viernes','sábado'];
+const MONTHS = ['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
+const parseDate = d => { const [y,m,dd] = d.split('-').map(Number); return new Date(y, m-1, dd); };
+const longDate = d => { const x = parseDate(d); return `${DAYS[x.getDay()]} ${x.getDate()} de ${MONTHS[x.getMonth()]} de ${x.getFullYear()}`; };
+const shortDate = d => { const x = parseDate(d); return `${x.getDate()} ${MONTHS[x.getMonth()].slice(0,3)}`; };
+const iso = x => `${x.getFullYear()}-${String(x.getMonth()+1).padStart(2,'0')}-${String(x.getDate()).padStart(2,'0')}`;
+const dots = n => `<span class="dots" title="Fuerza ${n}/5 (estimación del analista)">${'●'.repeat(n)}<i>${'●'.repeat(5-n)}</i></span>`;
+const MOM = {subiendo:'↗ subiendo', pico:'▲ en pico', estable:'→ estable', bajando:'↘ bajando'};
+const mom = m => `<span class="mom ${esc(m)}">${MOM[m] || esc(m)}</span>`;
+const num = v => v == null ? '<span class="v na">n/d</span>' : `<span class="v">${v >= 1e6 ? (v/1e6).toFixed(1).replace('.',',')+' M' : v >= 1e3 ? Math.round(v/1e3)+' mil' : v}</span>`;
+
+const cache = {};
+async function getJSON(path) {
+  if (!cache[path]) cache[path] = fetch(path + '?v=' + Date.now()).then(r => { if (!r.ok) throw new Error(path); return r.json(); });
+  return cache[path];
+}
+
+function examples(ex) {
+  if (!ex || !ex.length) return '';
+  return `<div class="lbl">Publicaciones de ejemplo</div><ul class="ex">${ex.map(e => `
+    <li><a href="${safeUrl(e.url)}" target="_blank" rel="noopener">${esc(e.platform || 'Enlace')}${e.author ? ' · ' + esc(e.author) : ''}</a>
+    ${e.date ? `<span class="eng"> · ${esc(e.date)}</span>` : ''}<br>${esc(e.description)}
+    ${e.engagement ? `<div class="eng">${esc(e.engagement)}</div>` : ''}</li>`).join('')}</ul>`;
+}
+
+function metrics(m) {
+  m = m || {};
+  return `<div class="metrics">
+    <div class="metric"><div class="lbl">Menciones</div>${num(m.mentions)}</div>
+    <div class="metric"><div class="lbl">Autores</div>${num(m.authors)}</div>
+    <div class="metric"><div class="lbl">Alcance</div>${num(m.potential_reach)}</div></div>
+    ${m.visible_engagement ? `<p class="p"><b>Engagement visible:</b> ${esc(m.visible_engagement)}</p>` : ''}
+    ${m.source && (m.mentions != null || m.authors != null || m.potential_reach != null) ? `<p class="p sub" style="font-size:12px">Fuente: ${esc(m.source)}</p>` : ''}`;
+}
+
+function trendCard(t, kind) {
+  const safety = t.brand_safety === 'evitar' ? '<span class="chip bad">evitar para marca</span>' : t.brand_safety === 'precaución' ? '<span class="chip warn">precaución</span>' : '';
+  return `<div class="card">
+    <div class="row">${dots(t.strength)} ${mom(t.momentum)} ${kind === 'hc' ? `<span class="chip acc">${esc(t.subcategory)}</span><span class="chip">${esc(t.conversation_type || '')}</span>` : `<span class="chip">${esc(t.topic || '')}</span>`} ${safety}</div>
+    <h3>${esc(t.title)}</h3>
+    <p class="p">${esc(t.description)}</p>
+    ${t.why_now ? `<p class="p"><b>Por qué ahora:</b> ${esc(t.why_now)}</p>` : ''}
+    ${kind === 'hc' ? `<p class="p"><b>Oportunidad:</b> ${esc(t.opportunity)}</p>` : `<p class="p"><b>Ángulo de marca:</b> ${esc(t.brand_angle)}${t.homecenter_fit && t.homecenter_fit !== 'ninguno' ? ` <span class="chip">fit Homecenter: ${esc(t.homecenter_fit)}</span>` : ''}</p>`}
+    <div class="row">${(t.platforms || []).map(p => `<span class="chip">${esc(p)}</span>`).join('')}${(t.hashtags || []).map(h => `<span class="chip">${esc(h)}</span>`).join('')}</div>
+    ${metrics(t.metrics)}
+    ${examples(t.examples)}
+  </div>`;
+}
+
+function productCard(p) {
+  return `<div class="card">
+    <div class="row">${dots(p.strength)} ${mom(p.momentum)} <span class="chip acc">${esc(p.subcategory)}</span><span class="chip">${esc(p.signal)}</span></div>
+    <h3>${esc(p.name)}</h3>
+    <p class="p">${esc(p.why_trending)}</p>
+    <p class="p"><b>Idea de contenido:</b> ${esc(p.content_idea)}</p>
+    <div class="row">${p.price_range ? `<span class="chip">${esc(p.price_range)}</span>` : ''}${p.homecenter_availability ? `<span class="chip">${esc(p.homecenter_availability)}</span>` : ''}${(p.platforms || []).map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>
+    ${examples(p.examples)}
+  </div>`;
+}
+
+function recCard(r) {
+  return `<div class="card rec ${esc(r.priority)}">
+    <div class="row"><span class="chip ${r.priority === 'alta' ? 'acc' : ''}">prioridad ${esc(r.priority)}</span><span class="chip">${esc(r.format)}</span>${(r.channels || []).map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>
+    <h3>${esc(r.title)}</h3>
+    ${r.hook ? `<p class="p"><b>Gancho:</b> “${esc(r.hook)}”</p>` : ''}
+    <p class="p">${esc(r.description)}</p>
+    ${r.products_to_feature && r.products_to_feature.length ? `<p class="p"><b>Productos:</b> ${esc(r.products_to_feature.join(', '))}</p>` : ''}
+    ${r.timing ? `<p class="p"><b>Cuándo:</b> ${esc(r.timing)}</p>` : ''}
+    ${r.why ? `<p class="p"><b>Por qué:</b> ${esc(r.why)}</p>` : ''}
+  </div>`;
+}
+
+async function viewDay(date) {
+  const idx = await getJSON('data/index.json');
+  if (!idx.reports.length) return empty();
+  date = date || idx.reports[0].date;
+  const pos = idx.reports.findIndex(r => r.date === date);
+  const r = await getJSON(`data/reports/${date}.json`);
+  const prev = idx.reports[pos + 1], next = idx.reports[pos - 1];
+  const sec = (n, title, items, fn) => items && items.length ? `<h2><span class="n">${n}</span> ${title}</h2><div class="grid">${items.map(fn).join('')}</div>` : '';
+  $app.innerHTML = `
+    <div class="row"><span class="sub">${longDate(r.date)}</span>
+      <span class="daynav">${prev ? `<a href="#/dia/${prev.date}">← ${shortDate(prev.date)}</a>` : ''}${next ? `<a href="#/dia/${next.date}">${shortDate(next.date)} →</a>` : ''}</span></div>
+    <h1>${esc(r.headline)}</h1>
+    ${r.summary && r.summary.length ? `<div class="summary"><div class="lbl">Resumen del día</div><ul>${r.summary.map(s => `<li>${esc(s)}</li>`).join('')}</ul></div>` : ''}
+    ${sec('01', 'Tendencias nacionales', r.national_trends, t => trendCard(t, 'nac'))}
+    ${sec('02', 'Tendencias de la categoría Homecenter', r.homecenter_trends, t => trendCard(t, 'hc'))}
+    ${sec('03', 'Productos ganando relevancia', r.products, productCard)}
+    ${sec('04', 'Recomendaciones de contenido', r.recommendations, recCard)}
+    <p class="foot">${esc(r.methodology || '')}<br>Menciones, autores y alcance se muestran como n/d cuando no hay una cifra publicada. La fuerza (●) es una estimación del analista de 1 a 5.</p>`;
+}
+
+const PERIODS = {7: 'Semana', 30: 'Mes', 365: 'Año', 0: 'Todo'};
+
+function rank(rows, from) {
+  const by = {};
+  for (const x of rows) {
+    if (x.date < from) continue;
+    const a = by[x.id] || (by[x.id] = {id: x.id, title: x.title || x.name, group: x.group, days: new Set(), sum: 0, max: 0, first: x.date, last: x.date, momentum: x.momentum, byDate: {}});
+    a.days.add(x.date); a.sum += x.strength; a.max = Math.max(a.max, x.strength);
+    a.byDate[x.date] = Math.max(a.byDate[x.date] || 0, x.strength);
+    if (x.date >= a.last) { a.last = x.date; a.momentum = x.momentum; a.title = x.title || x.name; a.group = x.group; }
+    if (x.date < a.first) a.first = x.date;
+  }
+  return Object.values(by).map(a => ({...a, n: a.days.size, avg: a.sum / a.days.size})).sort((a, b) => b.sum - a.sum || b.max - a.max);
+}
+
+function buckets(from, to, days) {
+  // Una celda por día en semana y mes; por semana en periodos más largos.
+  const out = [], step = days > 0 && days <= 31 ? 1 : 7;
+  for (let d = parseDate(from); iso(d) <= to; d.setDate(d.getDate() + step)) {
+    const s = iso(d), e = new Date(d); e.setDate(e.getDate() + step - 1);
+    out.push([s, iso(e)]);
+  }
+  return out.slice(-60);
+}
+
+function cells(a, bks) {
+  return `<div class="cells">${bks.map(([s, e]) => {
+    let v = 0; for (const d in a.byDate) if (d >= s && d <= e) v = Math.max(v, a.byDate[d]);
+    return `<span class="${v ? 's' + v : ''}" title="${s}${s !== e ? ' a ' + e : ''}: ${v ? 'fuerza ' + v : 'no apareció'}"></span>`;
+  }).join('')}</div>`;
+}
+
+function rankTable(list, bks, label) {
+  if (!list.length) return '<div class="card sub">Sin datos en este periodo.</div>';
+  return `<div class="tablewrap"><table><thead><tr><th>#</th><th>${label}</th><th>Grupo</th><th class="num">Días</th><th class="num">Fuerza prom.</th><th>Actividad</th><th>Último estado</th></tr></thead><tbody>
+    ${list.slice(0, 15).map((a, i) => `<tr><td class="sub">${i + 1}</td><td><a href="#/dia/${a.last}">${esc(a.title)}</a></td><td><span class="chip">${esc(a.group || '')}</span></td>
+      <td class="num">${a.n}</td><td class="num">${a.avg.toFixed(1)}</td><td>${cells(a, bks)}</td><td>${mom(a.momentum)}</td></tr>`).join('')}
+  </tbody></table></div>`;
+}
+
+function hbars(pairs) {
+  const max = Math.max(...pairs.map(p => p[1]), 1);
+  return pairs.map(([k, v]) => `<div class="hbar"><span>${esc(k)}</span><div class="t"><div style="width:${(v / max * 100).toFixed(1)}%"></div></div><span class="v">${v}</span></div>`).join('');
+}
+
+async function viewRanking(days) {
+  days = Number(days) || 0;
+  const [idx, h] = await Promise.all([getJSON('data/index.json'), getJSON('data/history.json')]);
+  if (!idx.reports.length) return empty();
+  const to = idx.reports[0].date, oldest = idx.reports[idx.reports.length - 1].date;
+  let from = oldest;
+  if (days) { const d = parseDate(to); d.setDate(d.getDate() - days + 1); from = iso(d) > oldest ? iso(d) : oldest; }
+  const nRep = idx.reports.filter(r => r.date >= from).length;
+  const nat = rank(h.trends.filter(t => t.scope === 'nacional'), from);
+  const hc = rank(h.trends.filter(t => t.scope === 'homecenter'), from);
+  const pr = rank(h.products, from);
+  const groups = {};
+  for (const x of [...h.trends.filter(t => t.scope === 'homecenter'), ...h.products]) if (x.date >= from) groups[x.group] = (groups[x.group] || 0) + x.strength;
+  const plat = {};
+  for (const x of h.trends) if (x.date >= from) for (const p of x.platforms || []) plat[p] = (plat[p] || 0) + 1;
+  const bks = buckets(from, to, days || 9999);
+  const sorted = o => Object.entries(o).sort((a, b) => b[1] - a[1]).slice(0, 10);
+  $app.innerHTML = `
+    <h1>Rankings de tendencias</h1>
+    <p class="sub">Ordenado por fuerza acumulada (suma de la fuerza diaria de 1 a 5): premia lo que aparece varios días y con intensidad. Clic en un nombre para ver el último reporte donde apareció.</p>
+    <div class="tools">${Object.entries(PERIODS).sort((a, b) => (+a[0] || 1e9) - (+b[0] || 1e9)).map(([k, v]) => `<button class="${+k === days ? 'on' : ''}" onclick="location.hash='#/ranking/${k}'">${v}</button>`).join('')}</div>
+    <div class="kpis">
+      <div class="kpi"><div class="lbl">Periodo</div><div class="v" style="font-size:18px">${shortDate(from)} – ${shortDate(to)}</div></div>
+      <div class="kpi"><div class="lbl">Reportes</div><div class="v">${nRep}</div></div>
+      <div class="kpi"><div class="lbl">Tendencias nacionales</div><div class="v">${nat.length}</div></div>
+      <div class="kpi"><div class="lbl">Tendencias Homecenter</div><div class="v">${hc.length}</div></div>
+      <div class="kpi"><div class="lbl">Productos detectados</div><div class="v">${pr.length}</div></div>
+    </div>
+    <h2><span class="n">01</span> Tendencias nacionales con mayor auge</h2>${rankTable(nat, bks, 'Tendencia')}
+    <h2><span class="n">02</span> Tendencias Homecenter con mayor auge</h2>${rankTable(hc, bks, 'Tendencia')}
+    <h2><span class="n">03</span> Productos con mayor auge</h2>${rankTable(pr, bks, 'Producto')}
+    <div class="two">
+      <div><h2>Subcategorías con más conversación</h2><div class="card">${hbars(sorted(groups))}</div></div>
+      <div><h2>Plataformas donde aparecen las tendencias</h2><div class="card">${hbars(sorted(plat))}</div></div>
+    </div>
+    <p class="foot">Cada celda de "Actividad" es un ${days && days <= 31 ? 'día' : 'semana'}; el color indica la fuerza máxima de ese periodo.</p>`;
+}
+
+async function viewArchive() {
+  const idx = await getJSON('data/index.json');
+  if (!idx.reports.length) return empty();
+  $app.innerHTML = `<h1>Archivo</h1><p class="sub">${idx.reports.length} reportes diarios.</p>
+    <div class="tablewrap archive">${idx.reports.map(r => `<a href="#/dia/${r.date}"><span class="d">${shortDate(r.date)} ${r.date.slice(0, 4)}</span><span style="flex:1">${esc(r.headline)}</span><span class="sub" style="white-space:nowrap">${r.counts.national_trends + r.counts.homecenter_trends} tend. · ${r.counts.products} prod.</span></a>`).join('')}</div>`;
+}
+
+function empty() {
+  $app.innerHTML = `<div class="empty"><h1>Aún no hay reportes</h1><p>El primer radar aparecerá aquí después de la próxima ejecución diaria.</p></div>`;
+}
+
+async function route() {
+  const [, view, arg] = (location.hash || '#/').split('/');
+  document.querySelectorAll('#nav a').forEach(a => a.classList.toggle('on', a.dataset.r === (view || 'dia')));
+  window.scrollTo(0, 0);
+  try {
+    if (view === 'ranking') await viewRanking(arg ?? 7);
+    else if (view === 'archivo') await viewArchive();
+    else await viewDay(view === 'dia' ? arg : null);
+  } catch (e) {
+    console.error(e);
+    if (String(e.message).includes('index.json')) empty();
+    else $app.innerHTML = `<div class="empty">No se pudo cargar: ${esc(e.message)}</div>`;
+  }
+}
+addEventListener('hashchange', route);
+route();
+</script>
+</body>
+</html>
