@@ -143,9 +143,7 @@ def main():
         print(json.dumps({"text": title, "blocks": blocks}, ensure_ascii=False, indent=1))
         print(f"{len(blocks)} bloques", file=sys.stderr)
         return
-    if date in log and not force:
-        print(f"El radar del {date} ya se envió/programó: {log[date]['status']}. Usa --force para reenviar.")
-        return
+    already = set() if force else set(log.get(date, {}).get("targets", []))
     now = datetime.now(BOGOTA)
     if date != now.strftime("%Y-%m-%d") and not force:
         print(f"El reporte es del {date} y hoy es {now:%Y-%m-%d}: no se envía (usa --force).")
@@ -164,6 +162,11 @@ def main():
     if not targets:
         print("config/slack.json no tiene canales ni usuarios.")
         sys.exit(1)
+    # Solo los destinatarios que aún no lo tienen: agregar a alguien a mitad del día le envía el radar de hoy.
+    targets = [t for t in targets if t not in already]
+    if not targets:
+        print(f"El radar del {date} ya se envió/programó a todos: {log[date]['status']}. Usa --force para reenviar.")
+        return
 
     sent, failed = [], []
     for ch in targets:
@@ -178,7 +181,8 @@ def main():
         except RuntimeError as e:
             failed.append(f"{ch}: {e}")
     status = f"programado {send_at:%H:%M}" if schedule else f"enviado {now:%H:%M}"
-    log[date] = {"status": status, "targets": sent, "failed": failed, "at": now.isoformat(timespec="seconds")}
+    log[date] = {"status": status, "targets": sorted(already | set(sent)), "failed": failed,
+                 "at": now.isoformat(timespec="seconds")}
     LOG.write_text(json.dumps(log, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{status} a {len(sent)} destinos" + (f"; fallaron: {failed}" if failed else ""))
     if failed and not sent:
