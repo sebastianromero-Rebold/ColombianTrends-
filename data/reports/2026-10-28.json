@@ -1,0 +1,602 @@
+{
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T07:00:00-05:00",
+  "headline": "Halloween (fin de semana del 31), la segunda temporada de lluvias con El Niño y la antesala de Navidad y Black Friday marcan el hogar colombiano esta semana",
+  "summary": [
+    "Los sismos de baja magnitud del 27 de octubre fueron lo más comentado en redes según la cobertura de prensa; es un tema sensible y no debe usarse en contenido de marca.",
+    "Halloween llega el sábado 31: Occidente reporta búsquedas de Halloween +62 % frente al año pasado (decoración +46 %, disfraces +43 %), con gasto promedio de $115.326 según Canal Trece.",
+    "Ahorro de energía y agua por El Niño sigue en la agenda pública (llamado del Minambiente y medidas de la CREG): oportunidad para contenido útil de eficiencia en el hogar.",
+    "La temporada navideña arranca: tendencias de decoración 2026 (tonos tierra, materiales naturales, luces) y árboles planos/LED ya circulan; Black Friday sería el 27 de noviembre según Bloomberg Línea.",
+    "Limitación del día: no se pudo abrir TikTok, Instagram ni X, así que no hay cifras de engagement social; las señales vienen de prensa y páginas oficiales."
+  ],
+  "national_trends": [
+    {
+      "id": "sismos-colombia",
+      "title": "Temblores en Colombia",
+      "topic": "otro",
+      "description": "Varios sismos de baja magnitud se registraron el 27 de octubre (Santander, Chocó y otros), según el Servicio Geológico Colombiano citado por la prensa. Medios reportan que miles de personas comentaron el movimiento en redes.",
+      "why_now": "Serie de réplicas y temblores reportados el 27 de octubre.",
+      "brand_angle": "Tema sensible: no usar para contenido de marca. Solo monitoreo.",
+      "homecenter_fit": "ninguno",
+      "brand_safety": "evitar",
+      "strength": 3,
+      "momentum": "pico",
+      "platforms": ["X"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin cifras publicadas; Minuto30 habla de miles de reportes en redes sin dar número.",
+        "source": "Cobertura de prensa (Minuto30, Noticias RCN)"
+      },
+      "examples": [
+        {
+          "url": "https://www.minuto30.com/no-para-al-menos-seis-temblores-se-han-registrado-en-colombia-este-martes-27-de-octubre/1725114/",
+          "platform": "Web",
+          "author": "Minuto30",
+          "date": "2026-10-27",
+          "description": "Al menos seis temblores registrados en Colombia el martes 27 de octubre",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://x.com/NoticiasRCN/status/2115243861354164631",
+          "platform": "X",
+          "author": "@NoticiasRCN",
+          "date": "2026-10-27",
+          "description": "Publicación de Noticias RCN con el reporte de temblor del 27 de octubre",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "halloween",
+      "title": "Halloween 2026: decoración y disfraces",
+      "topic": "comercio",
+      "description": "Búsquedas relacionadas con Halloween subieron 62 % frente al año anterior (decoración +46 %, disfraces +43 %), según Occidente. Canal Trece reporta gasto promedio de $115.326 con Bogotá, Antioquia y Valle a la cabeza. Bogotá anunció restricciones de moto y parrillero para el fin de semana del 31.",
+      "why_now": "Halloween es el sábado 31 de octubre; el pico de compra y publicación es esta semana.",
+      "brand_angle": "Decoración casera y DIY de bajo costo; evitar referencias a orden público o seguridad.",
+      "homecenter_fit": "medio",
+      "brand_safety": "segura",
+      "strength": 4,
+      "momentum": "pico",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado; cifras de búsqueda citadas por prensa.",
+        "source": "Occidente (búsquedas +62 %); Canal Trece (gasto promedio)"
+      },
+      "examples": [
+        {
+          "url": "https://occidente.co/colombia/vea-las-tendencias-de-compras-para-halloween/",
+          "platform": "Web",
+          "author": "Occidente",
+          "date": "2026-08-25",
+          "description": "Tendencias de compras para Halloween con alza de búsquedas",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://canaltrece.com.co/noticias/lo-mas-popular-en-halloween/",
+          "platform": "Web",
+          "author": "Canal Trece",
+          "date": null,
+          "description": "Lo más popular en Halloween: regiones que más compran y gasto promedio",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.noticiasrcn.com/tendencias/disfraces-virales-y-faciles-de-hacer-para-halloween-2026-1073240",
+          "platform": "Web",
+          "author": "Noticias RCN",
+          "date": null,
+          "description": "Disfraces virales y fáciles de hacer para Halloween 2026",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "el-nino-ahorro-energia",
+      "title": "El Niño y ahorro de energía y agua",
+      "topic": "clima",
+      "description": "El Gobierno confirmó El Niño en 2026 y la prensa reporta llamados del Minambiente al ahorro de energía y agua, medidas de la CREG y una campaña oficial de ahorro. La cobertura del 27 de octubre menciona la campaña de ahorro de energía, agua y gas.",
+      "why_now": "Se mantiene la agenda pública de racionamiento y ahorro durante la segunda temporada de lluvias.",
+      "brand_angle": "Contenido útil sobre eficiencia en el hogar (iluminación LED, aprovechamiento de agua); sin alarmismo ni referencias políticas.",
+      "homecenter_fit": "alto",
+      "brand_safety": "precaución",
+      "strength": 3,
+      "momentum": "estable",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado; cobertura sostenida en varios medios.",
+        "source": "Cobertura de prensa"
+      },
+      "examples": [
+        {
+          "url": "https://www.bluradio.com/nacion/minambiente-hace-llamado-a-ahorro-de-energia-y-agua-ante-super-nino-rg10",
+          "platform": "Web",
+          "author": "Blu Radio",
+          "date": null,
+          "description": "Minambiente hace llamado a ahorrar energía y agua ante el Súper Niño",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.elcolombiano.com/negocios/como-ahorrar-energia-fenomeno-el-nino-LB37636814",
+          "platform": "Web",
+          "author": "El Colombiano",
+          "date": null,
+          "description": "Cómo ahorrar energía durante el fenómeno de El Niño",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "segunda-temporada-lluvias",
+      "title": "Segunda temporada de lluvias",
+      "topic": "clima",
+      "description": "El Ideam informó que el país está en la segunda temporada de más lluvias del año, con mayor precipitación en octubre y noviembre en las regiones Andina y Caribe. Hay advertencias de lluvias en Bogotá y calor intenso en otras regiones.",
+      "why_now": "Pronósticos del Ideam se actualizan cada semana y hubo alertas de lluvia en el último puente festivo.",
+      "brand_angle": "Mantenimiento del hogar (goteras, impermeabilizantes, canales); tono preventivo y no de tragedia.",
+      "homecenter_fit": "alto",
+      "brand_safety": "precaución",
+      "strength": 3,
+      "momentum": "estable",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado.",
+        "source": "Cobertura de prensa (RCN, Publimetro, Cambio)"
+      },
+      "examples": [
+        {
+          "url": "https://www.noticiasrcn.com/colombia/ideam-advierte-que-colombia-entro-a-la-segunda-temporada-de-mas-lluvias-1069117",
+          "platform": "Web",
+          "author": "Noticias RCN",
+          "date": null,
+          "description": "Ideam advierte que Colombia entró a la segunda temporada de más lluvias",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.publimetro.co/noticias/2026/10/19/ideam-advierte-por-lluvias-en-bogota-y-calor-intenso-en-varias-regiones-de-colombia-pronostico-del-clima/",
+          "platform": "Web",
+          "author": "Publimetro",
+          "date": "2026-10-19",
+          "description": "Ideam advierte por lluvias en Bogotá y calor intenso en varias regiones",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "black-friday-navidad",
+      "title": "Hot Sale cerrado y cuenta regresiva a Black Friday y Navidad",
+      "topic": "comercio",
+      "description": "El Hot Sale de Homecenter fue del 16 al 25 de octubre según su página oficial. Bloomberg Línea ubica el Black Friday 2026 el 27 de noviembre. Ya circulan promociones navideñas de grandes superficies, como árboles con descuento.",
+      "why_now": "Cierra el Hot Sale y empieza la planeación de compras de fin de año.",
+      "brand_angle": "Calendario de ofertas y guías de compra planeada para hogar y Navidad.",
+      "homecenter_fit": "alto",
+      "brand_safety": "segura",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado.",
+        "source": "Páginas oficiales y prensa"
+      },
+      "examples": [
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/landing/hot-sale/",
+          "platform": "Web",
+          "author": "Homecenter Colombia",
+          "date": null,
+          "description": "Landing del Hot Sale 16 al 25 de octubre de 2026",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/",
+          "platform": "Web",
+          "author": "Bloomberg Línea",
+          "date": null,
+          "description": "Black Friday 2026 en Colombia: cae el 27 de noviembre",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.cronista.com/colombia/tiempo-libre/se-adelanta-la-navidad-falabella-lanza-el-arbol-mas-grande-del-mercado-con-un-gran-descuento",
+          "platform": "Web",
+          "author": "El Cronista Colombia",
+          "date": null,
+          "description": "Falabella lanza árbol de Navidad con descuento por tiempo limitado",
+          "engagement": "n/d"
+        }
+      ]
+    }
+  ],
+  "homecenter_trends": [
+    {
+      "id": "decoracion-navidena-2026",
+      "title": "Decoración navideña 2026: tonos tierra, materiales naturales y luces",
+      "subcategory": "decoración",
+      "conversation_type": "idea",
+      "description": "La prensa señala para 2026 textiles lisos, tonos neutros y tierra, materiales naturales y piezas artesanales. Fuentes de otros países agregan colores intensos y maximalismo; para Colombia la cobertura local encontrada es escasa.",
+      "why_now": "Inicio de la temporada de planeación navideña.",
+      "opportunity": "Guías de estilos navideños con productos de iluminación y decoración.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado.",
+        "source": "Prensa (El Tiempo, Occidente, Canal26 de Argentina)"
+      },
+      "examples": [
+        {
+          "url": "https://occidente.co/?p=269106",
+          "platform": "Web",
+          "author": "Occidente (Cali)",
+          "date": "2026-06-25",
+          "description": "Sugerencias de tonos tierra, champagne y dorados para ambientes clásicos",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.canal26.com/tendencias/2026/10/17/el-arbol-de-navidad-con-adornos-dorados-paso-de-moda-el-color-intenso-y-elegante-que-es-tendencia-en-2026/",
+          "platform": "Web",
+          "author": "Canal26 (Argentina)",
+          "date": "2026-10-17",
+          "description": "Colores intensos como tendencia navideña 2026 (referencia regional, no colombiana)",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "decoracion-biofilica-tonos-tierra",
+      "title": "Decoración biofílica y tonos tierra",
+      "subcategory": "decoración",
+      "conversation_type": "idea",
+      "description": "Calendario de Colombia ubica el diseño biofílico como tendencia dominante en 2026: plantas de interior, jardines verticales en balcones pequeños y paleta terracota, ocre y verde oliva. Vivienda.com.co destaca el estilo japandi.",
+      "why_now": "Tendencia anual 2026 vigente en notas de decoración.",
+      "opportunity": "Jardines verticales y renovación de bajo presupuesto en balcones y apartamentos.",
+      "strength": 2,
+      "momentum": "estable",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado.",
+        "source": "Blogs y medios especializados"
+      },
+      "examples": [
+        {
+          "url": "https://www.calendariodecolombia.com/estilo-de-vida/tendencias-de-decoracion-para-hogares-colombianos-en-2026-y-como-renovar-sus-espacios-con-poco-presupuesto",
+          "platform": "Web",
+          "author": "Calendario de Colombia",
+          "date": null,
+          "description": "Tendencias de decoración 2026 y renovación con poco presupuesto",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "apartamentos-arriendo",
+      "title": "Apartamentos y arriendo: hogares más pequeños",
+      "subcategory": "remodelación",
+      "conversation_type": "idea",
+      "description": "Ciencuadras reporta que los apartamentos concentran el 84,26 % de las búsquedas al cierre del primer trimestre de 2026 y que el arriendo se consolidó como opción. Portafolio habla de menos personas por hogar y más arriendos.",
+      "why_now": "Datos de mercado de vivienda 2026 en circulación.",
+      "opportunity": "Contenido de soluciones para espacios pequeños y mejoras que no afectan el contrato de arriendo.",
+      "strength": 2,
+      "momentum": "estable",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado; cifra de búsquedas inmobiliarias de Ciencuadras.",
+        "source": "Ciencuadras, Portafolio"
+      },
+      "examples": [
+        {
+          "url": "https://www.ciencuadras.com/blog/sala-de-prensa/por-que-los-apartamentos-dominan-el-arriendo-en-colombiana/amp",
+          "platform": "Web",
+          "author": "Ciencuadras",
+          "date": null,
+          "description": "Por qué los apartamentos dominan el arriendo en Colombia",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.portafolio.co/mis-finanzas/vivienda/menos-personas-por-hogar-y-mas-arriendos-la-tendencia-que-transforma-los-apartamentos-en-colombia-504918",
+          "platform": "Web",
+          "author": "Portafolio",
+          "date": null,
+          "description": "Menos personas por hogar y más arriendos transforman los apartamentos",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "eficiencia-energetica-hogar",
+      "title": "Eficiencia energética en el hogar",
+      "subcategory": "mejoramiento del hogar",
+      "conversation_type": "recomendación",
+      "description": "Con El Niño, medios recomiendan programar el aire acondicionado entre 23 y 24 °C, limpiar filtros, cerrar puertas y ventanas y desconectar equipos sin uso. Portafolio reporta proyectos con paneles solares y captación de aguas lluvias en centros comerciales.",
+      "why_now": "Campaña oficial de ahorro vigente por El Niño.",
+      "opportunity": "Guías y comparativos de iluminación eficiente y ahorro de agua.",
+      "strength": 3,
+      "momentum": "estable",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado.",
+        "source": "Prensa (El Colombiano, Portafolio)"
+      },
+      "examples": [
+        {
+          "url": "https://www.elcolombiano.com/negocios/como-ahorrar-energia-fenomeno-el-nino-LB37636814",
+          "platform": "Web",
+          "author": "El Colombiano",
+          "date": null,
+          "description": "Recomendaciones para ahorrar energía en el hogar",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.portafolio.co/negocios/empresas/centros-comerciales-impulsan-planes-para-acelerar-el-ahorro-de-energia-ante-la-llegada-de-el-nino-499178",
+          "platform": "Web",
+          "author": "Portafolio",
+          "date": null,
+          "description": "Centros comerciales impulsan paneles solares y captación de agua lluvia",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "decoracion-halloween-hogar",
+      "title": "Decoración de Halloween para el hogar",
+      "subcategory": "decoración",
+      "conversation_type": "idea",
+      "description": "Occidente reporta +46 % en búsquedas de decoración de Halloween. Minuto60 cita una encuesta en la que el 20 % busca más opciones de decoración para el hogar y el 13 % reciclaría o haría su propio atuendo. Las tendencias de 2025 apuntaban a estética gótica y creatividad casera.",
+      "why_now": "Halloween es el sábado 31.",
+      "opportunity": "Ideas de decoración rápida y DIY de última hora.",
+      "strength": 3,
+      "momentum": "pico",
+      "platforms": ["Web"],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "visible_engagement": "Sin engagement social verificado; cifras de búsqueda citadas por prensa.",
+        "source": "Occidente, Minuto60"
+      },
+      "examples": [
+        {
+          "url": "https://occidente.co/colombia/vea-las-tendencias-de-compras-para-halloween/",
+          "platform": "Web",
+          "author": "Occidente",
+          "date": "2026-08-25",
+          "description": "Búsquedas de decoración de Halloween +46 %",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.minuto60.com/economia/disfraces-halloween-gran-inversion-44-planea-gastar-entre-100000-200000/3056",
+          "platform": "Web",
+          "author": "Minuto60",
+          "date": null,
+          "description": "Encuesta sobre gasto en disfraces y decoración de Halloween",
+          "engagement": "n/d"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "decoracion-halloween",
+      "name": "Decoración de Halloween para casa",
+      "subcategory": "decoración",
+      "signal": "estacional",
+      "why_trending": "Búsquedas de decoración de Halloween +46 % según Occidente.",
+      "strength": 4,
+      "momentum": "pico",
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Decoración casera de bajo costo para la entrada y la sala.",
+      "platforms": ["Web"],
+      "examples": [
+        {
+          "url": "https://occidente.co/colombia/vea-las-tendencias-de-compras-para-halloween/",
+          "platform": "Web",
+          "author": "Occidente",
+          "date": "2026-08-25",
+          "description": "Tendencias de compras de Halloween",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "arbol-navidad-luces-led",
+      "name": "Árbol de Navidad y luces LED",
+      "subcategory": "decoración",
+      "signal": "estacional",
+      "why_trending": "Falabella ya promociona árboles con descuento. Cronista reportó que en 2025 muchos colombianos optaron por el árbol plano o mural con luces LED por precio y bajo consumo.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Comparativo de árboles y luces LED por consumo y espacio disponible.",
+      "platforms": ["Web"],
+      "examples": [
+        {
+          "url": "https://www.cronista.com/colombia/tiempo-libre/llega-el-fin-del-arbol-de-navidad-la-opcion-mas-elegida-que-no-ocupa-lugar-es-barata-y-gasta-poca-energia",
+          "platform": "Web",
+          "author": "El Cronista Colombia",
+          "date": null,
+          "description": "Árbol plano o mural con luces LED: barato y de bajo consumo",
+          "engagement": "n/d"
+        },
+        {
+          "url": "https://www.cronista.com/colombia/tiempo-libre/se-adelanta-la-navidad-falabella-lanza-el-arbol-mas-grande-del-mercado-con-un-gran-descuento",
+          "platform": "Web",
+          "author": "El Cronista Colombia",
+          "date": null,
+          "description": "Árbol de Navidad de Falabella con descuento",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "electrodomesticos-limpieza",
+      "name": "Electrodomésticos de limpieza",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Portafolio los señala como aliados clave del hogar en 2026; AMI Colombia 2025-2026 reporta +10,3 % en productos de cuidado del hogar (vía GemPages).",
+      "strength": 2,
+      "momentum": "estable",
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Rutina de limpieza rápida con equipos pequeños.",
+      "platforms": ["Web"],
+      "examples": [
+        {
+          "url": "https://www.portafolio.co/tecnologia/los-electrodomesticos-y-utensilios-que-no-pueden-faltar-en-la-casa-en-494888",
+          "platform": "Web",
+          "author": "Portafolio",
+          "date": null,
+          "description": "Electrodomésticos y utensilios que no pueden faltar en casa en 2026",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "plantas-jardin-vertical",
+      "name": "Plantas de interior y jardines verticales",
+      "subcategory": "jardinería",
+      "signal": "en crecimiento",
+      "why_trending": "Calendario de Colombia ubica el diseño biofílico como tendencia 2026, con jardines verticales en balcones pequeños y macetas de barro cocido.",
+      "strength": 2,
+      "momentum": "estable",
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Jardín vertical paso a paso para un balcón de apartamento.",
+      "platforms": ["Web"],
+      "examples": [
+        {
+          "url": "https://www.calendariodecolombia.com/estilo-de-vida/tendencias-de-decoracion-para-hogares-colombianos-en-2026-y-como-renovar-sus-espacios-con-poco-presupuesto",
+          "platform": "Web",
+          "author": "Calendario de Colombia",
+          "date": null,
+          "description": "Diseño biofílico y jardines verticales",
+          "engagement": "n/d"
+        }
+      ]
+    },
+    {
+      "id": "lamparas-espejos-textiles",
+      "name": "Lámparas, espejos y textiles decorativos",
+      "subcategory": "decoración",
+      "signal": "recomendado",
+      "why_trending": "Tiendanube señala que las piezas pequeñas se mueven mejor que los muebles grandes por logística más simple (ranking de e-commerce general, no solo hogar).",
+      "strength": 1,
+      "momentum": "estable",
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Renovar una sala con tres piezas pequeñas sin obra.",
+      "platforms": ["Web"],
+      "examples": [
+        {
+          "url": "https://www.tiendanube.com/co/blog/productos-mas-vendidos-en-colombia/",
+          "platform": "Web",
+          "author": "Tiendanube",
+          "date": null,
+          "description": "Productos más vendidos en Colombia en 2026",
+          "engagement": "n/d"
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Halloween en casa: decoración express de última hora",
+      "priority": "alta",
+      "format": "Reel",
+      "channels": ["Instagram", "TikTok"],
+      "hook": "Tienes hasta el sábado: decora tu casa para Halloween en 3 pasos",
+      "description": "Reel corto con tres ideas de decoración casera para entrada y sala con materiales de bajo costo.",
+      "products_to_feature": ["Decoración de Halloween", "Luces"],
+      "timing": "Hoy y mañana, antes del sábado 31",
+      "why": "Búsquedas de Halloween +62 % y de decoración +46 % según Occidente; el pico es esta semana.",
+      "trend_ids": ["halloween", "decoracion-halloween-hogar"],
+      "product_ids": ["decoracion-halloween"]
+    },
+    {
+      "title": "Guía de ahorro de energía en casa",
+      "priority": "alta",
+      "format": "carrusel",
+      "channels": ["Instagram"],
+      "hook": "5 cambios en casa para bajar el consumo de luz",
+      "description": "Carrusel con acciones concretas basadas en las recomendaciones publicadas (aire acondicionado a 23-24 °C, limpiar filtros, desconectar equipos) y productos de iluminación eficiente.",
+      "products_to_feature": ["Luces LED"],
+      "timing": "Esta semana",
+      "why": "Campaña oficial de ahorro vigente por El Niño.",
+      "trend_ids": ["el-nino-ahorro-energia", "eficiencia-energetica-hogar"],
+      "product_ids": ["arbol-navidad-luces-led"]
+    },
+    {
+      "title": "Casa lista para la temporada de lluvias",
+      "priority": "media",
+      "format": "historia",
+      "channels": ["Instagram", "TikTok"],
+      "hook": "Revisa esto en tu casa antes de que vuelva a llover",
+      "description": "Lista de revisión de canales, goteras y sellos, con tono preventivo y sin imágenes de emergencia o tragedia.",
+      "products_to_feature": [],
+      "timing": "Esta semana",
+      "why": "El Ideam informó que Colombia está en la segunda temporada de lluvias.",
+      "trend_ids": ["segunda-temporada-lluvias"],
+      "product_ids": []
+    },
+    {
+      "title": "Navidad 2026: tres estilos de decoración",
+      "priority": "media",
+      "format": "carrusel",
+      "channels": ["Instagram", "Pinterest"],
+      "hook": "Tres estilos de Navidad 2026 y cómo lograrlos",
+      "description": "Carrusel con estilos (tonos tierra y materiales naturales, colores intensos, luces) y los productos para armar cada uno.",
+      "products_to_feature": ["Árbol de Navidad", "Luces LED"],
+      "timing": "Primera semana de noviembre",
+      "why": "Ya circulan promociones navideñas de grandes superficies y las notas de tendencias 2026.",
+      "trend_ids": ["decoracion-navidena-2026", "black-friday-navidad"],
+      "product_ids": ["arbol-navidad-luces-led"]
+    },
+    {
+      "title": "Balcón verde en apartamento pequeño",
+      "priority": "baja",
+      "format": "TikTok",
+      "channels": ["TikTok", "Instagram"],
+      "hook": "Un jardín vertical en tu balcón por poco presupuesto",
+      "description": "Tutorial paso a paso con plantas y macetas para balcones pequeños.",
+      "products_to_feature": ["Plantas y jardín vertical"],
+      "timing": "Fin de semana largo o próximo fin de semana",
+      "why": "Diseño biofílico como tendencia 2026 y 84 % de la demanda inmobiliaria concentrada en apartamentos según Ciencuadras.",
+      "trend_ids": ["decoracion-biofilica-tonos-tierra", "apartamentos-arriendo"],
+      "product_ids": ["plantas-jardin-vertical"]
+    }
+  ],
+  "methodology": "Se hicieron búsquedas web en español sobre tendencias nacionales, Halloween, clima y El Niño, Navidad, Black Friday, Hot Sale y decoración en Colombia. WebFetch no pudo abrir ningún dominio (error de resolución de red), por lo que solo se usaron títulos y extractos de resultados de búsqueda. No se accedió a TikTok, Instagram ni X, y no hay cifras de engagement social ni de menciones: esos campos van en null o n/d. Varias fuentes no muestran fecha; esas van con date null. Las señales son de prensa, páginas oficiales y blogs, no de conversación social medida; algunas referencias de decoración navideña y de árboles planos provienen de otros países o de 2025 y se marcan como tales."
+}
