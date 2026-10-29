@@ -7,104 +7,119 @@ envías nada a Slack: un GitHub Action lee tu archivo y lo programa para las 8:0
 
 ## 0. Reglas que no se rompen
 
-1. **Nada inventado.** Cada tendencia, producto y cifra sale de algo que encontraste hoy con
-   WebSearch / WebFetch. Si no lo encontraste, no lo escribas.
-2. **Enlaces reales.** Cada URL de `examples` debe haber aparecido tal cual en un resultado de
-   búsqueda o en una página que abriste. Nunca armes una URL a mano (nada de
-   `tiktok.com/@usuario/video/123` adivinado). Si una tendencia solo tiene 2 enlaces verificables,
-   pon 2: es mejor que 5 con uno falso.
-3. **Métricas honestas.** Solo con fuentes web públicas no existe un conteo real de
-   *volumen de menciones*, *número de autores* ni *alcance potencial*. Deja esos campos en `null`
-   salvo que una fuente publicada dé la cifra (p. ej. una nota de prensa que cite "2,3 millones de
-   menciones en X"); en ese caso pon el número y la fuente en `metrics.source`.
-   Lo que sí puedes reportar es el **engagement visible** de las publicaciones (vistas, likes,
-   comentarios, compartidos tal como aparecen) en `metrics.visible_engagement` y en cada ejemplo.
-4. **Recencia.** Prioriza lo publicado en las últimas 72 horas. Una tendencia "nacional" debe
-   estar viva hoy en Colombia, no ser un tema de hace un mes. Productos y tendencias de categoría
-   pueden tener una ventana de hasta 14 días si siguen creciendo.
-5. **Colombia primero.** Conversación hecha en Colombia o muy consumida en Colombia. Una tendencia
-   global entra solo si hay evidencia de que está pegando en Colombia (creadores colombianos,
-   medios colombianos, búsquedas locales).
-6. **Seguridad de marca.** Puedes reportar temas sensibles (política, tragedias, orden público)
-   en tendencias nacionales, pero márcalos con `"brand_safety": "evitar"` y nunca los conviertas en
-   recomendación de contenido para Homecenter.
+1. **Nada inventado.** Cada tendencia, producto, enlace y cifra sale de los archivos de señales
+   del día (sección 1) o de algo que encontraste hoy con WebSearch / WebFetch. Si no lo
+   encontraste, no lo escribas.
+2. **Enlaces reales.** Cada URL de `examples` debe aparecer tal cual en un archivo de señales, en
+   un resultado de búsqueda o en una página que abriste. Nunca armes una URL a mano.
+3. **Cifras con origen.** Toda cifra lleva su base: si la contaste tú en la muestra del día, si
+   viene de una fuente publicada o si es el volumen de Google Trends. Nunca presentes una muestra
+   como si fuera el universo total de la conversación.
+4. **Recencia.** Prioriza lo de las últimas 72 horas. Productos y tendencias de categoría pueden
+   tener una ventana de hasta 14 días si siguen creciendo.
+5. **Colombia primero.** Una tendencia global entra solo con evidencia de que pega en Colombia.
+6. **Seguridad de marca.** Los temas sensibles (política, tragedias, orden público) se reportan
+   con `"brand_safety": "evitar"` y nunca se convierten en recomendación para Homecenter.
 
-## 1. Preparación
+## 1. Preparación: lee primero las señales del día
 
 ```bash
 export TZ=America/Bogota
-date +%F            # fecha del reporte
-cat data/history.json 2>/dev/null | head -c 20000   # tendencias y productos de días anteriores
-ls data/reports | tail -7
+D=$(date +%F); echo $D
+ls data/raw/$D/ 2>/dev/null
+python3 -c "import json;d=json.load(open('data/raw/$D/signals.json'));print({k:(len(v) if hasattr(v,'__len__') else v) for k,v in d.items()})"
+head -c 20000 data/history.json
 ```
 
-Usa `data/history.json` para **reutilizar el mismo `id`** cuando una tendencia o producto de días
-anteriores sigue vivo hoy (así el dashboard puede medir cuántos días lleva en el radar). Un `id`
-nuevo solo para algo realmente nuevo. Formato de `id`: slug en minúsculas con guiones, estable y
-genérico (`freidoras-de-aire`, no `freidoras-de-aire-28-oct`).
+- **`data/raw/AAAA-MM-DD/signals.json`** (lo recolecta un GitHub Action a las 5:40 a. m.):
+  - `google_trends`: lo más buscado hoy en Colombia, con `approx_traffic` (volumen aproximado de
+    búsquedas) y noticias relacionadas.
+  - `x_trends`: tendencias de X en Colombia; `hours_in_top` es cuántas de las últimas 6 horas lleva
+    en el top (más horas = más fuerza).
+  - `youtube`: videos de YouTube de esta semana por tema, con `views` reales y canal. Es tu fuente
+    principal de alcance medible.
+  - `autocomplete` y `autocomplete_new`: lo que la gente busca en Google y YouTube por categoría
+    (preguntas, "mejor…", "precio…", "cómo…"). `autocomplete_new` son búsquedas que no aparecían
+    ayer: señales de algo que empieza a crecer.
+  - `mercadolibre`: búsquedas que más crecen (`most_growth`), más deseadas y más populares en
+    Mercado Libre Colombia. Úsalas para la **intención de compra**.
+- **`data/raw/AAAA-MM-DD/chrome.json`** (si existe; lo recolecta una tarea en Chrome a las 5:50
+  a. m.): `posts` son publicaciones **reales y de esta semana** de TikTok, Instagram y Facebook,
+  con `views`, `likes`, `comments`, `shares` y `followers` cuando se pudieron leer. Son tu mejor
+  fuente de ejemplos y de métricas: úsalas primero. `answerthepublic` trae preguntas reales de
+  la gente sobre una semilla del día.
+- **`data/history.json`**: tendencias y productos de días anteriores. **Reutiliza el mismo `id`**
+  cuando algo sigue vivo hoy (formato slug estable: `freidoras-de-aire`).
 
-## 2. Investigación (haz muchas búsquedas, en español y con términos colombianos)
+Si un archivo de señales no existe, sigue con WebSearch y dilo en `methodology`.
 
-**A. Tendencias nacionales (5 a 8).** Busca qué está moviendo la conversación en Colombia hoy:
-tendencias de X/Twitter Colombia, Google Trends Colombia ("tendencias de búsqueda Colombia hoy"),
-lo más visto en TikTok e Instagram Colombia, memes y challenges, entretenimiento, deportes,
-fechas comerciales (quincena, Black Friday, temporada navideña, Halloween, prima), clima
-(temporada de lluvias, ola de calor), economía del hogar. Para cada una: qué es, por qué está
-creciendo ahora, y qué relevancia o ángulo tiene para marcas (y para Homecenter si aplica).
+## 2. Investigación
+
+Cruza las fuentes: una tendencia es más fuerte cuando aparece en varias a la vez (Google Trends
++ X + YouTube + redes). Complementa con WebSearch usando operadores de sitio
+(`site:tiktok.com`, `site:instagram.com`, `site:facebook.com`, `site:x.com`, `site:youtube.com`)
+y términos colombianos.
+
+**A. Tendencias nacionales (5 a 8).** Lo que mueve la conversación hoy en Colombia: parte de
+`google_trends` y `x_trends`, y explica qué es, por qué crece y qué ángulo tiene para marcas.
 
 **B. Tendencias de la categoría Homecenter (5 a 8).** Mejoramiento del hogar, construcción,
-remodelación, decoración, ferretería, herramientas, muebles, electrodomésticos, jardinería y DIY.
-Busca conversaciones sobre productos, ideas, recomendaciones, tutoriales, proyectos de antes y
-después, "home tours", hacks de organización, remodelaciones de apartamento, experiencias de
-compra (positivas o negativas) en Homecenter, Easy, Falabella, Alkosto, Éxito, Ikea, Mercado
-Libre, Temu, Shein Home. Ejemplos de búsquedas: `tiktok Colombia remodelación apartamento`,
-`hack decoración arriendo Colombia`, `Homecenter Colombia reseña`, `#DIY Colombia`,
-`tendencia decoración navidad 2026`, `"Homecenter" site:tiktok.com`, `site:instagram.com
-homecenter colombia`, `reddit Colombia herramientas recomendadas`.
+remodelación, decoración, ferretería, herramientas, muebles, electrodomésticos, jardinería y DIY:
+productos, ideas, recomendaciones, tutoriales, proyectos y experiencias de compra (en Homecenter,
+Easy, Falabella, Alkosto, Éxito, Ikea, Mercado Libre, Temu, Shein Home).
 
 **C. Productos ganando relevancia (6 a 10).** Productos concretos de esas categorías que estén
-virales, se estén recomendando o generando interés: herramientas que se volvieron virales,
-gadgets de cocina y limpieza, soluciones de almacenamiento, iluminación, papel de colgadura,
-pintura, plantas, electrodomésticos pequeños, muebles plegables, etc. Explica la señal
-(qué publicaciones, cuántas vistas, qué dicen los usuarios) y si Homecenter lo vende o podría
-mostrar una alternativa (dilo como "verificar disponibilidad" si no lo confirmaste).
+virales, recomendados o generando interés. Para cada uno, estima la **intención de compra**
+(`purchase_intent`) con evidencia: aparece en `mercadolibre.most_growth`, búsquedas de "precio",
+"dónde comprar" o "mejor… calidad precio" en el autocompletar, videos de reseñas o comparativos
+con muchas vistas, o menciones de ventas en prensa.
 
-**D. Recomendaciones (5 a 8).** Ideas de contenido concretas y accionables para los canales
-de Homecenter, cada una amarrada a tendencias o productos de A–C por su `id`: formato, red,
-gancho, qué productos destacar, cuándo publicar y por qué ahora. Nada genérico tipo
-"hacer contenido de decoración"; algo que un equipo creativo pueda producir hoy.
+**D. Línea blanca (3 a 6).** Neveras, lavadoras, secadoras, estufas, hornos, microondas,
+lavavajillas, congeladores, aires acondicionados y freidoras de aire. Qué productos ganan
+relevancia y **qué conversaciones o intereses los impulsan** (`drivers`): ahorro de energía,
+temporada (Black Friday, prima), fallas frecuentes ("no centrifuga"), comparativos de marcas,
+tamaño para apartamentos, etc.
 
-### Cómo traer publicaciones de redes (no solo prensa)
+**E. Recomendaciones (5 a 8).** Contenidos concretos para los canales de Homecenter, amarrados a
+tendencias o productos por su `id`: formato, red, gancho, productos, cuándo y por qué ahora.
+Cuando aplique, sugiere un **hook visual** de la librería de Transitional Hooks
+(https://transitionalhooks.com/social-media-video-hook-library/, categorías: Animal, Dog,
+Fighting, Food, Funny, Holiday, Jump / Fall, Reaction, Sports, Surprise, Water / Splash) en
+`visual_hook`.
 
-El radar es de **redes sociales**: al menos la mitad de los `examples` de cada sección deben ser
-publicaciones de TikTok, Instagram, X, YouTube, Facebook, Pinterest o Reddit, no notas de prensa.
-TikTok, Instagram y X suelen bloquear WebFetch, pero **no necesitas abrirlas**: WebSearch sí
-devuelve sus URLs, y esas URLs sirven como ejemplo verificado.
+## 3. Ejemplos y métricas (lo que pidió el equipo)
 
-- Busca con operadores de sitio: `site:tiktok.com remodelación apartamento Colombia`,
-  `site:tiktok.com homecenter`, `site:instagram.com/reel decoración navidad colombia`,
-  `site:x.com tendencia Colombia hoy`, `site:youtube.com/shorts hack hogar colombia`,
-  `site:reddit.com/r/Colombia herramientas`, `site:pinterest.com decoración sala pequeña`.
-- Las páginas `tiktok.com/discover/<tema>` y `tiktok.com/tag/<hashtag>` suelen salir en la
-  búsqueda y a veces se pueden abrir: listan videos con sus vistas.
-- YouTube y Reddit casi siempre se pueden abrir con WebFetch: úsalos para leer vistas, votos y
-  comentarios reales.
-- El engagement solo se reporta si lo viste en el snippet de búsqueda o en la página abierta.
-  Si no lo viste, deja `engagement` vacío: el enlace vale igual.
-- Usa la prensa para explicar el *por qué* de una tendencia, y las redes como evidencia de que
-  la gente está hablando de ella.
+**Ejemplos.** Cada tendencia y producto lleva **3 a 5 ejemplos de redes sociales distintas**,
+priorizando **Instagram, TikTok y Facebook**, y luego YouTube y X. La prensa no cuenta como red
+social: úsala solo si no hay suficientes publicaciones, y nunca como único ejemplo. Cada ejemplo
+lleva su `reach`: vistas, reproducciones o seguidores visibles de esa publicación (número), con
+`reach_basis` indicando cuál es. Si no lo viste, `reach: null`.
 
-## 3. Escala de fuerza (`strength`, 1–5) — tu estimación, sé consistente
+**Métricas por tendencia/producto** (`metrics`):
+- `mentions`: número de publicaciones distintas sobre el tema que encontraste hoy en las señales y
+  búsquedas (la **muestra** del día).
+- `authors`: número de cuentas o canales distintos en esa muestra.
+- `potential_reach`: suma del `reach` visible de esas publicaciones.
+- `basis`: `"muestra"` si lo contaste tú, `"fuente publicada"` si una fuente da la cifra (y la
+  citas en `source`).
+- `search_volume`: el `approx_traffic` de Google Trends si el tema aparece ahí (ej. `"2000+"`).
+- `visible_engagement`: resumen en texto de lo más fuerte que viste.
 
-- **5** — Masiva: tendencia #1 del día en varias plataformas o cobertura de medios nacionales.
+Cuenta solo lo que viste: si encontraste 4 publicaciones de 3 cuentas con 120.000 vistas
+sumadas, eso es `mentions: 4, authors: 3, potential_reach: 120000, basis: "muestra"`. Si no
+encontraste ninguna publicación, deja los tres en `null`.
+
+## 4. Escala de fuerza (`strength`, 1–5) — tu estimación, sé consistente
+
+- **5** — Masiva: top de Google Trends o X por varias horas y en varias redes.
 - **4** — Muy fuerte: varias publicaciones con cientos de miles o millones de vistas.
 - **3** — Clara: varias publicaciones con decenas de miles de interacciones o creciendo rápido.
-- **2** — Emergente: señales repetidas pero aún de nicho.
+- **2** — Emergente: señales repetidas pero aún de nicho (p. ej. solo en `autocomplete_new`).
 - **1** — Débil: un par de señales; vale la pena vigilar.
 
 `momentum`: `"subiendo"`, `"pico"`, `"estable"` o `"bajando"`.
 
-## 4. Formato de salida — `data/reports/AAAA-MM-DD.json`
+## 5. Formato de salida — `data/reports/AAAA-MM-DD.json`
 
 JSON válido UTF-8, sin comentarios. Todos los textos en español, concretos, sin relleno.
 
@@ -126,23 +141,27 @@ JSON válido UTF-8, sin comentarios. Todos los textos en español, concretos, si
       "brand_safety": "segura | precaución | evitar",
       "strength": 4,
       "momentum": "subiendo",
-      "platforms": ["TikTok", "X", "Instagram"],
+      "platforms": ["TikTok", "Instagram", "X"],
       "hashtags": ["#Ejemplo"],
       "metrics": {
-        "mentions": null,
-        "authors": null,
-        "potential_reach": null,
-        "visible_engagement": "Video principal con 2,1 M de vistas; 3 videos más con +300 mil",
-        "source": "Engagement visible en las publicaciones enlazadas"
+        "mentions": 6,
+        "authors": 5,
+        "potential_reach": 2400000,
+        "basis": "muestra",
+        "search_volume": "2000+",
+        "visible_engagement": "Video principal con 2,1 M de vistas en TikTok",
+        "source": "Publicaciones encontradas hoy en TikTok, Instagram y YouTube"
       },
       "examples": [
         {
           "url": "https://...",
           "platform": "TikTok",
-          "author": "@cuenta o medio",
+          "author": "@cuenta",
           "date": "2026-10-27",
           "description": "Qué muestra la publicación",
-          "engagement": "2,1 M vistas · 180 mil likes"
+          "engagement": "180 mil likes · 2.300 comentarios",
+          "reach": 2100000,
+          "reach_basis": "vistas"
         }
       ]
     }
@@ -160,8 +179,8 @@ JSON válido UTF-8, sin comentarios. Todos los textos en español, concretos, si
       "momentum": "subiendo",
       "platforms": ["TikTok"],
       "hashtags": [],
-      "metrics": { "mentions": null, "authors": null, "potential_reach": null, "visible_engagement": "...", "source": "..." },
-      "examples": [ { "url": "...", "platform": "...", "author": "...", "date": "...", "description": "...", "engagement": "..." } ]
+      "metrics": { "mentions": null, "authors": null, "potential_reach": null, "basis": "muestra", "search_volume": null, "visible_engagement": "...", "source": "..." },
+      "examples": [ { "url": "...", "platform": "...", "author": "...", "date": "...", "description": "...", "engagement": "...", "reach": null, "reach_basis": null } ]
     }
   ],
   "products": [
@@ -173,11 +192,32 @@ JSON válido UTF-8, sin comentarios. Todos los textos en español, concretos, si
       "why_trending": "Qué lo está empujando y qué dicen los usuarios",
       "strength": 4,
       "momentum": "subiendo",
+      "purchase_intent": { "level": "alta | media | baja", "evidence": "Ej.: 'nevera' está entre las búsquedas que más crecen en Mercado Libre y 'mejor nevera calidad precio colombia' aparece en el autocompletar" },
       "price_range": "Rango en COP si lo viste publicado, si no null",
       "homecenter_availability": "lo vende | alternativa similar | verificar disponibilidad",
       "content_idea": "Cómo mostrarlo en los canales de Homecenter",
       "platforms": ["TikTok"],
-      "examples": [ { "url": "...", "platform": "...", "author": "...", "date": "...", "description": "...", "engagement": "..." } ]
+      "metrics": { "mentions": null, "authors": null, "potential_reach": null, "basis": "muestra", "search_volume": null, "visible_engagement": "...", "source": "..." },
+      "examples": [ { "url": "...", "platform": "...", "author": "...", "date": "...", "description": "...", "engagement": "...", "reach": null, "reach_basis": null } ]
+    }
+  ],
+  "white_goods": [
+    {
+      "id": "slug-estable",
+      "name": "Neveras no frost de bajo consumo",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "...",
+      "drivers": ["Ahorro de energía por El Niño", "Comparativos de marcas en YouTube"],
+      "strength": 3,
+      "momentum": "subiendo",
+      "purchase_intent": { "level": "alta", "evidence": "..." },
+      "price_range": null,
+      "homecenter_availability": "lo vende",
+      "content_idea": "...",
+      "platforms": ["YouTube"],
+      "metrics": { "mentions": null, "authors": null, "potential_reach": null, "basis": "muestra", "search_volume": null, "visible_engagement": "...", "source": "..." },
+      "examples": [ { "url": "...", "platform": "...", "author": "...", "date": "...", "description": "...", "engagement": "...", "reach": null, "reach_basis": null } ]
     }
   ],
   "recommendations": [
@@ -187,6 +227,7 @@ JSON válido UTF-8, sin comentarios. Todos los textos en español, concretos, si
       "format": "Reel | TikTok | carrusel | historia | live | UGC con creador | blog/SEO | pauta",
       "channels": ["TikTok", "Instagram"],
       "hook": "Primera línea o primeros 3 segundos",
+      "visual_hook": { "category": "Surprise", "idea": "Clip de intro tipo 'Egg Blanket' para abrir el antes y después", "url": "https://transitionalhooks.com/social-media-video-hook-library/" },
       "description": "Qué se produce, en concreto",
       "products_to_feature": ["..."],
       "timing": "Cuándo publicarlo (hoy, esta semana, antes de la quincena…)",
@@ -195,19 +236,20 @@ JSON válido UTF-8, sin comentarios. Todos los textos en español, concretos, si
       "product_ids": ["slug-estable"]
     }
   ],
-  "methodology": "Qué buscaste, qué plataformas cubriste y qué limitaciones tuvo el día (p. ej. TikTok sin acceso directo)"
+  "methodology": "Qué fuentes usaste (señales del día, Chrome, búsquedas), qué redes cubriste y qué limitaciones hubo"
 }
 ```
 
-Máximo 5 `examples` por elemento. Ordena cada lista de mayor a menor `strength`.
+`visual_hook` es opcional. Máximo 5 `examples` por elemento. Ordena cada lista de mayor a menor
+`strength`. Los `product_ids` de las recomendaciones pueden apuntar a `products` o `white_goods`.
 
-## 5. Validar y publicar
+## 6. Validar y publicar
 
 ```bash
 python3 scripts/validate_report.py data/reports/$(TZ=America/Bogota date +%F).json
 ```
 
-Corrige hasta que diga `OK`. Luego:
+Corrige hasta que diga `OK` (lee también los avisos y mejóralos si puedes). Luego:
 
 ```bash
 git add data/reports/
@@ -215,9 +257,9 @@ git commit -m "Radar $(TZ=America/Bogota date +%F)"
 git push origin HEAD:main || git push origin HEAD:claude/radar-$(TZ=America/Bogota date +%F)
 ```
 
-Solo agrega el archivo del reporte: no edites el dashboard, los scripts, `data/history.json`
-ni la configuración de Slack (el GitHub Action regenera el historial y envía el mensaje).
-Si el archivo del día ya existe, mejóralo en vez de crear otro.
+Solo agrega el archivo del reporte: no edites el dashboard, los scripts, `data/history.json`,
+`data/raw` ni la configuración de Slack. Si el archivo del día ya existe, mejóralo en vez de
+crear otro.
 
-Termina con un resumen de 3 líneas: cuántas tendencias, productos y recomendaciones, y a qué
-rama subiste.
+Termina con un resumen de 3 líneas: cuántas tendencias, productos y recomendaciones, cuántos
+ejemplos son de redes sociales, y a qué rama subiste.

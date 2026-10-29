@@ -7,6 +7,7 @@
     "national_trends": 4,
     "homecenter_trends": 4,
     "products": 3,
+    "white_goods": 0,
     "recommendations": 5
    }
   },
@@ -17,6 +18,7 @@
     "national_trends": 5,
     "homecenter_trends": 5,
     "products": 5,
+    "white_goods": 0,
     "recommendations": 5
    }
   }

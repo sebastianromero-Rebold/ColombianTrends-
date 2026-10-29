@@ -49,67 +49,144 @@ def section(text):
     return {"type": "section", "text": {"type": "mrkdwn", "text": cut(text, 2990)}}
 
 
-def trend_block(i, t, extra):
-    m = t.get("metrics") or {}
-    lines = [f"*{i}. {esc(t['title'])}*  {bar(t['strength'])}  {ARROW.get(t['momentum'], '')}"
-             + (f"  ·  {esc(', '.join(t.get('platforms') or []))}" if t.get("platforms") else ""),
-             esc(cut(t.get("description"), 320))]
-    if extra:
-        lines.append(extra)
-    lines.append(f"_Menciones_ {fmt_num(m.get('mentions'))} · _Autores_ {fmt_num(m.get('authors'))} · "
-                 f"_Alcance_ {fmt_num(m.get('potential_reach'))}"
-                 + (f" · {esc(cut(m.get('visible_engagement'), 160))}" if m.get("visible_engagement") else ""))
-    if t.get("examples"):
-        lines.append("Ejemplos: " + links(t["examples"]))
+def metrics_line(m):
+    basis = " (muestra)" if m.get("basis") == "muestra" else ""
+    line = (f"_Menciones{basis}_ {fmt_num(m.get('mentions'))} · _Autores_ {fmt_num(m.get('authors'))} · "
+            f"_Alcance potencial_ {fmt_num(m.get('potential_reach'))}")
+    if m.get("search_volume"):
+        line += f" · _Búsquedas Google_ {esc(m['search_volume'])}"
+    if m.get("visible_engagement"):
+        line += f"\n{esc(cut(m['visible_engagement'], 180))}"
+    return line
+
+
+def item_block(i, it, head_extra, lines_extra, with_links):
+    lines = [f"*{i}. {esc(it.get('title') or it.get('name'))}*  {bar(it['strength'])}  "
+             f"{ARROW.get(it['momentum'], '')}{head_extra}",
+             esc(cut(it.get("description") or it.get("why_trending"), 300))]
+    lines += [x for x in lines_extra if x]
+    lines.append(metrics_line(it.get("metrics") or {}))
+    if with_links and it.get("examples"):
+        lines.append("Ejemplos: " + links(it["examples"]))
     return section("\n".join(lines))
 
 
-def build_blocks(r, dashboard_url):
+def intent_line(p):
+    pi = p.get("purchase_intent") or {}
+    if not pi.get("level"):
+        return None
+    icon = {"alta": "🟢", "media": "🟡", "baja": "⚪"}.get(pi["level"], "")
+    return f"_Intención de compra:_ {icon} {esc(pi['level'])} — {esc(cut(pi.get('evidence'), 200))}"
+
+
+SECTIONS = [  # (clave, título, máximo de elementos en Slack)
+    ("national_trends", "🇨🇴  1. Tendencias nacionales", 6),
+    ("homecenter_trends", "🛠️  2. Tendencias de la categoría Homecenter", 6),
+    ("products", "🔥  3. Productos ganando relevancia", 7),
+    ("white_goods", "🧊  4. Línea blanca", 5),
+]
+
+
+def overview(r):
+    """Cifras generales del día: suma de la muestra de todas las secciones."""
+    tot = {"mentions": 0, "authors": 0, "potential_reach": 0}
+    has = False
+    for key, _, _ in SECTIONS:
+        for it in r.get(key) or []:
+            m = it.get("metrics") or {}
+            for k in tot:
+                if isinstance(m.get(k), (int, float)):
+                    tot[k] += m[k]
+                    has = True
+    return tot if has else None
+
+
+def examples_table(r):
+    """Un solo cuadro con todos los ejemplos: sección, nombre, red, enlace y alcance."""
+    head = ["Sección", "Tendencia / producto", "Red", "Enlace", "Alcance"]
+    rows = [[{"type": "raw_text", "text": h} for h in head]]
+    short = {"national_trends": "Nacional", "homecenter_trends": "Homecenter", "products": "Producto",
+             "white_goods": "Línea blanca"}
+    for key, _, limit in SECTIONS:
+        for it in (r.get(key) or [])[:limit]:
+            for e in it.get("examples") or []:
+                reach = fmt_num(e.get("reach"))
+                if e.get("reach") and e.get("reach_basis"):
+                    reach += f" {e['reach_basis']}"
+                rows.append([
+                    {"type": "raw_text", "text": short[key]},
+                    {"type": "raw_text", "text": cut(it.get("title") or it.get("name"), 60)},
+                    {"type": "raw_text", "text": str(e.get("platform") or "-")},
+                    {"type": "rich_text", "elements": [{"type": "rich_text_section", "elements": [
+                        {"type": "link", "url": e["url"], "text": "Ver publicación"}]}]},
+                    {"type": "raw_text", "text": reach},
+                ])
+    if len(rows) == 1:
+        return None
+    return {"type": "table", "column_settings": [None, {"is_wrapped": True}, None, None, {"align": "right"}],
+            "rows": rows[:100]}
+
+
+def build_blocks(r, dashboard_url, with_table=True):
     d = datetime.strptime(r["date"], "%Y-%m-%d")
     title = f"📡 Radar de tendencias · {DAYS[d.weekday()]} {d.day} {MONTHS[d.month - 1]}"
     blocks = [{"type": "header", "text": {"type": "plain_text", "text": title}}]
     summary = "\n".join(f"• {esc(s)}" for s in (r.get("summary") or []))
-    blocks.append(section(f"*{esc(r['headline'])}*\n{summary}"))
+    tot = overview(r)
+    totals = (f"\n\n📊 *Cifras generales (muestra del día):* {fmt_num(tot['mentions'])} menciones · "
+              f"{fmt_num(tot['authors'])} autores · {fmt_num(tot['potential_reach'])} de alcance potencial"
+              if tot else "")
+    blocks.append(section(f"*{esc(r['headline'])}*\n{summary}{totals}"))
+    table = examples_table(r) if with_table else None
 
-    blocks += [{"type": "divider"}, section("*🇨🇴  1. Tendencias nacionales*")]
-    for i, t in enumerate((r.get("national_trends") or [])[:6], 1):
-        flag = " ⚠️ _no usar para marca_" if t.get("brand_safety") == "evitar" else ""
-        blocks.append(trend_block(i, t, f"_Ángulo de marca:_ {esc(cut(t.get('brand_angle'), 220))}{flag}"))
+    for key, label, limit in SECTIONS:
+        items = (r.get(key) or [])[:limit]
+        if not items:
+            continue
+        blocks += [{"type": "divider"}, section(f"*{label}*")]
+        for i, it in enumerate(items, 1):
+            platforms = f"  ·  {esc(', '.join(it.get('platforms') or []))}" if it.get("platforms") else ""
+            if key == "national_trends":
+                flag = " ⚠️ _no usar para marca_" if it.get("brand_safety") == "evitar" else ""
+                head, extra = platforms, [f"_Ángulo de marca:_ {esc(cut(it.get('brand_angle'), 220))}{flag}"]
+            elif key == "homecenter_trends":
+                head = platforms
+                extra = [f"`{esc(it.get('subcategory'))}`  _Oportunidad:_ {esc(cut(it.get('opportunity'), 240))}"]
+            else:
+                head = f"  ·  `{esc(it.get('subcategory'))}` · {esc(it.get('signal'))}"
+                extra = [intent_line(it)]
+                if it.get("drivers"):
+                    extra.append(f"_Qué lo impulsa:_ {esc(cut(' · '.join(it['drivers']), 240))}")
+                extra.append(f"_Idea:_ {esc(cut(it.get('content_idea'), 220))}"
+                             + (f"  ·  _{esc(it.get('homecenter_availability'))}_"
+                                if it.get("homecenter_availability") else ""))
+            blocks.append(item_block(i, it, head, extra, table is None))
 
-    blocks += [{"type": "divider"}, section("*🛠️  2. Tendencias de la categoría Homecenter*")]
-    for i, t in enumerate((r.get("homecenter_trends") or [])[:6], 1):
-        blocks.append(trend_block(i, t, f"`{esc(t.get('subcategory'))}`  _Oportunidad:_ {esc(cut(t.get('opportunity'), 240))}"))
-
-    blocks += [{"type": "divider"}, section("*🔥  3. Productos ganando relevancia*")]
-    for i, p in enumerate((r.get("products") or [])[:8], 1):
-        lines = [f"*{i}. {esc(p['name'])}*  {bar(p['strength'])}  {ARROW.get(p['momentum'], '')}  ·  "
-                 f"`{esc(p.get('subcategory'))}` · {esc(p.get('signal'))}",
-                 esc(cut(p.get("why_trending"), 260)),
-                 f"_Idea:_ {esc(cut(p.get('content_idea'), 220))}"
-                 + (f"  ·  _{esc(p.get('homecenter_availability'))}_" if p.get("homecenter_availability") else "")]
-        if p.get("examples"):
-            lines.append("Ejemplos: " + links(p["examples"]))
-        blocks.append(section("\n".join(lines)))
-
-    blocks += [{"type": "divider"}, section("*💡  4. Recomendaciones de contenido para Homecenter*")]
+    blocks += [{"type": "divider"}, section("*💡  5. Recomendaciones de contenido para Homecenter*")]
     prio = {"alta": "🔴", "media": "🟠", "baja": "⚪"}
-    for i, rec in enumerate((r.get("recommendations") or [])[:6], 1):
+    for rec in (r.get("recommendations") or [])[:6]:
         channels = [c for c in rec.get("channels") or [] if c != rec.get("format")]
         lines = [f"{prio.get(rec.get('priority'), '•')} *{esc(rec['title'])}*  ·  {esc(rec.get('format'))}"
                  + (f" en {esc(', '.join(channels))}" if channels else "") + f"  ·  _{esc(rec.get('timing'))}_",
                  esc(cut(rec.get("description"), 380))]
         if rec.get("hook"):
             lines.append(f"_Gancho:_ “{esc(cut(rec['hook'], 160))}”")
+        vh = rec.get("visual_hook") or {}
+        if vh.get("idea") or vh.get("category"):
+            label = esc(cut(vh.get("idea") or vh.get("category"), 160))
+            lines.append("_Hook visual:_ " + (f"<{vh['url']}|{label}>" if vh.get("url") else label))
         if rec.get("products_to_feature"):
             lines.append(f"_Productos:_ {esc(', '.join(rec['products_to_feature']))}")
         if rec.get("why"):
             lines.append(f"_Por qué ahora:_ {esc(cut(rec['why'], 220))}")
         blocks.append(section("\n".join(lines)))
 
-    blocks.append({"type": "divider"})
+    if table:
+        blocks += [{"type": "divider"}, section("*📎  Cuadro de ejemplos*"), table]
     blocks.append({"type": "context", "elements": [{"type": "mrkdwn", "text":
-                   "Fuentes: búsqueda web y publicaciones públicas. Menciones, autores y alcance aparecen como "
-                   "n/d cuando no hay una cifra publicada; la fuerza (●) es la estimación del analista."}]})
+                   "Fuentes: Google Trends, X, YouTube, Mercado Libre, autocompletar de Google y publicaciones "
+                   "públicas de redes. Menciones, autores y alcance son de la *muestra* de publicaciones encontradas "
+                   "ese día, no del total de la conversación; n/d = sin dato. La fuerza (●) es la estimación del analista."}]})
     if dashboard_url:
         blocks.append({"type": "actions", "elements": [{"type": "button", "style": "primary",
                        "text": {"type": "plain_text", "text": "Ver dashboard e histórico"},
@@ -169,14 +246,21 @@ def main():
         return
 
     sent, failed = [], []
+    _, plain_blocks = build_blocks(report, cfg.get("dashboard_url"), with_table=False)
+    method = "chat.scheduleMessage" if schedule else "chat.postMessage"
     for ch in targets:
         payload = {"channel": ch, "text": title, "blocks": blocks, "unfurl_links": False, "unfurl_media": False}
+        if schedule:
+            payload["post_at"] = int(send_at.timestamp())
         try:
-            if schedule:
-                payload["post_at"] = int(send_at.timestamp())
-                slack("chat.scheduleMessage", token, payload)
-            else:
-                slack("chat.postMessage", token, payload)
+            try:
+                slack(method, token, payload)
+            except RuntimeError as e:
+                # Plan B: si Slack no acepta el cuadro, se envía con los enlaces dentro de cada tendencia.
+                if "invalid_blocks" not in str(e) or plain_blocks == blocks:
+                    raise
+                print(f"Slack rechazó el cuadro ({e}); se envía sin tabla.")
+                slack(method, token, {**payload, "blocks": plain_blocks})
             sent.append(ch)
         except RuntimeError as e:
             failed.append(f"{ch}: {e}")

@@ -23,16 +23,20 @@ def main():
         d = report["date"]
         dates.append({"date": d, "headline": report.get("headline", ""),
                       "counts": {k: len(report.get(k) or []) for k in
-                                 ("national_trends", "homecenter_trends", "products", "recommendations")}})
+                                 ("national_trends", "homecenter_trends", "products", "white_goods",
+                                  "recommendations")}})
         for kind, scope in (("national_trends", "nacional"), ("homecenter_trends", "homecenter")):
             for t in report.get(kind) or []:
                 trends.append({"date": d, "id": t["id"], "scope": scope, "title": t["title"],
                                "group": t.get("subcategory") if scope == "homecenter" else t.get("topic"),
                                "strength": t["strength"], "momentum": t["momentum"],
                                "platforms": t.get("platforms") or []})
-        for p in report.get("products") or []:
-            products.append({"date": d, "id": p["id"], "name": p["name"], "group": p.get("subcategory"),
-                             "signal": p.get("signal"), "strength": p["strength"], "momentum": p["momentum"]})
+        for kind, line in (("products", "productos"), ("white_goods", "línea blanca")):
+            for p in report.get(kind) or []:
+                products.append({"date": d, "id": p["id"], "name": p["name"], "group": p.get("subcategory"),
+                                 "line": line, "signal": p.get("signal"), "strength": p["strength"],
+                                 "momentum": p["momentum"],
+                                 "intent": (p.get("purchase_intent") or {}).get("level")})
     out = ROOT / "data"
     (out / "index.json").write_text(json.dumps({"reports": dates[::-1]}, ensure_ascii=False, indent=1), encoding="utf-8")
     (out / "history.json").write_text(json.dumps({"trends": trends, "products": products}, ensure_ascii=False),

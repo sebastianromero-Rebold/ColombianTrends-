@@ -48,6 +48,7 @@ h2 .n{color:var(--accent);font-variant-numeric:tabular-nums}
 .metric .v{font-weight:600;font-variant-numeric:tabular-nums}.metric .v.na{color:var(--faint);font-weight:500}
 .ex{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
 .ex li{font-size:13px;background:var(--panel2);border-radius:8px;padding:6px 10px}
+.extab{font-size:13px;background:var(--panel2);border-radius:8px;overflow:hidden}.extab th,.extab td{padding:6px 8px}
 .ex .eng{color:var(--muted);font-size:12px}
 .rec{border-left:3px solid var(--line)}.rec.alta{border-left-color:var(--accent)}.rec.media{border-left-color:var(--warn)}
 .tools{display:flex;gap:6px;flex-wrap:wrap;margin:18px 0 6px}
@@ -108,22 +109,48 @@ async function getJSON(path) {
   return cache[path];
 }
 
+function reachText(e) {
+  if (e.reach == null) return '<span class="sub">n/d</span>';
+  return `${num(e.reach)}${e.reach_basis ? ` <span class="sub">${esc(e.reach_basis)}</span>` : ''}`;
+}
+
 function examples(ex) {
   if (!ex || !ex.length) return '';
-  return `<div class="lbl">Publicaciones de ejemplo</div><ul class="ex">${ex.map(e => `
-    <li><a href="${safeUrl(e.url)}" target="_blank" rel="noopener">${esc(e.platform || 'Enlace')}${e.author ? ' · ' + esc(e.author) : ''}</a>
-    ${e.date ? `<span class="eng"> · ${esc(e.date)}</span>` : ''}<br>${esc(e.description)}
-    ${e.engagement ? `<div class="eng">${esc(e.engagement)}</div>` : ''}</li>`).join('')}</ul>`;
+  return `<div class="lbl">Publicaciones de ejemplo</div><table class="extab"><thead><tr><th>Red</th><th>Publicación</th><th class="num">Alcance</th></tr></thead><tbody>${ex.map(e => `
+    <tr><td><span class="chip">${esc(e.platform || 'Web')}</span></td>
+    <td><a href="${safeUrl(e.url)}" target="_blank" rel="noopener">${esc(e.author || 'Ver publicación')}</a>${e.date ? `<span class="eng"> · ${esc(e.date)}</span>` : ''}
+      <div class="eng">${esc(e.description)}${e.engagement ? ` · ${esc(e.engagement)}` : ''}</div></td>
+    <td class="num">${reachText(e)}</td></tr>`).join('')}</tbody></table>`;
 }
 
 function metrics(m) {
   m = m || {};
+  const sample = m.basis === 'muestra' ? ' (muestra)' : '';
   return `<div class="metrics">
-    <div class="metric"><div class="lbl">Menciones</div>${num(m.mentions)}</div>
+    <div class="metric"><div class="lbl">Menciones${sample}</div>${num(m.mentions)}</div>
     <div class="metric"><div class="lbl">Autores</div>${num(m.authors)}</div>
-    <div class="metric"><div class="lbl">Alcance</div>${num(m.potential_reach)}</div></div>
+    <div class="metric"><div class="lbl">Alcance potencial</div>${num(m.potential_reach)}</div></div>
+    ${m.search_volume ? `<p class="p"><b>Búsquedas en Google:</b> ${esc(m.search_volume)}</p>` : ''}
     ${m.visible_engagement ? `<p class="p"><b>Engagement visible:</b> ${esc(m.visible_engagement)}</p>` : ''}
     ${m.source && (m.mentions != null || m.authors != null || m.potential_reach != null) ? `<p class="p sub" style="font-size:12px">Fuente: ${esc(m.source)}</p>` : ''}`;
+}
+
+const INTENT = {alta: 'acc', media: 'warn', baja: ''};
+function intent(p) {
+  const pi = p.purchase_intent;
+  if (!pi || !pi.level) return '';
+  return `<p class="p"><span class="chip ${INTENT[pi.level] || ''}">intención de compra ${esc(pi.level)}</span> ${esc(pi.evidence)}</p>`;
+}
+
+function overview(r) {
+  const t = {mentions: 0, authors: 0, potential_reach: 0}; let has = false;
+  for (const k of ['national_trends', 'homecenter_trends', 'products', 'white_goods'])
+    for (const it of r[k] || []) for (const f in t) { const v = (it.metrics || {})[f]; if (typeof v === 'number') { t[f] += v; has = true; } }
+  if (!has) return '';
+  return `<div class="kpis">
+    <div class="kpi"><div class="lbl">Menciones (muestra del día)</div><div class="v">${num(t.mentions)}</div></div>
+    <div class="kpi"><div class="lbl">Autores</div><div class="v">${num(t.authors)}</div></div>
+    <div class="kpi"><div class="lbl">Alcance potencial</div><div class="v">${num(t.potential_reach)}</div></div></div>`;
 }
 
 function trendCard(t, kind) {
@@ -145,8 +172,11 @@ function productCard(p) {
     <div class="row">${dots(p.strength)} ${mom(p.momentum)} <span class="chip acc">${esc(p.subcategory)}</span><span class="chip">${esc(p.signal)}</span></div>
     <h3>${esc(p.name)}</h3>
     <p class="p">${esc(p.why_trending)}</p>
+    ${p.drivers && p.drivers.length ? `<p class="p"><b>Qué lo impulsa:</b> ${esc(p.drivers.join(' · '))}</p>` : ''}
+    ${intent(p)}
     <p class="p"><b>Idea de contenido:</b> ${esc(p.content_idea)}</p>
     <div class="row">${p.price_range ? `<span class="chip">${esc(p.price_range)}</span>` : ''}${p.homecenter_availability ? `<span class="chip">${esc(p.homecenter_availability)}</span>` : ''}${(p.platforms || []).map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>
+    ${p.metrics ? metrics(p.metrics) : ''}
     ${examples(p.examples)}
   </div>`;
 }
@@ -156,6 +186,7 @@ function recCard(r) {
     <div class="row"><span class="chip ${r.priority === 'alta' ? 'acc' : ''}">prioridad ${esc(r.priority)}</span><span class="chip">${esc(r.format)}</span>${(r.channels || []).map(c => `<span class="chip">${esc(c)}</span>`).join('')}</div>
     <h3>${esc(r.title)}</h3>
     ${r.hook ? `<p class="p"><b>Gancho:</b> “${esc(r.hook)}”</p>` : ''}
+    ${r.visual_hook && (r.visual_hook.idea || r.visual_hook.category) ? `<p class="p"><b>Hook visual:</b> ${r.visual_hook.url ? `<a href="${safeUrl(r.visual_hook.url)}" target="_blank" rel="noopener">${esc(r.visual_hook.idea || r.visual_hook.category)}</a>` : esc(r.visual_hook.idea || r.visual_hook.category)}</p>` : ''}
     <p class="p">${esc(r.description)}</p>
     ${r.products_to_feature && r.products_to_feature.length ? `<p class="p"><b>Productos:</b> ${esc(r.products_to_feature.join(', '))}</p>` : ''}
     ${r.timing ? `<p class="p"><b>Cuándo:</b> ${esc(r.timing)}</p>` : ''}
@@ -176,11 +207,13 @@ async function viewDay(date) {
       <span class="daynav">${prev ? `<a href="#/dia/${prev.date}">← ${shortDate(prev.date)}</a>` : ''}${next ? `<a href="#/dia/${next.date}">${shortDate(next.date)} →</a>` : ''}</span></div>
     <h1>${esc(r.headline)}</h1>
     ${r.summary && r.summary.length ? `<div class="summary"><div class="lbl">Resumen del día</div><ul>${r.summary.map(s => `<li>${esc(s)}</li>`).join('')}</ul></div>` : ''}
+    ${overview(r)}
     ${sec('01', 'Tendencias nacionales', r.national_trends, t => trendCard(t, 'nac'))}
     ${sec('02', 'Tendencias de la categoría Homecenter', r.homecenter_trends, t => trendCard(t, 'hc'))}
     ${sec('03', 'Productos ganando relevancia', r.products, productCard)}
-    ${sec('04', 'Recomendaciones de contenido', r.recommendations, recCard)}
-    <p class="foot">${esc(r.methodology || '')}<br>Menciones, autores y alcance se muestran como n/d cuando no hay una cifra publicada. La fuerza (●) es una estimación del analista de 1 a 5.</p>`;
+    ${sec('04', 'Línea blanca', r.white_goods, productCard)}
+    ${sec('05', 'Recomendaciones de contenido', r.recommendations, recCard)}
+    <p class="foot">${esc(r.methodology || '')}<br>Menciones, autores y alcance son de la muestra de publicaciones encontradas ese día, no del total de la conversación; n/d = sin dato. La fuerza (●) es una estimación del analista de 1 a 5.</p>`;
 }
 
 const PERIODS = {7: 'Semana', 30: 'Mes', 365: 'Año', 0: 'Todo'};
@@ -238,7 +271,8 @@ async function viewRanking(days) {
   const nRep = idx.reports.filter(r => r.date >= from).length;
   const nat = rank(h.trends.filter(t => t.scope === 'nacional'), from);
   const hc = rank(h.trends.filter(t => t.scope === 'homecenter'), from);
-  const pr = rank(h.products, from);
+  const pr = rank(h.products.filter(p => p.line !== 'línea blanca'), from);
+  const wg = rank(h.products.filter(p => p.line === 'línea blanca'), from);
   const groups = {};
   for (const x of [...h.trends.filter(t => t.scope === 'homecenter'), ...h.products]) if (x.date >= from) groups[x.group] = (groups[x.group] || 0) + x.strength;
   const plat = {};
@@ -259,6 +293,7 @@ async function viewRanking(days) {
     <h2><span class="n">01</span> Tendencias nacionales con mayor auge</h2>${rankTable(nat, bks, 'Tendencia')}
     <h2><span class="n">02</span> Tendencias Homecenter con mayor auge</h2>${rankTable(hc, bks, 'Tendencia')}
     <h2><span class="n">03</span> Productos con mayor auge</h2>${rankTable(pr, bks, 'Producto')}
+    <h2><span class="n">04</span> Línea blanca con mayor auge</h2>${rankTable(wg, bks, 'Producto')}
     <div class="two">
       <div><h2>Subcategorías con más conversación</h2><div class="card">${hbars(sorted(groups))}</div></div>
       <div><h2>Plataformas donde aparecen las tendencias</h2><div class="card">${hbars(sorted(plat))}</div></div>
