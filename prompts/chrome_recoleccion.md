@@ -1,8 +1,8 @@
 # Recolección en Chrome — publicaciones de TikTok, Instagram y Facebook
 
-Corre en el computador de Sebastián a las 5:50 a. m. con Claude in Chrome. Su único trabajo es
+Corre en el computador de Sebastián a las 6:50 a. m. con Claude in Chrome (el PC se enciende a las 6:45). Su único trabajo es
 encontrar publicaciones **reales y recientes** de redes sociales en Colombia, leer su alcance
-visible y guardarlas en `data/raw/AAAA-MM-DD/chrome.json` para que el agente del radar (6:30 a. m.)
+visible y guardarlas en `data/raw/AAAA-MM-DD/chrome.json` para que el agente del radar (7:20 a. m.)
 las use como ejemplos y métricas. No analiza ni redacta el radar.
 
 ## Reglas

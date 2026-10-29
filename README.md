@@ -10,11 +10,15 @@ rankings por semana, mes y año.
 ## Cómo funciona
 
 ```
-6:30 a. m.  Rutina de Claude (claude.ai/code/routines)
+5:40 a. m.  GitHub Action collect.yml: Google Trends, X, YouTube, autocompletar, Mercado Libre
+            └─ data/raw/AAAA-MM-DD/signals.json
+6:50 a. m.  Tarea en Chrome del PC de Sebastián (prompts/chrome_recoleccion.md)
+            └─ data/raw/AAAA-MM-DD/chrome.json: TikTok, Instagram, Facebook
+7:20 a. m.  Rutina de Claude (claude.ai/code/routines)
             └─ sigue prompts/radar_diario.md: investiga en web y redes públicas,
                escribe data/reports/AAAA-MM-DD.json y lo sube a GitHub
             ↓  push
-~7:00 a. m. GitHub Action .github/workflows/radar.yml
+~7:40 a. m. GitHub Action .github/workflows/radar.yml
             ├─ valida el reporte (scripts/validate_report.py)
             ├─ regenera data/index.json y data/history.json (scripts/build_history.py)
             └─ programa el mensaje con chat.scheduleMessage (scripts/slack_send.py)

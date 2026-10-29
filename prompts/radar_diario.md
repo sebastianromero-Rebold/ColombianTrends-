@@ -43,7 +43,7 @@ head -c 20000 data/history.json
     ayer: señales de algo que empieza a crecer.
   - `mercadolibre`: búsquedas que más crecen (`most_growth`), más deseadas y más populares en
     Mercado Libre Colombia. Úsalas para la **intención de compra**.
-- **`data/raw/AAAA-MM-DD/chrome.json`** (si existe; lo recolecta una tarea en Chrome a las 5:50
+- **`data/raw/AAAA-MM-DD/chrome.json`** (si existe; lo recolecta una tarea en Chrome a las 6:50
   a. m.): `posts` son publicaciones **reales y de esta semana** de TikTok, Instagram y Facebook,
   con `views`, `likes`, `comments`, `shares` y `followers` cuando se pudieron leer. Son tu mejor
   fuente de ejemplos y de métricas: úsalas primero. `answerthepublic` trae preguntas reales de
