@@ -17,6 +17,9 @@ on:
         description: "Reenviar aunque ya se haya enviado"
         type: boolean
         default: false
+      test_to:
+        description: "Prueba: ID de Slack (U… o C…) que recibe solo esta copia, sin tocar el canal ni el registro"
+        required: false
 
 permissions:
   contents: write
@@ -54,7 +57,7 @@ jobs:
       - name: Programar mensaje en Slack
         env:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-        run: python scripts/slack_send.py ${{ inputs.date }} ${{ inputs.force && '--force' || '' }}
+        run: python scripts/slack_send.py ${{ inputs.date }} ${{ inputs.force && '--force' || '' }} --only=${{ inputs.test_to }}
 
       - name: Guardar en main
         if: always()

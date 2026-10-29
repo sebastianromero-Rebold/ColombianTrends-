@@ -36,6 +36,12 @@ las use como ejemplos y métricas. No analiza ni redacta el radar.
    ```
    Guarda también el título y el fragmento que muestra Google para cada enlace si los puedes
    leer. Espera 3 a 5 segundos entre búsquedas.
+   - **Navega** a cada búsqueda con la herramienta de navegación. No pidas las búsquedas con
+     `fetch()` desde JavaScript: Google lo detecta y muestra un CAPTCHA.
+   - Descarta los enlaces de grupos de Facebook (`facebook.com/groups/...`): son publicaciones de
+     personas particulares. Usa solo páginas y perfiles públicos de marcas, medios y creadores.
+   - Descarta las cuentas que claramente no son de Colombia (p. ej. terminadas en `_ec`, `_mx`,
+     o que hablan de otro país).
 4. Abre hasta **25 videos de TikTok** (priorizando los de distintas búsquedas) y lee sus cifras:
    ```js
    (() => { const it = JSON.parse(document.getElementById('__UNIVERSAL_DATA_FOR_REHYDRATION__').textContent)
@@ -46,8 +52,12 @@ las use como ejemplos y métricas. No analiza ni redacta el radar.
    ```
    El autor sale de la URL (`tiktok.com/@autor/...`).
 5. Abre hasta **10 publicaciones de Instagram y 5 de Facebook** y lee lo que se vea sin iniciar
-   sesión (por ejemplo `document.querySelector('meta[property="og:description"]')?.content`, que
-   suele traer likes y comentarios). Si pide iniciar sesión, deja las cifras en `null`.
+   sesión con `document.querySelector('meta[property="og:description"]')?.content`.
+   - En Instagram trae `"301 likes, 13 comments - cuenta el October 27, 2026: "texto…"`: de ahí
+     salen `likes`, `comments`, `author` (`@cuenta`), `date` y `text`. Instagram no muestra vistas:
+     deja `views` en `null`.
+   - En Facebook normalmente solo trae el texto: guarda `text` y deja las cifras en `null`.
+   - Si pide iniciar sesión, deja las cifras en `null`.
 6. AnswerThePublic (opcional): abre `https://answerthepublic.com/es`. Si ya hay una sesión
    iniciada, busca **una sola** semilla del día (lunes `nevera`, martes `remodelar`, miércoles
    `decoración`, jueves `herramientas`, viernes `lavadora`, sábado `jardín`, domingo `organizar casa`)

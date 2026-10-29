@@ -208,6 +208,8 @@ def slack(method, token, payload):
 def main():
     args = [a for a in sys.argv[1:] if not a.startswith("--")]
     force, dry = "--force" in sys.argv, "--dry-run" in sys.argv
+    # --only=U123: envío de prueba inmediato solo a esa persona o canal; no toca el registro de envíos.
+    only = next((a.split("=", 1)[1] for a in sys.argv if a.startswith("--only=") and a != "--only="), None)
     reports = sorted((ROOT / "data" / "reports").glob("*.json"))
     path = ROOT / "data" / "reports" / f"{args[0]}.json" if args else reports[-1]
     report = json.loads(path.read_text(encoding="utf-8"))
@@ -219,6 +221,20 @@ def main():
     if dry:
         print(json.dumps({"text": title, "blocks": blocks}, ensure_ascii=False, indent=1))
         print(f"{len(blocks)} bloques", file=sys.stderr)
+        return
+    if only:
+        token = os.environ["SLACK_BOT_TOKEN"]
+        ch = slack("conversations.open", token, {"users": only})["channel"]["id"] if only.startswith("U") else only
+        try:
+            slack("chat.postMessage", token, {"channel": ch, "text": title, "blocks": blocks,
+                                              "unfurl_links": False, "unfurl_media": False})
+            print(f"Prueba enviada a {only} con el cuadro de ejemplos.")
+        except RuntimeError as e:
+            print(f"Slack rechazó el mensaje con cuadro ({e}); se prueba sin tabla.")
+            _, plain = build_blocks(report, cfg.get("dashboard_url"), with_table=False)
+            slack("chat.postMessage", token, {"channel": ch, "text": title, "blocks": plain,
+                                              "unfurl_links": False, "unfurl_media": False})
+            print(f"Prueba enviada a {only} sin tabla.")
         return
     already = set() if force else set(log.get(date, {}).get("targets", []))
     now = datetime.now(BOGOTA)
