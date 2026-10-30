@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-10-30",
+   "headline": "Última semana de Halloween y arranque de Navidad: decoración navideña, remodelación de apartamentos y freidoras/hornos air fryer dominan la muestra hogar; Black Friday es el 27 de noviembre.",
+   "counts": {
+    "national_trends": 4,
+    "homecenter_trends": 5,
+    "products": 5,
+    "white_goods": 3,
+    "recommendations": 5
+   }
+  },
+  {
    "date": "2026-10-29",
    "headline": "Día de señal limitada: Halloween (31 oct), segunda temporada de lluvias y cuenta regresiva a Black Friday (27 nov) y Navidad marcan la agenda hogar.",
    "counts": {
