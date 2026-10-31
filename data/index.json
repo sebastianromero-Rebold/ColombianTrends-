@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-10-31",
+   "headline": "Halloween cierra hoy y Navidad toma el relevo: decoración navideña, remodelación por etapas y air fryer siguen en la muestra hogar; Black Friday es el 27 de noviembre.",
+   "counts": {
+    "national_trends": 4,
+    "homecenter_trends": 5,
+    "products": 5,
+    "white_goods": 3,
+    "recommendations": 5
+   }
+  },
+  {
    "date": "2026-10-30",
    "headline": "Última semana de Halloween y arranque de Navidad: decoración navideña, remodelación de apartamentos y freidoras/hornos air fryer dominan la muestra hogar; Black Friday es el 27 de noviembre.",
    "counts": {
