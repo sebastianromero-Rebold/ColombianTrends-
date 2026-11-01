@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-01",
+   "headline": "Navidad toma el relevo de Halloween y el puente festivo de Todos los Santos (lunes 2) abre el fin de semana de hogar: decoración navideña, remodelación y air fryer lideran la muestra; Black Friday es el 27 de noviembre.",
+   "counts": {
+    "national_trends": 4,
+    "homecenter_trends": 5,
+    "products": 5,
+    "white_goods": 3,
+    "recommendations": 5
+   }
+  },
+  {
    "date": "2026-10-31",
    "headline": "Halloween cierra hoy y Navidad toma el relevo: decoración navideña, remodelación por etapas y air fryer siguen en la muestra hogar; Black Friday es el 27 de noviembre.",
    "counts": {
