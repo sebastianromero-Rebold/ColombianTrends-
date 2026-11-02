@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-02",
+   "headline": "Festivo hoy y 25 días para Black Friday: neveras, lavadoras y Navidad abren la conversación de hogar.",
+   "counts": {
+    "national_trends": 6,
+    "homecenter_trends": 6,
+    "products": 7,
+    "white_goods": 5,
+    "recommendations": 6
+   }
+  },
+  {
    "date": "2026-11-01",
    "headline": "Navidad toma el relevo de Halloween y el puente festivo de Todos los Santos (lunes 2) abre el fin de semana de hogar: decoración navideña, remodelación y air fryer lideran la muestra; Black Friday es el 27 de noviembre.",
    "counts": {
