@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-03",
+   "headline": "Black Friday (27-nov) y Navidad dominan el hogar: neveras, lavadoras y árboles lideran la intención de compra; el debate político, a evitar.",
+   "counts": {
+    "national_trends": 6,
+    "homecenter_trends": 6,
+    "products": 7,
+    "white_goods": 5,
+    "recommendations": 6
+   }
+  },
+  {
    "date": "2026-11-02",
    "headline": "Festivo hoy y 25 días para Black Friday: neveras, lavadoras y Navidad abren la conversación de hogar.",
    "counts": {
