@@ -251,7 +251,7 @@
   "errors": [
     "No existía data/raw/2026-11-03/signals.json al momento de la recolección: solo se usaron las 8 búsquedas fijas (menos de las 12-16 previstas)",
     "Google devolvió solo 4 enlaces de TikTok en las 8 búsquedas; se leyeron los 4",
-    "Instagram: se descartaron 6 publicaciones por no ser de Colombia (envios.com.pe, tiendapl.ec, altaplazamall/Panamá, alkosto.ve, mchogar) ; @reuso_muebles no mostró likes ni comentarios en og:description",
+    "Instagram: se descartaron 5 publicaciones por no ser de Colombia (envios.com.pe, tiendapl.ec, altaplazamall/Panamá, alkosto.ve, mchogar); @reuso_muebles no mostró likes ni comentarios en og:description",
     "Facebook: og:description vacío en las 5 publicaciones; el texto viene del título/fragmento de Google o de la URL; cifras en null. La publicación de Homecenter redirigió a otro reel",
     "AnswerThePublic: no había sesión iniciada; se omitió (semilla del martes: remodelar)"
   ]
