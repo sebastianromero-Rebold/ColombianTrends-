@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-05",
+   "headline": "Black Days de Homecenter (28-oct a 2-dic) y la Navidad temprana siguen empujando neveras, lavadoras y decoración; el sismo de Chaparral y los temas políticos, a evitar.",
+   "counts": {
+    "national_trends": 8,
+    "homecenter_trends": 6,
+    "products": 7,
+    "white_goods": 5,
+    "recommendations": 6
+   }
+  },
+  {
    "date": "2026-11-04",
    "headline": "Black Friday (27-nov) y Navidad siguen empujando neveras, lavadoras y decoración; el sismo de Chaparral y la muerte de Jesús de Miguel, a evitar.",
    "counts": {
