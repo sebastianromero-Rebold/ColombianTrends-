@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-06",
+   "headline": "La Navidad temprana domina la conversación del hogar y Homecenter ya la empuja junto a Black Days; el mejor alcance medible del día es un video navideño con 224.500 vistas.",
+   "counts": {
+    "national_trends": 3,
+    "homecenter_trends": 5,
+    "products": 5,
+    "white_goods": 3,
+    "recommendations": 5
+   }
+  },
+  {
    "date": "2026-11-05",
    "headline": "Black Days de Homecenter (28-oct a 2-dic) y la Navidad temprana siguen empujando neveras, lavadoras y decoración; el sismo de Chaparral y los temas políticos, a evitar.",
    "counts": {
