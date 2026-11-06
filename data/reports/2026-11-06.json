@@ -1,0 +1,1019 @@
+{
+  "date": "2026-11-06",
+  "generated_at": "2026-11-06T07:40:00-05:00",
+  "headline": "La Navidad temprana domina la conversación del hogar y Homecenter ya la empuja junto a Black Days; el mejor alcance medible del día es un video navideño con 224.500 vistas.",
+  "summary": [
+    "Hoy no hubo signals.json (Google Trends, X, YouTube, Mercado Libre): el radar se apoya en 21 publicaciones de TikTok, Instagram y Facebook recolectadas en Chrome y en búsquedas web; las tendencias nacionales son pocas y de comercio.",
+    "La publicación más fuerte de la muestra es un TikTok de @karensanchezc de decoración navideña con 224.500 vistas; el resto de la muestra tiene entre 696 y 29.400 vistas.",
+    "Homecenter publica Black Days del 28-oct al 2-dic, con su ventana fuerte de Black Friday del 24-nov al 2-dic; hay categorías de neveras y lavadoras, pero no se verificaron precios por modelo.",
+    "En línea blanca se ven lavadoras (oferta de lavadora Samsung 13 kg a $1.399.900 con tarjeta Banco de Bogotá y usadas de 22 kg) y neveras no frost en reventa; la intención de compra se apoya en precios publicados.",
+    "El lunes 16 de noviembre es el próximo festivo (Independencia de Cartagena): puente útil para proyectos rápidos de hogar."
+  ],
+  "national_trends": [
+    {
+      "id": "decoracion-navidena-2026",
+      "title": "Navidad temprana: decoración desde noviembre",
+      "topic": "estilo de vida",
+      "description": "Creadores y marcas ya muestran decoración navideña en TikTok, Instagram y Facebook desde finales de octubre. Un video de alistamiento para diciembre llegó a 224.500 vistas.",
+      "why_now": "Empieza noviembre y se acerca la prima y el gasto navideño; marcas como Homecenter ya lanzaron campaña.",
+      "brand_angle": "Encaja con la oferta de decoración y luces de Homecenter; sumarse con tours, tips de cojines y presupuestos.",
+      "homecenter_fit": "alto",
+      "brand_safety": "segura",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "Facebook"
+      ],
+      "hashtags": [
+        "#navidad",
+        "#NavidadHomecenter"
+      ],
+      "metrics": {
+        "mentions": 5,
+        "authors": 5,
+        "potential_reach": 230205,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "TikTok @karensanchezc: 224.500 vistas y 8.687 likes; reel de Homecenter con 988 likes",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@karensanchezc/video/7703316780504108306",
+          "platform": "TikTok",
+          "author": "@karensanchezc",
+          "date": "2026-11-01",
+          "description": "Alistamiento para recibir diciembre con decoración navideña",
+          "engagement": "224.500 vistas · 8.687 likes · 140 comentarios",
+          "reach": 224500,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.tiktok.com/@carlalizarazoathome/video/7702910983328632082",
+          "platform": "TikTok",
+          "author": "@carlalizarazoathome",
+          "date": "2026-10-31",
+          "description": "Sala convertida en atmósfera navideña con composiciones de Cascanueces y villas con luz",
+          "engagement": "5.705 vistas · 222 likes · 2 comentarios",
+          "reach": 5705,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DfQblLhO8vm/",
+          "platform": "Instagram",
+          "author": "@lumarinoj",
+          "date": "2026-11-02",
+          "description": "Recorrido por decoración navideña con precios en la calle 53",
+          "engagement": "61 likes · 4 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfSygADiYQ9/",
+          "platform": "Instagram",
+          "author": "@homecenter_co",
+          "date": "2026-11-03",
+          "description": "Homecenter: tips para elegir cojines navideños (#NavidadHomecenter)",
+          "engagement": "988 likes · 24 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/homecentercolombia/videos/-lleg%C3%B3-noviembre-y-los-amantes-de-la-navidad-ya-sabemos-lo-que-eso-significa-%EF%B8%8Fcu/1565149475657346/",
+          "platform": "Facebook",
+          "author": "homecentercolombia",
+          "date": null,
+          "description": "Homecenter en Facebook: \"Llegó noviembre y los amantes de la Navidad…\"",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "black-friday-colombia",
+      "title": "Black Days / Black Friday en Colombia",
+      "topic": "comercio",
+      "description": "Homecenter publica Black Days del 28-oct al 2-dic, con su ventana fuerte de Black Friday del 24-nov al 2-dic y categorías de electrohogar, lavandería y estufas. Comercios como Maximuebles ya promocionan lavadoras con financiación.",
+      "why_now": "Faltan unas tres semanas para el Black Friday de fin de noviembre y las marcas ya publican ofertas.",
+      "brand_angle": "Anticipar ofertas de línea blanca y decoración con contenido comparativo; no prometer precios sin verificarlos.",
+      "homecenter_fit": "alto",
+      "brand_safety": "segura",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": [
+        "Facebook",
+        "Instagram",
+        "Web"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Oferta de lavadora Samsung 13 kg a $1.399.900 en Maximuebles (Facebook)",
+        "source": "Chrome del 6-nov-2026 y búsqueda web del 6-nov: Homecenter publica Black Days del 28-oct al 2-dic (Black Friday del 24-nov al 2-dic)"
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/DfSygADiYQ9/",
+          "platform": "Instagram",
+          "author": "@homecenter_co",
+          "date": "2026-11-03",
+          "description": "Homecenter en Instagram: contenido de temporada navideña previo a Black Days",
+          "engagement": "988 likes · 24 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/maximueblescolombia/posts/dile-s%C3%AD-a-tus-espacios-so%C3%B1ados-con-banco-de-bogot%C3%A1-en-maximueblesll%C3%A9vate-lavador/1790265256437110/",
+          "platform": "Facebook",
+          "author": "maximueblescolombia",
+          "date": null,
+          "description": "Maximuebles: lavadora Samsung 13 kg a $1.399.900 con tarjeta Banco de Bogotá",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/homecentercolombia/videos/-lleg%C3%B3-noviembre-y-los-amantes-de-la-navidad-ya-sabemos-lo-que-eso-significa-%EF%B8%8Fcu/1565149475657346/",
+          "platform": "Facebook",
+          "author": "homecentercolombia",
+          "date": null,
+          "description": "Homecenter en Facebook: llegada de noviembre y Navidad",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "festivo-16-noviembre",
+      "title": "Puente festivo del 16 de noviembre",
+      "topic": "cultura",
+      "description": "El próximo festivo en Colombia es el lunes 16 de noviembre (Independencia de Cartagena, trasladado). El siguiente es el martes 8 de diciembre, un día después de las Velitas.",
+      "why_now": "Es el siguiente fin de semana largo y se acerca el Día de las Velitas.",
+      "brand_angle": "Contenido de proyectos de fin de semana largo: remodelar, decorar para Navidad y alumbrado de Velitas.",
+      "homecenter_fit": "medio",
+      "brand_safety": "segura",
+      "strength": 2,
+      "momentum": "subiendo",
+      "platforms": [
+        "Prensa"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "basis": "fuente publicada",
+        "search_volume": null,
+        "visible_engagement": "Sin publicaciones de redes vistas; dato de calendario publicado por Portafolio",
+        "source": "Portafolio, notas sobre festivos de 2026"
+      },
+      "examples": [
+        {
+          "url": "https://www.portafolio.co/tendencias/sociales/cuando-es-el-proximo-puente-festivo-en-colombia-y-cuantos-quedan-en-este-ano-497176",
+          "platform": "Prensa",
+          "author": "Portafolio",
+          "date": null,
+          "description": "Calendario de festivos que quedan en 2026",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    }
+  ],
+  "homecenter_trends": [
+    {
+      "id": "decoracion-navidena-2026",
+      "title": "Decoración navideña 2026: composiciones, cojines y recorridos de precios",
+      "subcategory": "decoración",
+      "conversation_type": "idea",
+      "description": "Videos de salas navideñas, recorridos con precios y tips de cojines. Homecenter ya publica contenido de #NavidadHomecenter y #DecoHC.",
+      "why_now": "Inicio de noviembre y Black Days activos.",
+      "opportunity": "Series de tours y combos de decoración con precios claros; los recorridos con precio funcionan para la gente que compara.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "Facebook"
+      ],
+      "hashtags": [
+        "#NavidadHomecenter",
+        "#DecoHC"
+      ],
+      "metrics": {
+        "mentions": 5,
+        "authors": 5,
+        "potential_reach": 230205,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "TikTok 224.500 vistas; Homecenter IG 988 likes",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@karensanchezc/video/7703316780504108306",
+          "platform": "TikTok",
+          "author": "@karensanchezc",
+          "date": "2026-11-01",
+          "description": "Alistamiento para recibir diciembre con decoración navideña",
+          "engagement": "224.500 vistas · 8.687 likes · 140 comentarios",
+          "reach": 224500,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.tiktok.com/@carlalizarazoathome/video/7702910983328632082",
+          "platform": "TikTok",
+          "author": "@carlalizarazoathome",
+          "date": "2026-10-31",
+          "description": "Sala convertida en atmósfera navideña con composiciones de Cascanueces y villas con luz",
+          "engagement": "5.705 vistas · 222 likes · 2 comentarios",
+          "reach": 5705,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DfQblLhO8vm/",
+          "platform": "Instagram",
+          "author": "@lumarinoj",
+          "date": "2026-11-02",
+          "description": "Recorrido por decoración navideña con precios en la calle 53",
+          "engagement": "61 likes · 4 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfSygADiYQ9/",
+          "platform": "Instagram",
+          "author": "@homecenter_co",
+          "date": "2026-11-03",
+          "description": "Homecenter: tips para elegir cojines navideños (#NavidadHomecenter)",
+          "engagement": "988 likes · 24 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/homecentercolombia/videos/-lleg%C3%B3-noviembre-y-los-amantes-de-la-navidad-ya-sabemos-lo-que-eso-significa-%EF%B8%8Fcu/1565149475657346/",
+          "platform": "Facebook",
+          "author": "homecentercolombia",
+          "date": null,
+          "description": "Homecenter en Facebook: \"Llegó noviembre y los amantes de la Navidad…\"",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "remodelacion-apartamento-bajo-presupuesto",
+      "title": "Remodelar apartamento: costos reales y entregas",
+      "subcategory": "remodelación",
+      "conversation_type": "proyecto",
+      "description": "Cuentas de remodelación muestran antes y después en apartamentos de Bogotá y desgloses de costo (una reforma de $60M sobre un apartamento comprado en $180M).",
+      "why_now": "Mucha gente remodela antes de fin de año; el contenido de costos reales genera conversación.",
+      "opportunity": "Calculadora o guía de presupuesto por espacio con materiales de Homecenter.",
+      "strength": 2,
+      "momentum": "estable",
+      "platforms": [
+        "Instagram",
+        "Facebook"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 4,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Instagram con 62 likes; Facebook sin cifras visibles",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/reel/DfTJaJ6unP6/",
+          "platform": "Instagram",
+          "author": "@arktos.co",
+          "date": "2026-11-03",
+          "description": "Remodelación personalizada de apartamento en Central 68, Bogotá",
+          "engagement": "2 likes · 2 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfKcDJOEXGS/",
+          "platform": "Instagram",
+          "author": "@tervi.co",
+          "date": "2026-10-30",
+          "description": "Apartamentos remodelados entregados; oferta de precios 2026 para el próximo año",
+          "engagement": "62 likes · 2 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/RaizRemodelaciones/videos/cu%C3%A1nto-cuesta-reformar-un-apartamento-en-colombia-demolici%C3%B3n-pisos-ba%C3%B1os-cocina-/1114830554852771/",
+          "platform": "Facebook",
+          "author": "RaizRemodelaciones",
+          "date": null,
+          "description": "Desglose real: $60M de reforma sobre apartamento comprado en $180M y vendido en $280M",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/RevistaAxxisColombia/posts/en-el-norte-de-bogot%C3%A1-este-apartamento-encontr%C3%B3-una-nueva-identidad-sin-perder-l/1642123984621002/",
+          "platform": "Facebook",
+          "author": "RevistaAxxisColombia",
+          "date": null,
+          "description": "Renovación de apartamento en el norte de Bogotá, mid-century y art déco",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "hacks-organizacion-hogar",
+      "title": "Hacks y organización del hogar",
+      "subcategory": "mejoramiento del hogar",
+      "conversation_type": "tutorial",
+      "description": "Hacks de organizar herramientas, cambiar focos sin escalera, limpieza rápida con aspiradora inalámbrica y piezas statement para personalizar espacios.",
+      "why_now": "Contenido recurrente de la semana; sirve para formatos cortos.",
+      "opportunity": "Serie de trucos cortos con productos del catálogo (organizadores, focos, aspiradoras).",
+      "strength": 2,
+      "momentum": "estable",
+      "platforms": [
+        "TikTok",
+        "Instagram",
+        "Facebook"
+      ],
+      "hashtags": [
+        "#lifehacks",
+        "#DIY"
+      ],
+      "metrics": {
+        "mentions": 4,
+        "authors": 3,
+        "potential_reach": 4193,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "@tebanchocorrea 110 likes; @gentepilas 4.193 vistas",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@gentepilas/video/7703748564849151263",
+          "platform": "TikTok",
+          "author": "@gentepilas",
+          "date": "2026-11-03",
+          "description": "Organizador para herramientas desorganizadas",
+          "engagement": "4.193 vistas · 86 likes · 3 comentarios",
+          "reach": 4193,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.instagram.com/reel/DfU_4ZJu_mA/",
+          "platform": "Instagram",
+          "author": "@tebanchocorrea",
+          "date": "2026-11-04",
+          "description": "Hack de statement pieces con marcas colombianas",
+          "engagement": "110 likes · 4 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/reel/DfUpO8VRTj8/",
+          "platform": "Instagram",
+          "author": "@valentinaassmus",
+          "date": "2026-11-04",
+          "description": "Hack para mantener el apartamento impecable con aspiradora inalámbrica",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/61565045488783/videos/trucazo-para-no-tener-que-subirte-a-una-banca-o-escalera-a-cambiar-los-focos-da%C3%B1/1836064057714641/",
+          "platform": "Facebook",
+          "author": null,
+          "date": null,
+          "description": "Truco para cambiar focos sin escalera (Tunja)",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "herramientas-recomendadas",
+      "title": "Herramientas que todo hogar necesita",
+      "subcategory": "herramientas",
+      "conversation_type": "recomendación",
+      "description": "Un TikTok de @perasyfinanzas con el Maestro Benja recomienda 3 herramientas básicas (29.400 vistas, 1.471 likes).",
+      "why_now": "Formato de recomendación de expertos con buen engagement relativo.",
+      "opportunity": "Kit básico de herramientas recomendado por un maestro, con productos Homecenter.",
+      "strength": 2,
+      "momentum": "estable",
+      "platforms": [
+        "TikTok",
+        "Instagram"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 33593,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "29.400 vistas y 1.471 likes en TikTok",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@perasyfinanzas/video/7704416127408983314",
+          "platform": "TikTok",
+          "author": "@perasyfinanzas",
+          "date": "2026-11-04",
+          "description": "3 herramientas que todo hogar necesita según el Maestro Benja",
+          "engagement": "29.400 vistas · 1.471 likes · 27 comentarios",
+          "reach": 29400,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.tiktok.com/@gentepilas/video/7703748564849151263",
+          "platform": "TikTok",
+          "author": "@gentepilas",
+          "date": "2026-11-03",
+          "description": "Organizador de herramientas",
+          "engagement": "4.193 vistas · 86 likes · 3 comentarios",
+          "reach": 4193,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.instagram.com/p/DfTExE1CBz_/",
+          "platform": "Instagram",
+          "author": "@sencolatinamerica",
+          "date": "2026-11-03",
+          "description": "Elegir la fijación correcta para carpintería y muebles",
+          "engagement": "9 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "electrohogar-black-days",
+      "title": "Electrohogar en Black Days: lavadoras, neveras y freidoras",
+      "subcategory": "electrodomésticos",
+      "conversation_type": "experiencia de compra",
+      "description": "Ofertas y reventa de lavadoras, neveras y hornos freidora con precios publicados en Facebook e Instagram, más categorías Black Friday de Homecenter.",
+      "why_now": "Black Days abiertos desde el 28 de octubre.",
+      "opportunity": "Comparativos por precio y tamaño y guía de qué revisar antes de comprar.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "platforms": [
+        "Instagram",
+        "Facebook",
+        "TikTok"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 4,
+        "potential_reach": 2748,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Lavadora Samsung 13 kg a $1.399.900; lavadora-secadora LG usada a $3.500.000",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.facebook.com/maximueblescolombia/posts/dile-s%C3%AD-a-tus-espacios-so%C3%B1ados-con-banco-de-bogot%C3%A1-en-maximueblesll%C3%A9vate-lavador/1790265256437110/",
+          "platform": "Facebook",
+          "author": "maximueblescolombia",
+          "date": null,
+          "description": "Lavadora Samsung 13 kg a $1.399.900 con Banco de Bogotá",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfPewPbAkSy/",
+          "platform": "Instagram",
+          "author": "@reuso_muebles",
+          "date": "2026-11-02",
+          "description": "Lavadora-secadora LG 22 kg usada, $3.500.000 (original $4.639.000), Cali",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfSXoJjlYH0/",
+          "platform": "Instagram",
+          "author": "@madeira.col",
+          "date": "2026-11-03",
+          "description": "Horno freidora de aire 2 en 1, 20 L, 1.500 W",
+          "engagement": "0 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.tiktok.com/@carlacompraventamedellin/video/7703223219494341895",
+          "platform": "TikTok",
+          "author": "@carlacompraventamedellin",
+          "date": "2026-11-01",
+          "description": "Nevera no frost usada en Medellín",
+          "engagement": "2.748 vistas · 27 likes · 1 comentarios",
+          "reach": 2748,
+          "reach_basis": "vistas"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "lavadora-samsung-13kg",
+      "name": "Lavadora de 13 kg",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Aparece con precio de oferta ($1.399.900) con financiación bancaria; también hay lavadora-secadora usada de 22 kg.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "alta",
+        "evidence": "Publicaciones con precio y condiciones de pago concretas (Maximuebles; reventa en Cali)."
+      },
+      "price_range": "$1.399.900 (oferta publicada, 13 kg)",
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Comparativo de lavadoras por capacidad y precio en Black Days.",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Oferta publicada en Facebook; reventa en Instagram",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.facebook.com/maximueblescolombia/posts/dile-s%C3%AD-a-tus-espacios-so%C3%B1ados-con-banco-de-bogot%C3%A1-en-maximueblesll%C3%A9vate-lavador/1790265256437110/",
+          "platform": "Facebook",
+          "author": "maximueblescolombia",
+          "date": null,
+          "description": "Lavadora Samsung 13 kg a $1.399.900 con Banco de Bogotá",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfPewPbAkSy/",
+          "platform": "Instagram",
+          "author": "@reuso_muebles",
+          "date": "2026-11-02",
+          "description": "Lavadora-secadora LG 22 kg usada, $3.500.000 (original $4.639.000), Cali",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "freidora-de-aire-horno",
+      "name": "Horno freidora de aire 2 en 1 (20 L)",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Publicación de venta con horno freidora de 20 litros y 1.500 W.",
+      "strength": 1,
+      "momentum": "estable",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Una publicación comercial en Instagram sin interacción visible; vigilar."
+      },
+      "price_range": null,
+      "homecenter_availability": "alternativa similar",
+      "content_idea": "Recetas rápidas con freidora para Navidad.",
+      "platforms": [
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin interacción visible",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/DfSXoJjlYH0/",
+          "platform": "Instagram",
+          "author": "@madeira.col",
+          "date": "2026-11-03",
+          "description": "Horno freidora de aire 2 en 1, 20 L, 1.500 W",
+          "engagement": "0 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "organizador-de-herramientas",
+      "name": "Organizador de herramientas",
+      "subcategory": "herramientas",
+      "signal": "recomendado",
+      "why_trending": "TikTok sobre herramientas desorganizadas y video de herramientas básicas recomendadas por un maestro.",
+      "strength": 2,
+      "momentum": "estable",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Contenido de recomendación con 29.400 vistas en un video de herramientas; no hay búsquedas de precio vistas."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Kit de herramientas + organizador para el taller en casa.",
+      "platforms": [
+        "TikTok"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": 33593,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "29.400 vistas en el video de herramientas",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@perasyfinanzas/video/7704416127408983314",
+          "platform": "TikTok",
+          "author": "@perasyfinanzas",
+          "date": "2026-11-04",
+          "description": "3 herramientas que todo hogar necesita según el Maestro Benja",
+          "engagement": "29.400 vistas · 1.471 likes · 27 comentarios",
+          "reach": 29400,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.tiktok.com/@gentepilas/video/7703748564849151263",
+          "platform": "TikTok",
+          "author": "@gentepilas",
+          "date": "2026-11-03",
+          "description": "Organizador de herramientas",
+          "engagement": "4.193 vistas · 86 likes · 3 comentarios",
+          "reach": 4193,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "cojines-navidenos",
+      "name": "Cojines decorativos navideños",
+      "subcategory": "decoración",
+      "signal": "estacional",
+      "why_trending": "Homecenter publica tips para elegir cojines en su campaña navideña.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Campaña activa de Homecenter con 988 likes; sin datos de búsqueda."
+      },
+      "price_range": null,
+      "homecenter_availability": "lo vende",
+      "content_idea": "Reel de combinación de cojines por estilo de sala.",
+      "platforms": [
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "988 likes en Instagram",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/DfSygADiYQ9/",
+          "platform": "Instagram",
+          "author": "@homecenter_co",
+          "date": "2026-11-03",
+          "description": "Homecenter: tips para elegir cojines navideños (#NavidadHomecenter)",
+          "engagement": "988 likes · 24 comentarios",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "aspiradora-inalambrica",
+      "name": "Aspiradora inalámbrica",
+      "subcategory": "mejoramiento del hogar",
+      "signal": "recomendado",
+      "why_trending": "Creadora la recomienda para limpiar el apartamento en 5 minutos.",
+      "strength": 1,
+      "momentum": "estable",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Publicación de reseña con enlace comercial; sin cifras visibles."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Test de limpieza rápida en apartamento pequeño.",
+      "platforms": [
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin cifras visibles",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/reel/DfUpO8VRTj8/",
+          "platform": "Instagram",
+          "author": "@valentinaassmus",
+          "date": "2026-11-04",
+          "description": "Hack para mantener el apartamento impecable con aspiradora inalámbrica",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    }
+  ],
+  "white_goods": [
+    {
+      "id": "lavadoras-y-lavadoras-secadoras",
+      "name": "Lavadoras y lavadoras-secadoras",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Oferta de lavadora Samsung 13 kg y reventa de lavadora-secadora LG de 22 kg con ahorro de $1.139.000 frente al precio original.",
+      "drivers": [
+        "Black Days y financiación bancaria",
+        "Capacidad para familias grandes",
+        "Reventa de equipos con poco uso"
+      ],
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "alta",
+        "evidence": "Precios concretos publicados y categoría Black Friday de lavandería en Homecenter."
+      },
+      "price_range": "$1.399.900 a $3.500.000 (publicados)",
+      "homecenter_availability": "lo vende",
+      "content_idea": "Guía de capacidad por tamaño de hogar con ofertas Black Days.",
+      "platforms": [
+        "Facebook",
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Oferta y reventa con precios",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.facebook.com/maximueblescolombia/posts/dile-s%C3%AD-a-tus-espacios-so%C3%B1ados-con-banco-de-bogot%C3%A1-en-maximueblesll%C3%A9vate-lavador/1790265256437110/",
+          "platform": "Facebook",
+          "author": "maximueblescolombia",
+          "date": null,
+          "description": "Lavadora Samsung 13 kg a $1.399.900 con Banco de Bogotá",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfPewPbAkSy/",
+          "platform": "Instagram",
+          "author": "@reuso_muebles",
+          "date": "2026-11-02",
+          "description": "Lavadora-secadora LG 22 kg usada, $3.500.000 (original $4.639.000), Cali",
+          "engagement": "Sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "neveras-no-frost",
+      "name": "Neveras no frost",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Anuncio de nevera no frost usada en Medellín; categoría de neveras en Black Friday de Homecenter.",
+      "drivers": [
+        "Black Days",
+        "Mercado de segunda mano"
+      ],
+      "strength": 1,
+      "momentum": "estable",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Señal débil: un anuncio y la categoría de Homecenter."
+      },
+      "price_range": null,
+      "homecenter_availability": "lo vende",
+      "content_idea": "Qué revisar antes de comprar una nevera.",
+      "platforms": [
+        "TikTok"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": 2748,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "2.748 vistas",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@carlacompraventamedellin/video/7703223219494341895",
+          "platform": "TikTok",
+          "author": "@carlacompraventamedellin",
+          "date": "2026-11-01",
+          "description": "Nevera no frost usada en Medellín",
+          "engagement": "2.748 vistas · 27 likes · 1 comentarios",
+          "reach": 2748,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "freidoras-de-aire",
+      "name": "Freidoras de aire / hornos freidora",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Anuncio de horno freidora 2 en 1 de 20 L y 1.500 W.",
+      "drivers": [
+        "Cocina rápida",
+        "Regalos y Navidad"
+      ],
+      "strength": 1,
+      "momentum": "estable",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Una publicación comercial; sin interacción."
+      },
+      "price_range": null,
+      "homecenter_availability": "alternativa similar",
+      "content_idea": "Recetas navideñas en freidora.",
+      "platforms": [
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin interacción visible",
+        "source": "Publicaciones de Chrome del 6-nov-2026 listadas como ejemplos (muestra, no el universo de la conversación)"
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/DfSXoJjlYH0/",
+          "platform": "Instagram",
+          "author": "@madeira.col",
+          "date": "2026-11-03",
+          "description": "Horno freidora de aire 2 en 1, 20 L, 1.500 W",
+          "engagement": "0 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Tour navideño con precios",
+      "priority": "alta",
+      "format": "Reel",
+      "channels": [
+        "Instagram",
+        "TikTok"
+      ],
+      "hook": "Armamos la sala navideña con este presupuesto",
+      "visual_hook": {
+        "category": "Surprise",
+        "idea": "Revelación de la sala decorada al abrir la cortina",
+        "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+      },
+      "description": "Recorrido por la tienda con precios de árbol, luces y cojines.",
+      "products_to_feature": [
+        "Cojines decorativos navideños"
+      ],
+      "timing": "Esta semana",
+      "why": "El video navideño de mayor alcance de la muestra tuvo 224.500 vistas.",
+      "trend_ids": [
+        "decoracion-navidena-2026"
+      ],
+      "product_ids": [
+        "cojines-navidenos"
+      ]
+    },
+    {
+      "title": "Guía de lavadoras Black Days",
+      "priority": "alta",
+      "format": "carrusel",
+      "channels": [
+        "Instagram",
+        "Facebook"
+      ],
+      "hook": "Qué capacidad de lavadora necesitas según tu hogar",
+      "description": "Comparativo por capacidad y rango de precio, con aviso de verificar precios en la tienda.",
+      "products_to_feature": [
+        "Lavadoras"
+      ],
+      "timing": "Antes del 24 de noviembre",
+      "why": "Hay ofertas de lavadoras con precio publicado y Black Days activos.",
+      "trend_ids": [
+        "black-friday-colombia",
+        "electrohogar-black-days"
+      ],
+      "product_ids": [
+        "lavadoras-y-lavadoras-secadoras",
+        "lavadora-samsung-13kg"
+      ]
+    },
+    {
+      "title": "Presupuesto real de remodelar un apartamento",
+      "priority": "media",
+      "format": "TikTok",
+      "channels": [
+        "TikTok",
+        "Facebook"
+      ],
+      "hook": "Cuánto cuesta realmente remodelar un apartamento",
+      "description": "Desglose por espacio con materiales del catálogo.",
+      "products_to_feature": [],
+      "timing": "Esta semana",
+      "why": "El desglose de costos de remodelación circula en Facebook e Instagram.",
+      "trend_ids": [
+        "remodelacion-apartamento-bajo-presupuesto"
+      ],
+      "product_ids": []
+    },
+    {
+      "title": "Kit básico de herramientas del maestro",
+      "priority": "media",
+      "format": "UGC con creador",
+      "channels": [
+        "TikTok",
+        "Instagram"
+      ],
+      "hook": "3 herramientas que todo hogar necesita",
+      "description": "Colaboración con un maestro de obra recomendando herramientas básicas y organizador.",
+      "products_to_feature": [
+        "Organizador de herramientas"
+      ],
+      "timing": "Esta semana",
+      "why": "El video de herramientas recomendadas obtuvo 29.400 vistas.",
+      "trend_ids": [
+        "herramientas-recomendadas"
+      ],
+      "product_ids": [
+        "organizador-de-herramientas"
+      ]
+    },
+    {
+      "title": "Proyecto de fin de semana largo",
+      "priority": "baja",
+      "format": "historia",
+      "channels": [
+        "Instagram"
+      ],
+      "hook": "Puente del 16 de noviembre: un proyecto en casa en 3 horas",
+      "description": "Ideas rápidas de decoración y organización para el festivo.",
+      "products_to_feature": [],
+      "timing": "Antes del 16 de noviembre",
+      "why": "El 16 de noviembre es el próximo festivo.",
+      "trend_ids": [
+        "festivo-16-noviembre",
+        "hacks-organizacion-hogar"
+      ],
+      "product_ids": []
+    }
+  ],
+  "methodology": "Hoy no existía data/raw/2026-11-06/signals.json (Google Trends, X, YouTube, Mercado Libre y autocompletar no disponibles), por lo que no hay volúmenes de búsqueda ni verificación de intención de compra por Mercado Libre. Se usaron las 21 publicaciones de TikTok, Instagram y Facebook de chrome.json (recolectado a las 7:03 a. m.) y tres búsquedas web, que no devolvieron tendencias nacionales fechadas del 5 o 6 de noviembre; por eso solo hay 3 tendencias nacionales, todas de comercio y calendario. Las publicaciones de Facebook no exponen cifras y varias de Instagram no muestran vistas, de modo que el alcance potencial es la suma de vistas visibles (casi todo TikTok) y es una muestra, no el universo. No se verificaron precios de Homecenter por modelo; los precios citados vienen de publicaciones de terceros."
+}
