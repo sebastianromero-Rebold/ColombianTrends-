@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-07",
+   "headline": "Sin señales de redes hoy: la cuenta regresiva al Black Friday (27 de noviembre) y la Navidad temprana siguen siendo el eje para Homecenter",
+   "counts": {
+    "national_trends": 3,
+    "homecenter_trends": 3,
+    "products": 3,
+    "white_goods": 1,
+    "recommendations": 3
+   }
+  },
+  {
    "date": "2026-11-06",
    "headline": "La Navidad temprana domina la conversación del hogar y Homecenter ya la empuja junto a Black Days; el mejor alcance medible del día es un video navideño con 224.500 vistas.",
    "counts": {
