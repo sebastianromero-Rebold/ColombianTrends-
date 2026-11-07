@@ -1,0 +1,564 @@
+{
+ "date": "2026-11-07",
+ "generated_at": "2026-11-07T07:30:00-05:00",
+ "headline": "Sin señales de redes hoy: la cuenta regresiva al Black Friday (27 de noviembre) y la Navidad temprana siguen siendo el eje para Homecenter",
+ "summary": [
+  "No existió data/raw/2026-11-07: este radar se basa solo en búsquedas web y no trae métricas de redes ni volúmenes de Google Trends.",
+  "Black Friday 2026 en Colombia cae el viernes 27 de noviembre según Bloomberg Línea y Candela Estéreo; Homecenter ya tiene páginas de Black Days y Electrohogar Black Friday.",
+  "Homecenter publica su colección Navidad 2026 (luces LED, figuras, villas, textiles); la prensa recoge comparativos de precios de árboles hechos por un tiktoker.",
+  "El Niño y la presión sobre la energía (prensa) abren un ángulo de eficiencia energética para línea blanca, aún sin verificar en redes.",
+  "Recomendación: producir contenido de Navidad y línea blanca para Black Friday y validar con las señales de mañana."
+ ],
+ "national_trends": [
+  {
+   "id": "black-friday-colombia",
+   "title": "Cuenta regresiva a Black Friday 2026",
+   "topic": "comercio",
+   "description": "Medios colombianos ubican el Black Friday 2026 el viernes 27 de noviembre. Las cadenas ya tienen páginas de campaña.",
+   "why_now": "Faltan 20 días para la fecha y arranca la preparación de compras.",
+   "brand_angle": "Anticipar con guías de compra y ofertas de electrohogar, muebles y herramientas.",
+   "homecenter_fit": "alto",
+   "brand_safety": "segura",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa",
+    "Web"
+   ],
+   "hashtags": [
+    "#BlackFriday"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Tres medios coinciden en la fecha; sin cifras de redes",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/",
+     "platform": "Prensa",
+     "author": "Bloomberg Línea",
+     "date": "2026-11-07",
+     "description": "Fecha del Black Friday 2026 en Colombia (27 de noviembre)",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.candelaestereo.com/?p=315051",
+     "platform": "Prensa",
+     "author": "Candela Estéreo",
+     "date": "2026-11-07",
+     "description": "Coincide con el 27 de noviembre",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://lakalle.bluradio.com/noticias/economia/fecha-oficial-para-el-ultimo-black-friday-del-2026-en-colombia-descuentos-de-hasta-el-80-so35",
+     "platform": "Prensa",
+     "author": "La Kalle (Blu Radio)",
+     "date": "2026-11-07",
+     "description": "Fecha oficial del último Black Friday del año",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "el-nino-ahorro-energia",
+   "title": "El Niño y riesgo de presión en energía",
+   "topic": "clima",
+   "description": "Un medio reporta un 75 % de probabilidad de un El Niño fuerte y advierte sobre posibles apagones a fin de 2026.",
+   "why_now": "Alertas de prensa en la primera semana de noviembre.",
+   "brand_angle": "Eficiencia energética y ahorro de agua; sin tono alarmista.",
+   "homecenter_fit": "medio",
+   "brand_safety": "precaución",
+   "strength": 2,
+   "momentum": "estable",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo prensa; sin ejemplos con enlace verificado hoy",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://chequeado.com/panel-de-tendencias-colombia",
+     "platform": "Web",
+     "author": "Chequeado",
+     "date": "2026-11-07",
+     "description": "Panel que agrega titulares de medios colombianos; no se abrió la nota original",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "mesadas-pensionales",
+   "title": "Pagos de mesadas pensionales en duda",
+   "topic": "política",
+   "description": "Prensa reporta que el Gobierno busca garantizar las mesadas de noviembre y diciembre tras un faltante presupuestal.",
+   "why_now": "Debate fiscal en curso.",
+   "brand_angle": "No usar: tema político sensible.",
+   "homecenter_fit": "ninguno",
+   "brand_safety": "evitar",
+   "strength": 2,
+   "momentum": "estable",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo prensa; sin ejemplos con enlace verificado hoy",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://chequeado.com/panel-de-tendencias-colombia",
+     "platform": "Web",
+     "author": "Chequeado",
+     "date": "2026-11-07",
+     "description": "Panel que agrega titulares de medios colombianos; no se abrió la nota original",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "homecenter_trends": [
+  {
+   "id": "decoracion-navidena-2026",
+   "title": "Decoración navideña 2026",
+   "subcategory": "decoración",
+   "conversation_type": "producto",
+   "description": "Homecenter promueve su colección con luces LED, figuras iluminadas, villas navideñas, textiles y accesorios de mesa. La prensa cubre comparativos de precios de árboles hechos por un tiktoker y ofertas de decoración desde $10.000 en D1.",
+   "why_now": "Navidad temprana y comparación de precios entre tiendas.",
+   "opportunity": "Comparativo propio de precios y looks completos por presupuesto.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [
+    "#decoraciónnavideña"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Sin cifras de redes; la prensa menciona un video de TikTok sin vistas visibles",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat40002/navidad/?cid=_lnd_1330916",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Colección Navidad en familia",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": "2026-11-07",
+     "description": "Tiktoker compara dónde es más barato el arbolito",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/buscando-decoracion-para-navidad-ofertas-desde-10-000-en-el-d1-828035",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": "2026-11-07",
+     "description": "Decoración navideña desde $10.000 en D1",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "black-days-electrohogar",
+   "title": "Black Days y Electrohogar Black Friday en Homecenter",
+   "subcategory": "electrodomésticos",
+   "conversation_type": "experiencia de compra",
+   "description": "Homecenter tiene landings de Black Days y Electrohogar Black Friday con electrodomésticos, muebles, tecnología, herramientas y decoración. No confirma fechas exactas.",
+   "why_now": "Faltan 20 días para el 27 de noviembre.",
+   "opportunity": "Avance de ofertas y guía de compra por categoría.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web"
+   ],
+   "hashtags": [
+    "#BlackFriday"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Páginas de campaña; sin cifras de redes",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Landing Black Days",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Electrohogar Black Friday",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "decoracion-espacios-pequenos",
+   "title": "Decoración para espacios pequeños",
+   "subcategory": "decoración",
+   "conversation_type": "idea",
+   "description": "Homecenter mantiene una categoría de decoración para espacios pequeños, coherente con el interés previo en apartamentos y arriendo.",
+   "why_now": "Señal débil: solo una página de categoría.",
+   "opportunity": "Ideas de bajo presupuesto para apartamentos con look navideño.",
+   "strength": 1,
+   "momentum": "estable",
+   "platforms": [
+    "Web"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo página de catálogo",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat32683348/decoracion-para-espacios-pequenos/",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Categoría decoración para espacios pequeños",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "arboles-de-navidad",
+   "name": "Árboles de navidad",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Homecenter vende árboles con luces integradas y la prensa recoge comparativos de precios por tienda.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Comparativo de precios de árboles en prensa y categoría activa en Homecenter; sin datos de Mercado Libre hoy"
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Comparativo de tamaños y precios con y sin luces integradas.",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Sin cifras de redes",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://homecenter.falabella.com.co/homecenter-co/category/cat6720978/Arboles-de-navidad",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Categoría árboles de navidad",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": "2026-11-07",
+     "description": "Comparativo de precios de arbolitos",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "luces-led-navidad",
+   "name": "Luces LED navideñas",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Aparecen en la colección Navidad de Homecenter junto a figuras iluminadas.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Categoría destacada en la landing de Navidad; sin búsquedas de precio verificadas hoy"
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Tutorial de instalación segura y consumo de las luces LED.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo página de catálogo",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat40002/navidad/?cid=_lnd_1330916",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Colección Navidad con luces LED",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "nevera-pantalla-tactil",
+   "name": "Nevera con pantalla táctil",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Homecenter tiene una página de búsqueda dedicada; no hay más evidencia de demanda hoy.",
+   "strength": 1,
+   "momentum": "estable",
+   "purchase_intent": {
+    "level": "baja",
+    "evidence": "Solo hay página de catálogo; no hay datos de búsqueda"
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Reel de funciones en uso real.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo página de catálogo",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/k/nevera-con-pantalla-tactil",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Neveras con pantalla táctil",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "white_goods": [
+  {
+   "id": "linea-blanca-black-friday",
+   "name": "Neveras y lavadoras para Black Friday",
+   "subcategory": "electrodomésticos",
+   "signal": "estacional",
+   "why_trending": "Samsung anuncia precios especiales en neveras y lavadoras hasta el 30 de noviembre y Homecenter tiene landing de línea blanca y Electrohogar Black Friday.",
+   "drivers": [
+    "Black Friday el 27 de noviembre",
+    "Posible ahorro de energía por El Niño (prensa)"
+   ],
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Promociones de marcas y cadenas vigentes; sin datos de búsquedas de hoy"
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Guía para elegir nevera o lavadora por consumo y tamaño, con la oferta de Black Friday.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Sin cifras de redes",
+    "source": "Resultados de WebSearch del 7-nov-2026; no hubo publicaciones de redes ni señales del día"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat4470037/linea-blanca/?cid=cat4700003ftg",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Línea blanca",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.samsung.com/co/offer/hot-sale/",
+     "platform": "Web",
+     "author": "Samsung Colombia",
+     "date": "2026-11-07",
+     "description": "Ofertas en neveras y lavadoras",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Web",
+     "author": "Homecenter",
+     "date": "2026-11-07",
+     "description": "Electrohogar Black Friday",
+     "engagement": "Sin cifras visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "recommendations": [
+  {
+   "title": "Comparativo de precios de decoración navideña",
+   "priority": "alta",
+   "format": "TikTok",
+   "channels": [
+    "TikTok",
+    "Instagram"
+   ],
+   "hook": "¿Dónde sale más barato armar tu Navidad?",
+   "description": "Video con árbol, luces y adornos de Homecenter por rangos de presupuesto.",
+   "products_to_feature": [
+    "Árboles de navidad",
+    "Luces LED navideñas"
+   ],
+   "timing": "Esta semana",
+   "why": "Los comparativos de precios de árboles están en la prensa y la colección ya está publicada.",
+   "trend_ids": [
+    "decoracion-navidena-2026"
+   ],
+   "product_ids": [
+    "arboles-de-navidad",
+    "luces-led-navidad"
+   ]
+  },
+  {
+   "title": "Guía de línea blanca antes del Black Friday",
+   "priority": "media",
+   "format": "Reel",
+   "channels": [
+    "Instagram",
+    "Facebook"
+   ],
+   "hook": "Antes del 27 de noviembre: cómo elegir nevera o lavadora",
+   "description": "Guía de tamaño, consumo y tipo de carga, con enlace a Electrohogar Black Friday.",
+   "products_to_feature": [
+    "Neveras",
+    "Lavadoras"
+   ],
+   "timing": "Las próximas dos semanas",
+   "why": "Black Friday se acerca y las marcas ya promocionan línea blanca.",
+   "trend_ids": [
+    "black-friday-colombia",
+    "black-days-electrohogar"
+   ],
+   "product_ids": [
+    "linea-blanca-black-friday"
+   ]
+  },
+  {
+   "title": "Navidad en espacio pequeño",
+   "priority": "baja",
+   "format": "carrusel",
+   "channels": [
+    "Instagram"
+   ],
+   "hook": "Navidad en 30 m²",
+   "description": "Ideas de decoración navideña para apartamentos pequeños.",
+   "products_to_feature": [
+    "Luces LED navideñas"
+   ],
+   "timing": "Próxima semana",
+   "why": "Señal débil, pero encaja con Navidad temprana.",
+   "trend_ids": [
+    "decoracion-espacios-pequenos"
+   ],
+   "product_ids": [
+    "luces-led-navidad"
+   ]
+  }
+ ],
+ "methodology": "No existió data/raw/2026-11-07 (ni signals.json ni chrome.json), así que no hay Google Trends, X, YouTube, Mercado Libre ni autocompletar. Se usaron 4 búsquedas web; WebFetch no pudo abrir bloomberglinea.com ni eltiempo.com (dominios no permitidos en la sesión), por lo que los datos de esas páginas salen solo de los resultados de búsqueda. No se vieron publicaciones de TikTok, Instagram ni Facebook: mentions, authors y potential_reach van en null y los ejemplos son páginas de prensa y de tienda. La búsqueda site:tiktok.com no devolvió publicaciones. Fuerza baja por falta de métricas."
+}
