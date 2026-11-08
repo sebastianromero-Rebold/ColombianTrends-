@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-08",
+   "headline": "Sin señales del día: Petro y la crisis de Ueno Bank dominan X; para Homecenter, Navidad económica y Black Friday (27 de nov.)",
+   "counts": {
+    "national_trends": 5,
+    "homecenter_trends": 6,
+    "products": 5,
+    "white_goods": 3,
+    "recommendations": 5
+   }
+  },
+  {
    "date": "2026-11-07",
    "headline": "Sin señales de redes hoy: la cuenta regresiva al Black Friday (27 de noviembre) y la Navidad temprana siguen siendo el eje para Homecenter",
    "counts": {
