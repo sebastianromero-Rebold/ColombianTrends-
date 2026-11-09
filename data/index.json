@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-09",
+   "headline": "Sin señales nuevas del día: Navidad económica y cuenta regresiva al Black Friday (27 nov.) son las mejores oportunidades para Homecenter",
+   "counts": {
+    "national_trends": 5,
+    "homecenter_trends": 5,
+    "products": 6,
+    "white_goods": 3,
+    "recommendations": 5
+   }
+  },
+  {
    "date": "2026-11-08",
    "headline": "Sin señales del día: Petro y la crisis de Ueno Bank dominan X; para Homecenter, Navidad económica y Black Friday (27 de nov.)",
    "counts": {
