@@ -1,0 +1,1228 @@
+{
+ "date": "2026-11-09",
+ "generated_at": "2026-11-09T07:40:00-05:00",
+ "headline": "Sin señales nuevas del día: Navidad económica y cuenta regresiva al Black Friday (27 nov.) son las mejores oportunidades para Homecenter",
+ "summary": [
+  "No hubo carpeta de señales del 9-nov: usé las del 8-nov y búsquedas web de hoy.",
+  "Política (Petro, La Rosca), Ueno Bank y el ataque con drones dominan X: marca debe evitarlos.",
+  "Decoración navideña y creadores de Homecenter (1,26 M de vistas en un video) son lo más fuerte de la categoría.",
+  "Black Friday el 27 de nov.; Alkosto desde el 20 de nov.",
+  "Sin TikTok, Instagram ni Facebook: muestra solo de YouTube."
+ ],
+ "national_trends": [
+  {
+   "id": "ueno-bank-paraguay",
+   "title": "Caída de Ueno Bank y crisis en Paraguay",
+   "topic": "economía",
+   "description": "El banco digital Ueno Bank cayó en Paraguay y la crisis financiera y política tiene al país en la conversación; 'Paraguay' llevó 6 de 6 horas en el top de X Colombia.",
+   "why_now": "Videos de BBC Mundo, A24 y Meganoticias de las últimas 48 horas; tema fuerte en X Colombia.",
+   "brand_angle": "Tema financiero y político sensible: solo monitoreo, sin uso de marca.",
+   "homecenter_fit": "ninguno",
+   "brand_safety": "evitar",
+   "strength": 4,
+   "momentum": "pico",
+   "platforms": [
+    "YouTube",
+    "X"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": 4,
+    "authors": 4,
+    "potential_reach": 905112,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 404.929 vistas en YouTube (BBC News Mundo)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=NWr8H3yz6tY",
+     "platform": "YouTube",
+     "author": "BBC News Mundo",
+     "date": "2026-11-07",
+     "description": "BBC Mundo: Ueno Bank y la presidencia de Peña",
+     "engagement": "404.929 vistas",
+     "reach": 404929,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=RqHm6u9yeD4",
+     "platform": "YouTube",
+     "author": "CurioSapiens",
+     "date": "2026-11-06",
+     "description": "Cómo cayó el banco digital de 3 millones de paraguayos",
+     "engagement": "263.860 vistas",
+     "reach": 263860,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=ygCQjzAuOZk",
+     "platform": "YouTube",
+     "author": "A24com",
+     "date": "2026-11-07",
+     "description": "Crisis en Paraguay: testimonios de la gente",
+     "engagement": "231.147 vistas",
+     "reach": 231147,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=fsZXSoDG-IQ",
+     "platform": "YouTube",
+     "author": "Meganoticias",
+     "date": "2026-11-08",
+     "description": "Crisis en Paraguay: expresidente en prisión preventiva",
+     "engagement": "5.176 vistas",
+     "reach": 5176,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "petro-rosca-politica",
+   "title": "Petro y 'La Rosca' en X",
+   "topic": "política",
+   "description": "#LaRosca fue número 1 en X Colombia durante 6 de 6 horas; también Petro (3 h, rank 1) y #PorDefenderAPetro (rank 2).",
+   "why_now": "Debate político alrededor del gobierno, con video de Daniel Coronell de hace 1 hora.",
+   "brand_angle": "Política: no participar.",
+   "homecenter_fit": "ninguno",
+   "brand_safety": "evitar",
+   "strength": 4,
+   "momentum": "subiendo",
+   "platforms": [
+    "X",
+    "YouTube"
+   ],
+   "hashtags": [
+    "#LaRosca",
+    "#PorDefenderAPetro"
+   ],
+   "metrics": {
+    "mentions": 2,
+    "authors": 2,
+    "potential_reach": 68421,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 44.556 vistas en YouTube (Faia Media)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=mt4kqyfLGZg",
+     "platform": "YouTube",
+     "author": "Daniel Coronell",
+     "date": "2026-11-08",
+     "description": "Daniel Coronell: La Rosca que gobierna a Colombia",
+     "engagement": "23.865 vistas",
+     "reach": 23865,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=o5cQgfS1xRk",
+     "platform": "YouTube",
+     "author": "Faia Media",
+     "date": "2026-11-05",
+     "description": "Análisis político en La Rosca (Faia Media)",
+     "engagement": "44.556 vistas",
+     "reach": 44556,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "ataque-drones-santa-rosa",
+   "title": "Ataque con drones en Santa Rosa, sur de Bolívar",
+   "topic": "otro",
+   "description": "Ataque con drones a un cantón militar en Santa Rosa (Bolívar); 'Santa Rosa del Sur' estuvo 6 h en el top de X.",
+   "why_now": "Cubrimiento de Noticias Caracol, RCN y NTN24 en las últimas 24 horas.",
+   "brand_angle": "Orden público: no usar para marca ni contenido comercial.",
+   "homecenter_fit": "ninguno",
+   "brand_safety": "evitar",
+   "strength": 4,
+   "momentum": "pico",
+   "platforms": [
+    "YouTube",
+    "X"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": 3,
+    "authors": 2,
+    "potential_reach": 193100,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 95.155 vistas en YouTube (NTN24)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=md0BZI030YI",
+     "platform": "YouTube",
+     "author": "NTN24",
+     "date": "2026-11-08",
+     "description": "NTN24: imágenes del atentado con drones",
+     "engagement": "95.155 vistas",
+     "reach": 95155,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=oOfqwTr_paI",
+     "platform": "YouTube",
+     "author": "Noticias Caracol",
+     "date": "2026-11-08",
+     "description": "Noticias Caracol: ataque con drones a cantón militar",
+     "engagement": "38.095 vistas",
+     "reach": 38095,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=Tu5KdMIZhJ0",
+     "platform": "YouTube",
+     "author": "Noticias Caracol",
+     "date": "2026-11-08",
+     "description": "Noticias Caracol: cómo fue el ataque",
+     "engagement": "59.850 vistas",
+     "reach": 59850,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "inter-como-nico-paz",
+   "title": "Inter vs. Como con Nico Paz",
+   "topic": "deportes",
+   "description": "'inter - como' tuvo 2000+ búsquedas en Google Trends Colombia y ESPN Colombia lo cubre por Nico Paz.",
+   "why_now": "Partido de Serie A del 8-nov; el resumen del Inter 4-0 Como suma 826 mil vistas.",
+   "brand_angle": "Fútbol de interés nacional, pero sin vínculo con el hogar; solo se podría usar el 'ver el partido en casa'.",
+   "homecenter_fit": "bajo",
+   "brand_safety": "segura",
+   "strength": 3,
+   "momentum": "pico",
+   "platforms": [
+    "YouTube",
+    "Google"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": 2,
+    "authors": 2,
+    "potential_reach": 1027842,
+    "basis": "muestra",
+    "search_volume": "2000+",
+    "visible_engagement": "Video más visto: 826.676 vistas en YouTube (Inter)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=oFHLucVr2wk",
+     "platform": "YouTube",
+     "author": "Inter",
+     "date": "2026-11-06",
+     "description": "Resumen extendido Inter 4-0 Como",
+     "engagement": "826.676 vistas",
+     "reach": 826676,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=aZRvc8Bd57A",
+     "platform": "YouTube",
+     "author": "Serie A",
+     "date": "2026-11-05",
+     "description": "Highlights Inter-Como (Serie A)",
+     "engagement": "201.166 vistas",
+     "reach": 201166,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.espn.com.co/futbol/italia/nota/_/id/17481514/inter-vs-como-nico-paz-serie-a-equipo-fecha-hora-y-tv-en-vivo",
+     "platform": "Prensa",
+     "author": "ESPN Colombia",
+     "date": "2026-11-08",
+     "description": "Cuándo juegan Inter vs. Como, con Nico Paz",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "black-friday-colombia",
+   "title": "Cuenta regresiva al Black Friday (27 nov.)",
+   "topic": "comercio",
+   "description": "Medios colombianos confirman el Black Friday para el 27 de noviembre. Alkosto anuncia Black Days del 20 de nov. al 5 de dic. y Acecolombia del 27 al 29; no encontré fecha oficial de Homecenter.",
+   "why_now": "Faltan 18 días y las cadenas ya anuncian calendario.",
+   "brand_angle": "Contenido de 'cómo preparar la compra' y comparativos de electrodomésticos; Homecenter tiene página de Black Days.",
+   "homecenter_fit": "alto",
+   "brand_safety": "segura",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo prensa; no vi publicaciones de redes",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/",
+     "platform": "Prensa",
+     "author": "Bloomberg Línea",
+     "date": "2026-11-09",
+     "description": "El Black Friday 2026 en Colombia cae el 27 de noviembre",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://lakalle.bluradio.com/noticias/economia/fecha-oficial-para-el-ultimo-black-friday-del-2026-en-colombia-descuentos-de-hasta-el-80-so35",
+     "platform": "Prensa",
+     "author": "La Kalle (Blu Radio)",
+     "date": "2026-11-09",
+     "description": "Fecha oficial del último Black Friday de 2026 en Colombia",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.diariodelsur.com.co/noticias/cuando-es-el-black-friday-2026-en-colombia-fechas-y-tips",
+     "platform": "Prensa",
+     "author": "Diario del Sur",
+     "date": "2026-11-09",
+     "description": "Fechas y tips del Black Friday 2026 en Colombia",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": "2026-11-09",
+     "description": "Página de Black Days de Homecenter, con electrodomésticos entre sus categorías",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "homecenter_trends": [
+  {
+   "id": "decoracion-navidena-2026",
+   "title": "Decoración navideña: árbol y adornos",
+   "subcategory": "decoración",
+   "conversation_type": "idea",
+   "description": "Videos de árbol rojo elegante, novedades navideñas de D1 y Dollarcity y la Navidad en Homecenter; el encendido navideño llegó a Cali.",
+   "why_now": "Noviembre: empieza la compra de decoración.",
+   "opportunity": "Guía por estilo y presupuesto con productos Homecenter.",
+   "strength": 4,
+   "momentum": "subiendo",
+   "platforms": [
+    "YouTube"
+   ],
+   "hashtags": [
+    "#Navidad"
+   ],
+   "metrics": {
+    "mentions": 5,
+    "authors": 5,
+    "potential_reach": 75501,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 33.782 vistas en YouTube (Ale_Mendoza1530)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=n6SGWkPBQKU",
+     "platform": "YouTube",
+     "author": "Ale_Mendoza1530",
+     "date": "2026-11-02",
+     "description": "Cómo decorar un árbol de Navidad rojo y elegante",
+     "engagement": "33.782 vistas",
+     "reach": 33782,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=8kSpkNdLMHo",
+     "platform": "YouTube",
+     "author": "ELIFASHION TV",
+     "date": "2026-11-02",
+     "description": "Llegó la Navidad a Dollarcity 2026",
+     "engagement": "24.547 vistas",
+     "reach": 24547,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=3_f00ZoIts0",
+     "platform": "YouTube",
+     "author": "Klaunet Glam",
+     "date": "2026-11-02",
+     "description": "Lo más viral en decoración navideña en DD's",
+     "engagement": "10.882 vistas",
+     "reach": 10882,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=rqqgbs3Ytfg",
+     "platform": "YouTube",
+     "author": "Todo con amor by Marce Gutierrez ",
+     "date": "2026-11-04",
+     "description": "Espectacular la Navidad en Homecenter",
+     "engagement": "4.145 vistas",
+     "reach": 4145,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=73j4Jp8APJs",
+     "platform": "YouTube",
+     "author": "VDVvamonosdeviaje",
+     "date": "2026-11-08",
+     "description": "La Navidad llegó a Cali: primer encendido",
+     "engagement": "2.145 vistas",
+     "reach": 2145,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "contenido-propio-homecenter",
+   "title": "Homecenter en voz de creadores",
+   "subcategory": "mejoramiento del hogar",
+   "conversation_type": "experiencia de compra",
+   "description": "Feria de la Capacitación Homecenter en Cali con 1,26 M de vistas, 'nuevos productos' y Navidad en la tienda por creadores.",
+   "why_now": "Los videos de creadores sobre Homecenter tienen alcance alto esta semana.",
+   "opportunity": "Alianzas con creadores y recorridos de tienda.",
+   "strength": 4,
+   "momentum": "subiendo",
+   "platforms": [
+    "YouTube"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": 4,
+    "authors": 4,
+    "potential_reach": 1265609,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 1.258.537 vistas en YouTube (CONSTRUCTOR COLOMBIA)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=urV0w525iEg",
+     "platform": "YouTube",
+     "author": "CONSTRUCTOR COLOMBIA",
+     "date": "2026-11-03",
+     "description": "Feria de la Capacitación Homecenter llega a Cali",
+     "engagement": "1.258.537 vistas",
+     "reach": 1258537,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=rqqgbs3Ytfg",
+     "platform": "YouTube",
+     "author": "Todo con amor by Marce Gutierrez ",
+     "date": "2026-11-04",
+     "description": "Navidad en Homecenter: todo lo nuevo",
+     "engagement": "4.145 vistas",
+     "reach": 4145,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=uYsyjSHK0hM",
+     "platform": "YouTube",
+     "author": "Cindy vlogs y familia",
+     "date": "2026-11-03",
+     "description": "Nuevos productos en Homecenter",
+     "engagement": "2.854 vistas",
+     "reach": 2854,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=SWM3fN-3SKE",
+     "platform": "YouTube",
+     "author": "Homecenter Colombia",
+     "date": "2026-11-04",
+     "description": "Tu Casa Te Hace: la pareja y el hogar (canal Homecenter)",
+     "engagement": "73 vistas",
+     "reach": 73,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "tiendas-economicas-hogar",
+   "title": "Hogar económico en D1, Dollarcity y DD's",
+   "subcategory": "decoración",
+   "conversation_type": "experiencia de compra",
+   "description": "Creadores muestran mercancía nueva de hogar en D1 (hasta 25 mil vistas), Dollarcity y DD's.",
+   "why_now": "Compiten por la compra de impulso de bajo precio.",
+   "opportunity": "Comparativos 'mismo producto, otra tienda'.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "YouTube"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": 3,
+    "authors": 3,
+    "potential_reach": 54648,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 25.838 vistas en YouTube (Día de Sol | By Laura Vásquez)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=GZrQ4ZAp0eg",
+     "platform": "YouTube",
+     "author": "Día de Sol | By Laura Vásquez",
+     "date": "2026-11-05",
+     "description": "Producto perfecto en Tiendas D1: organización",
+     "engagement": "25.838 vistas",
+     "reach": 25838,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=Wv53zt8OVjM",
+     "platform": "YouTube",
+     "author": "ELIFASHION TV",
+     "date": "2026-11-06",
+     "description": "Mercancía nueva en D1: decoración y organizadores",
+     "engagement": "21.822 vistas",
+     "reach": 21822,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=8MXQCnUWbRk",
+     "platform": "YouTube",
+     "author": "HOGAR LATINO",
+     "date": "2026-11-02",
+     "description": "Compras Dollarcity: favoritos del mes para el hogar",
+     "engagement": "6.988 vistas",
+     "reach": 6988,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "remodelacion-bajo-costo",
+   "title": "Remodelar cocina y baño sin obra",
+   "subcategory": "remodelación",
+   "conversation_type": "tutorial",
+   "description": "En el autocompletar de Google y YouTube suben 'remodelar cocina sin obra', 'con PVC', 'con vinilo', 'con papel tapiz' y 'baño sin obra'.",
+   "why_now": "Búsquedas repetidas por cocina y baño con poco presupuesto.",
+   "opportunity": "Serie 'antes y después' con materiales Homecenter.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Google",
+    "YouTube"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Señal de búsqueda del autocompletar; sin publicaciones individuales",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/product/3017731/papel-adhesivo-blanco-texturizado-para-cocina-y-muebles/3017731/",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": "2026-11-09",
+     "description": "Papel adhesivo texturizado para cocina y muebles ($129.900 COP el rollo al consultarlo)",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.mercadolibre.com.co/blog/tr/como-colocar-papel-de-pared-para-cocina-lavable",
+     "platform": "Prensa",
+     "author": "Mercado Libre (blog)",
+     "date": "2026-11-09",
+     "description": "Cómo colocar papel de pared lavable para cocina",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "organizacion-hogar-limpieza",
+   "title": "Organización y rutinas del hogar",
+   "subcategory": "mejoramiento del hogar",
+   "conversation_type": "recomendación",
+   "description": "Videos de organización y rutinas de casa con 13 a 26 mil vistas.",
+   "why_now": "Rutinas antes de Navidad.",
+   "opportunity": "Contenido de organizadores y orden por espacios.",
+   "strength": 3,
+   "momentum": "estable",
+   "platforms": [
+    "YouTube"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": 3,
+    "authors": 2,
+    "potential_reach": 40487,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 25.838 vistas en YouTube (Día de Sol | By Laura Vásquez)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=GZrQ4ZAp0eg",
+     "platform": "YouTube",
+     "author": "Día de Sol | By Laura Vásquez",
+     "date": "2026-11-05",
+     "description": "Organización con productos de D1",
+     "engagement": "25.838 vistas",
+     "reach": 25838,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=rtf9Tdf-H5Y",
+     "platform": "YouTube",
+     "author": "Día de Sol | By Laura Vásquez",
+     "date": "2026-11-07",
+     "description": "Rutina productiva: organizar casa y trabajo",
+     "engagement": "13.252 vistas",
+     "reach": 13252,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=gl3exBY5UkE",
+     "platform": "YouTube",
+     "author": "Hildanys Betancur ",
+     "date": "2026-11-07",
+     "description": "Tour actualizado por mi cocina 2026",
+     "engagement": "1.397 vistas",
+     "reach": 1397,
+     "reach_basis": "vistas"
+    }
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "arboles-de-navidad",
+   "name": "Árboles de Navidad",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Tutorial de árbol rojo con 33 mil vistas y videos de D1/Dollarcity.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Videos de novedades navideñas con decenas de miles de vistas; no vi búsquedas de precio."
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Tutorial de armado por estilo y presupuesto.",
+   "platforms": [
+    "YouTube"
+   ],
+   "metrics": {
+    "mentions": 3,
+    "authors": 3,
+    "potential_reach": 69211,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 33.782 vistas en YouTube (Ale_Mendoza1530)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=n6SGWkPBQKU",
+     "platform": "YouTube",
+     "author": "Ale_Mendoza1530",
+     "date": "2026-11-02",
+     "description": "Árbol rojo y elegante",
+     "engagement": "33.782 vistas",
+     "reach": 33782,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=8kSpkNdLMHo",
+     "platform": "YouTube",
+     "author": "ELIFASHION TV",
+     "date": "2026-11-02",
+     "description": "Navidad en Dollarcity",
+     "engagement": "24.547 vistas",
+     "reach": 24547,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=3_f00ZoIts0",
+     "platform": "YouTube",
+     "author": "Klaunet Glam",
+     "date": "2026-11-02",
+     "description": "Decoración navideña en DD's",
+     "engagement": "10.882 vistas",
+     "reach": 10882,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "organizadores-hogar",
+   "name": "Organizadores para el hogar",
+   "subcategory": "mejoramiento del hogar",
+   "signal": "recomendado",
+   "why_trending": "Videos de organización con productos de D1 hasta 25 mil vistas.",
+   "strength": 3,
+   "momentum": "estable",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Videos de reseña de organizadores; búsqueda nueva 'organizador de cables'."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Reel de orden por espacios.",
+   "platforms": [
+    "YouTube"
+   ],
+   "metrics": {
+    "mentions": 3,
+    "authors": 3,
+    "potential_reach": 54648,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 25.838 vistas en YouTube (Día de Sol | By Laura Vásquez)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=GZrQ4ZAp0eg",
+     "platform": "YouTube",
+     "author": "Día de Sol | By Laura Vásquez",
+     "date": "2026-11-05",
+     "description": "Producto perfecto en D1: organización",
+     "engagement": "25.838 vistas",
+     "reach": 25838,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=Wv53zt8OVjM",
+     "platform": "YouTube",
+     "author": "ELIFASHION TV",
+     "date": "2026-11-06",
+     "description": "Organizadores en D1",
+     "engagement": "21.822 vistas",
+     "reach": 21822,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=8MXQCnUWbRk",
+     "platform": "YouTube",
+     "author": "HOGAR LATINO",
+     "date": "2026-11-02",
+     "description": "Dollarcity para el hogar",
+     "engagement": "6.988 vistas",
+     "reach": 6988,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "escritorios",
+   "name": "Escritorios",
+   "subcategory": "muebles",
+   "signal": "en crecimiento",
+   "why_trending": "'escritorio' está entre las búsquedas que más crecen en Mercado Libre; autocompletar: 'escritorio ikea', 'escritorios alkosto', 'mejor escritorio gaming'.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "alta",
+    "evidence": "Mercado Libre most_growth: 'escritorio'; búsquedas de tiendas en autocomplete_new."
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Setup de escritorio por presupuesto.",
+   "platforms": [
+    "Google"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "No vi publicaciones de redes sobre el tema",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat10326/escritorios/",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": "2026-11-09",
+     "description": "Categoría de escritorios: 795 productos",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/escritorios-oficina/c/escritorios-oficina",
+     "platform": "Prensa",
+     "author": "Alkosto",
+     "date": "2026-11-09",
+     "description": "Categoría de escritorios de oficina",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "cortinas-luces-navidenas",
+   "name": "Cortinas de luces navideñas",
+   "subcategory": "decoración",
+   "signal": "en crecimiento",
+   "why_trending": "Aparecen 'cortinas de luces navideñas' y 'cortinas navideñas para sala' como búsquedas nuevas.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Búsquedas nuevas en autocomplete_new (8-nov); sin videos propios."
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Reel de decoración de sala con luces.",
+   "platforms": [
+    "Google"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "No vi publicaciones de redes sobre el tema",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/buscando-decoracion-para-navidad-ofertas-desde-10-000-en-el-d1-828035",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": "2026-11-09",
+     "description": "Decoración navideña desde $10.000 en D1",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "vinilo-papel-tapiz-remodelar",
+   "name": "Vinilo y papel tapiz para remodelar sin obra",
+   "subcategory": "remodelación",
+   "signal": "en crecimiento",
+   "why_trending": "Autocompletar de YouTube: 'remodelar cocina con vinilo', 'con papel tapiz', 'baño con papel tapiz'.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Sugerencias de búsqueda del autocompletar de YouTube del 8-nov; sin precios vistos."
+   },
+   "price_range": null,
+   "homecenter_availability": "alternativa similar",
+   "content_idea": "Antes y después de cocina con vinilo.",
+   "platforms": [
+    "YouTube"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "No vi publicaciones de redes sobre el tema",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/product/3066054/papel-tapiz-cemento-rojo-cobre-metalico-autoadhesivo-406cm-x-2997cm/3066054/",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": "2026-11-09",
+     "description": "Papel tapiz autoadhesivo en Homecenter",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.mercadolibre.com.co/blog/tr/como-colocar-papel-de-pared-para-cocina-lavable",
+     "platform": "Prensa",
+     "author": "Mercado Libre (blog)",
+     "date": "2026-11-09",
+     "description": "Guía de papel de pared lavable",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "closet-de-pared",
+   "name": "Closet de pared",
+   "subcategory": "muebles",
+   "signal": "en crecimiento",
+   "why_trending": "Búsquedas nuevas 'closet de pared', 'closet homecenter' y 'closet tour'.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "autocomplete_new del 8-nov incluye 'closet homecenter'."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Tour de closet con organizadores.",
+   "platforms": [
+    "Google"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "No vi publicaciones de redes sobre el tema",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat10310/Closets-y-o-Armarios",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": "2026-11-09",
+     "description": "Categoría de closets y armarios",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.falabella.com.co/falabella-co/shop/closet-de-pared-sencillos",
+     "platform": "Prensa",
+     "author": "Falabella",
+     "date": "2026-11-09",
+     "description": "Closet de pared sencillos",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "white_goods": [
+  {
+   "id": "neveras-precio-y-ahorro",
+   "name": "Neveras: precio y ahorro",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Video 'Compré nevera nueva en Colombia ¿cuánto me costó?' con 20 mil vistas; autocompletar 'mejor nevera combi calidad precio' y 'precio nevera apartamentera'.",
+   "drivers": [
+    "Precio y calidad-precio",
+    "Tamaño para apartamentos",
+    "Black Friday"
+   ],
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "alta",
+    "evidence": "Búsquedas de precio y calidad-precio, más un video de compra con 20 mil vistas."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Guía por tamaño de apartamento y consumo.",
+   "platforms": [
+    "YouTube"
+   ],
+   "metrics": {
+    "mentions": 3,
+    "authors": 3,
+    "potential_reach": 29111,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 20.296 vistas en YouTube (Iro Ramirez)",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=LuaEfxFlIYE",
+     "platform": "YouTube",
+     "author": "Iro Ramirez",
+     "date": "2026-11-07",
+     "description": "Compré nevera nueva en Colombia",
+     "engagement": "20.296 vistas",
+     "reach": 20296,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=XrXuOlK5eek",
+     "platform": "YouTube",
+     "author": "REFRILAVADORAS",
+     "date": "2026-11-08",
+     "description": "Refrigeradores encajonados: cuidado con el diseño de cocina",
+     "engagement": "2.449 vistas",
+     "reach": 2449,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=T34GNR0tmsY",
+     "platform": "YouTube",
+     "author": "La Chiva del Pasado",
+     "date": "2026-11-04",
+     "description": "12 electrodomésticos que se dejaron de fabricar",
+     "engagement": "6.366 vistas",
+     "reach": 6366,
+     "reach_basis": "vistas"
+    }
+   ]
+  },
+  {
+   "id": "lavadoras-lavavajillas",
+   "name": "Lavadoras, secadoras y lavavajillas",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Búsquedas 'lavadora samsung no centrifuga', 'lavadora secadora lg', 'precio lavadora haceb' y 'mejor lavavajillas calidad-precio 2026'.",
+   "drivers": [
+    "Fallas frecuentes",
+    "Comparativos de marcas",
+    "Precio"
+   ],
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "alta",
+    "evidence": "Búsquedas de precio, comparativo y falla en autocomplete_new (8-nov)."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Comparativo y qué revisar cuando no centrifuga.",
+   "platforms": [
+    "Google"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "No vi publicaciones de redes sobre el tema",
+    "source": "Sin publicaciones en las señales del 8-nov-2026 ni en las búsquedas de hoy"
+   },
+   "examples": [
+    {
+     "url": "https://www.samsung.com/co/support/home-appliances/what-to-do-when-samsung-washing-machine-does-not-spin/",
+     "platform": "Prensa",
+     "author": "Samsung Colombia",
+     "date": "2026-11-09",
+     "description": "Qué hacer si la lavadora Samsung no centrifuga",
+     "engagement": "nota de prensa",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "freidoras-de-aire",
+   "name": "Freidoras de aire",
+   "subcategory": "electrodomésticos",
+   "signal": "recomendado",
+   "why_trending": "Búsquedas 'mejor freidora de aire para 2/4 personas' y recetas colombianas (pan de yuca).",
+   "drivers": [
+    "Recetas",
+    "Comparativos por tamaño"
+   ],
+   "strength": 2,
+   "momentum": "estable",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Autocompletar de comparativos de freidoras; videos pequeños de recetas."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Recetas colombianas con freidora.",
+   "platforms": [
+    "YouTube"
+   ],
+   "metrics": {
+    "mentions": 2,
+    "authors": 2,
+    "potential_reach": 256,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Video más visto: 198 vistas en YouTube (Cocinando con Edi )",
+    "source": "Videos de YouTube de signals.json del 8-nov-2026 (muestra; sin TikTok, Instagram ni Facebook: no hubo chrome.json)"
+   },
+   "examples": [
+    {
+     "url": "https://www.youtube.com/watch?v=21pn-G-eYQA",
+     "platform": "YouTube",
+     "author": "Cocinando con Edi ",
+     "date": "2026-11-02",
+     "description": "Pan de yuca en air fryer",
+     "engagement": "198 vistas",
+     "reach": 198,
+     "reach_basis": "vistas"
+    },
+    {
+     "url": "https://www.youtube.com/watch?v=nSsn09T-H7c",
+     "platform": "YouTube",
+     "author": "M Tachert ",
+     "date": "2026-11-04",
+     "description": "Tocineta crujiente en freidora de aire",
+     "engagement": "58 vistas",
+     "reach": 58,
+     "reach_basis": "vistas"
+    }
+   ]
+  }
+ ],
+ "recommendations": [
+  {
+   "title": "Comparativo de precios de decoración navideña",
+   "priority": "alta",
+   "format": "TikTok",
+   "channels": [
+    "TikTok",
+    "Instagram"
+   ],
+   "hook": "¿Dónde sale más barato el árbol completo?",
+   "visual_hook": {
+    "category": "Surprise",
+    "idea": "Revelar el total con un corte sorpresa",
+    "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+   },
+   "description": "Comparar árbol, luces y adornos de Homecenter con otras tiendas.",
+   "products_to_feature": [
+    "Árboles de Navidad",
+    "Cortinas de luces"
+   ],
+   "timing": "Esta semana",
+   "why": "Videos de decoración navideña con hasta 36 mil vistas.",
+   "trend_ids": [
+    "decoracion-navidena-2026",
+    "tiendas-economicas-hogar"
+   ],
+   "product_ids": [
+    "arboles-de-navidad",
+    "cortinas-luces-navidenas"
+   ]
+  },
+  {
+   "title": "Cuenta regresiva Black Friday: electrodomésticos",
+   "priority": "alta",
+   "format": "Reel",
+   "channels": [
+    "Instagram",
+    "TikTok"
+   ],
+   "hook": "Faltan 18 días: lo que debes mirar antes de comprar tu nevera",
+   "description": "Guía con tamaño, consumo y precio.",
+   "products_to_feature": [
+    "Neveras",
+    "Lavadoras"
+   ],
+   "timing": "Esta semana",
+   "why": "Black Friday el 27 de nov. y búsquedas de precio de neveras y lavadoras.",
+   "trend_ids": [
+    "black-friday-colombia"
+   ],
+   "product_ids": [
+    "neveras-precio-y-ahorro",
+    "lavadoras-lavavajillas"
+   ]
+  },
+  {
+   "title": "Cocina nueva sin obra",
+   "priority": "media",
+   "format": "Reel",
+   "channels": [
+    "Instagram",
+    "TikTok"
+   ],
+   "hook": "Cambié mi cocina sin romper nada",
+   "visual_hook": {
+    "category": "Surprise",
+    "idea": "Corte de antes a después",
+    "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+   },
+   "description": "Antes y después con vinilo y papel tapiz.",
+   "products_to_feature": [
+    "Vinilo y papel tapiz"
+   ],
+   "timing": "Próximos 7 días",
+   "why": "Autocompletar con 'sin obra', 'vinilo' y 'papel tapiz'.",
+   "trend_ids": [
+    "remodelacion-bajo-costo"
+   ],
+   "product_ids": [
+    "vinilo-papel-tapiz-remodelar"
+   ]
+  },
+  {
+   "title": "Recorrido de tienda con creadores",
+   "priority": "media",
+   "format": "UGC con creador",
+   "channels": [
+    "YouTube",
+    "TikTok"
+   ],
+   "hook": "Lo nuevo de Navidad en Homecenter",
+   "description": "Alianza con creadores de recorridos.",
+   "products_to_feature": [
+    "Decoración navideña"
+   ],
+   "timing": "Esta semana",
+   "why": "El video de la Feria de Capacitación en Cali llegó a 1,26 M de vistas.",
+   "trend_ids": [
+    "contenido-propio-homecenter"
+   ],
+   "product_ids": [
+    "arboles-de-navidad"
+   ]
+  },
+  {
+   "title": "Orden antes de la Navidad",
+   "priority": "baja",
+   "format": "carrusel",
+   "channels": [
+    "Instagram"
+   ],
+   "hook": "5 organizadores para despejar tu casa antes de decorar",
+   "description": "Carrusel por espacios.",
+   "products_to_feature": [
+    "Organizadores",
+    "Closet de pared"
+   ],
+   "timing": "Próximos 10 días",
+   "why": "Videos de organización con 13 a 26 mil vistas.",
+   "trend_ids": [
+    "organizacion-hogar-limpieza"
+   ],
+   "product_ids": [
+    "organizadores-hogar",
+    "closet-de-pared"
+   ]
+  }
+ ],
+ "methodology": "No existían data/raw/2026-11-09 (ni signals.json ni chrome.json); usé signals.json del 8-nov-2026 (YouTube, Google Trends, X, Mercado Libre, autocompletar) con fechas relativas calculadas desde esa fecha, y WebSearch del 9-nov solo para Black Friday. Métricas de muestra: solo YouTube; no cubrí TikTok, Instagram ni Facebook. Los ejemplos de 'Prensa' o 'Autocompletar' son señales de búsqueda o notas, no publicaciones de redes, y llevan reach null."
+}
