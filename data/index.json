@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-10",
+   "headline": "Sin señales del día: Black Friday (27 nov.; Homecenter del 24 nov al 2 dic.) y Navidad siguen siendo la mejor ventana para Homecenter",
+   "counts": {
+    "national_trends": 3,
+    "homecenter_trends": 3,
+    "products": 3,
+    "white_goods": 3,
+    "recommendations": 3
+   }
+  },
+  {
    "date": "2026-11-09",
    "headline": "Sin señales nuevas del día: Navidad económica y cuenta regresiva al Black Friday (27 nov.) son las mejores oportunidades para Homecenter",
    "counts": {
