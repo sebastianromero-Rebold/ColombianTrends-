@@ -1,0 +1,770 @@
+{
+ "date": "2026-11-10",
+ "generated_at": "2026-11-10T07:45:00-05:00",
+ "headline": "Sin señales del día: Black Friday (27 nov.; Homecenter del 24 nov al 2 dic.) y Navidad siguen siendo la mejor ventana para Homecenter",
+ "summary": [
+  "No existió data/raw/2026-11-10 (ni signals.json ni chrome.json): este radar es reducido y se basa solo en búsquedas web.",
+  "Black Friday es el 27 de nov.; Homecenter concentra ofertas del 24 nov al 2 dic. y Alkosto arranca el 19-20 nov. (las fechas varían entre páginas).",
+  "Navidad 2026 domina la oferta de Homecenter; la prensa recoge comparativos de precios de arbolitos en TikTok.",
+  "Temas sensibles en prensa (faltante de pensiones, El Niño y riesgo de apagones): marca debe evitar el primero y tratar con precaución el segundo.",
+  "Sin publicaciones de TikTok, Instagram o Facebook: la búsqueda con site: no devolvió resultados de esas redes."
+ ],
+ "national_trends": [
+  {
+   "id": "black-friday-colombia",
+   "title": "Cuenta regresiva al Black Friday (27 nov.)",
+   "topic": "comercio",
+   "description": "El Black Friday 2026 cae el viernes 27 de nov. Alkosto lo llama Black Days y Homecenter concentra sus ofertas más fuertes del 24 nov al 2 dic.",
+   "why_now": "Faltan unas dos semanas y las tiendas ya publican sus páginas de campaña.",
+   "brand_angle": "Anticipar con calendario de ofertas y guías de compra de electrohogar.",
+   "homecenter_fit": "alto",
+   "brand_safety": "segura",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas web y prensa; sin métricas de redes",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/?cid=_lnd_1430015",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Landing Black Days de Homecenter: ofertas fuertes del 24 nov al 2 dic (según el resultado de búsqueda)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/computadores",
+     "platform": "Web Alkosto",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Página Black Days de Alkosto (resultado de búsqueda; las fechas varían entre páginas: 19-20 nov al 4-5 dic)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Electrohogar Black Friday de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "el-nino-apagones",
+   "title": "Fenómeno de El Niño y riesgo de apagones",
+   "topic": "clima",
+   "description": "Según un listado de La FM, el Gobierno declaró El Niño (intensidad fuerte a muy fuerte) y activó un plan para evitar apagones. No abrí la nota completa.",
+   "why_now": "Declaratoria reciente según la prensa.",
+   "brand_angle": "Tema de ahorro de energía con tono útil, nunca alarmista.",
+   "homecenter_fit": "medio",
+   "brand_safety": "precaución",
+   "strength": 2,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas web y prensa; sin métricas de redes",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.lafm.com.co/etiquetas/presupuesto-para-la-nacion",
+     "platform": "Prensa (La FM)",
+     "author": "La FM",
+     "date": null,
+     "description": "Listado de La FM que menciona la declaratoria de El Niño y el plan para evitar apagones",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "faltante-pensiones",
+   "title": "Faltante para pagar pensiones de nov. y dic.",
+   "topic": "política",
+   "description": "La prensa reporta un faltante presupuestal en Colpensiones y que el Gobierno busca una ruta para garantizar los pagos.",
+   "why_now": "Debate público en curso; fecha exacta no verificada.",
+   "brand_angle": "No usar: tema político-económico sensible.",
+   "homecenter_fit": "ninguno",
+   "brand_safety": "evitar",
+   "strength": 2,
+   "momentum": "estable",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas web y prensa; sin métricas de redes",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.lafm.com.co/etiquetas/presupuesto-para-la-nacion",
+     "platform": "Prensa (La FM)",
+     "author": "La FM",
+     "date": null,
+     "description": "Listado de La FM con notas sobre el faltante presupuestal y el pago de pensiones",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "homecenter_trends": [
+  {
+   "id": "decoracion-navidena-2026",
+   "title": "Decoración navideña: árboles, luces y pesebres",
+   "subcategory": "decoración",
+   "conversation_type": "producto",
+   "description": "Homecenter publica su categoría 'Navidad 2026' con árboles, luces, pesebres, guirnaldas y coronas, y colores tradicionales más tonos blancos, champaña, azules y rosados.",
+   "why_now": "Temporada navideña ya activa; promos de árboles hasta el 17 y 31 de nov. según las páginas.",
+   "opportunity": "Contenido de armado de árbol y paletas de color con enlace a la categoría.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas web y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat40002/navidad/?currentpage=1",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Navidad 2026: árboles, luces, pesebres, guirnaldas y coronas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/k/arboles-de-navidad-colombia",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Búsqueda de árboles de Navidad en Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa (El Tiempo)",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "Nota sobre un video de TikTok de @elmandelosdescuentos que compara precios de arbolitos de Navidad (no vi el video ni sus cifras)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "navidad-economica",
+   "title": "Navidad económica: comparativos de precios",
+   "subcategory": "decoración",
+   "conversation_type": "experiencia de compra",
+   "description": "El Tiempo recoge un video de TikTok que compara precios de arbolitos de Navidad y otra nota sobre decoración desde $10.000 en D1.",
+   "why_now": "La gente compara precios antes de comprar.",
+   "opportunity": "Comparativo propio de precios y 'decora por menos de X'.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas web y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa (El Tiempo)",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "Nota sobre un video de TikTok de @elmandelosdescuentos que compara precios de arbolitos de Navidad (no vi el video ni sus cifras)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/buscando-decoracion-para-navidad-ofertas-desde-10-000-en-el-d1-828035",
+     "platform": "Prensa (El Tiempo)",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "Nota sobre decoración navideña desde $10.000 en D1",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat40002/navidad/?currentpage=1",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Navidad 2026: árboles, luces, pesebres, guirnaldas y coronas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "electrohogar-black-friday",
+   "title": "Electrohogar en Black Friday",
+   "subcategory": "electrodomésticos",
+   "conversation_type": "experiencia de compra",
+   "description": "Homecenter tiene una categoría Electrohogar Black Friday y Alkosto destaca electrohogar en Black Days.",
+   "why_now": "Arranque de campañas de noviembre.",
+   "opportunity": "Guía 'qué comprar y cuándo' por categoría.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas web y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Electrohogar Black Friday de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/?cid=_lnd_1430015",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Landing Black Days de Homecenter: ofertas fuertes del 24 nov al 2 dic (según el resultado de búsqueda)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Web Alkosto",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Black Days Alkosto: electrohogar, empotre y estufas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "arboles-de-navidad",
+   "name": "Árboles de Navidad",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Homecenter los promociona y un TikTok comparó precios según El Tiempo.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "alta",
+    "evidence": "Homecenter tiene búsqueda dedicada y promos con vigencia hasta el 17 y 31 de nov. según las páginas."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Comparativo de tamaños y precios en Reel.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas de tiendas y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/k/arboles-de-navidad-colombia",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Búsqueda de árboles de Navidad en Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa (El Tiempo)",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "Nota sobre un video de TikTok de @elmandelosdescuentos que compara precios de arbolitos de Navidad (no vi el video ni sus cifras)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat40002/navidad/?currentpage=1",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Navidad 2026: árboles, luces, pesebres, guirnaldas y coronas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "freidoras-de-aire",
+   "name": "Freidoras de aire",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Siguen en oferta en varias tiendas, incluidas arroceras con freidora en Homecenter.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Ofertas visibles en Makro, Alkomprar y Homecenter."
+   },
+   "price_range": "$214.900 a $246.420 (Alkomprar y Makro, fechas inciertas)",
+   "homecenter_availability": "lo vende",
+   "content_idea": "Recetas rápidas con el producto.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas de tiendas y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.alkomprar.com/freidora-aire-kalley-45-litros-k-maf45-negro/p/7700149140010",
+     "platform": "Web Alkomprar",
+     "author": "Alkomprar",
+     "date": null,
+     "description": "Freidora de aire Kalley 4,5 L a $214.900 (resultado de búsqueda)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.cronista.com/colombia/finanzas-y-economia/supermercados-makro-oferta-un-electrodomestico-indispensable-para-la-cocina-por-menos-de-250000",
+     "platform": "Prensa (El Cronista)",
+     "author": "El Cronista",
+     "date": null,
+     "description": "Makro ofrece un electrodoméstico (freidora) a $246.420, antes $289.900",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/k/arrocera-con-freidora-de-aire",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Arroceras con freidora de aire en Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "combos-nevera-lavadora",
+   "name": "Combos nevera + lavadora",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Mercado Libre vende combos con descuento de 39 %.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Listado de combos en Mercado Libre."
+   },
+   "price_range": "$2.452.900 a $3.232.900 (fecha de captura no indicada)",
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Guía de combos para primera vivienda.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas de tiendas y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://listado.mercadolibre.com.co/combos-de-lavadora-y-nevera",
+     "platform": "Web Mercado Libre",
+     "author": "Mercado Libre",
+     "date": null,
+     "description": "Combos nevera + lavadora: Haceb 243 L + lavadora 8,5 kg a $2.452.900 (39 % off); Challenger 325 L a $3.232.900; fecha de captura no indicada",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat4710026/Neveras-No-Frost",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Neveras No Frost de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Web Alkosto",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Black Days Alkosto: electrohogar, empotre y estufas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "white_goods": [
+  {
+   "id": "neveras-precio-y-ahorro",
+   "name": "Neveras no frost",
+   "subcategory": "electrodomésticos",
+   "signal": "estacional",
+   "why_trending": "Black Friday y El Niño empujan la comparación de neveras; Alkosto las cita entre las de más rotación.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "alta",
+    "evidence": "Categoría Neveras No Frost en Homecenter y Black Days en Alkosto."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Guía de tamaño y ahorro de energía.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas de tiendas y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat4710026/Neveras-No-Frost",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Neveras No Frost de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Web Alkosto",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Black Days Alkosto: electrohogar, empotre y estufas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://listado.mercadolibre.com.co/combos-de-lavadora-y-nevera",
+     "platform": "Web Mercado Libre",
+     "author": "Mercado Libre",
+     "date": null,
+     "description": "Combos nevera + lavadora: Haceb 243 L + lavadora 8,5 kg a $2.452.900 (39 % off); Challenger 325 L a $3.232.900; fecha de captura no indicada",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ],
+   "drivers": [
+    "Black Friday",
+    "Ahorro de energía por El Niño"
+   ]
+  },
+  {
+   "id": "freidoras-aire-linea-blanca",
+   "name": "Freidoras de aire",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Oferta amplia en varias tiendas.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Ofertas de Makro y Alkomprar."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Comparativo por litros.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas de tiendas y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://www.alkomprar.com/freidora-aire-kalley-45-litros-k-maf45-negro/p/7700149140010",
+     "platform": "Web Alkomprar",
+     "author": "Alkomprar",
+     "date": null,
+     "description": "Freidora de aire Kalley 4,5 L a $214.900 (resultado de búsqueda)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.cronista.com/colombia/finanzas-y-economia/supermercados-makro-oferta-un-electrodomestico-indispensable-para-la-cocina-por-menos-de-250000",
+     "platform": "Prensa (El Cronista)",
+     "author": "El Cronista",
+     "date": null,
+     "description": "Makro ofrece un electrodoméstico (freidora) a $246.420, antes $289.900",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/k/arrocera-con-freidora-de-aire",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Arroceras con freidora de aire en Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ],
+   "drivers": [
+    "Ofertas de temporada"
+   ]
+  },
+  {
+   "id": "combos-lavado-frio",
+   "name": "Combos de lavadora y nevera",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Combos con descuento en Mercado Libre.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Listado de combos."
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Calculadora de ahorro de combo.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Solo páginas de tiendas y prensa",
+    "source": "Búsquedas web del 10-nov; sin publicaciones de redes vistas, por eso mentions/authors/reach van en null"
+   },
+   "examples": [
+    {
+     "url": "https://listado.mercadolibre.com.co/combos-de-lavadora-y-nevera",
+     "platform": "Web Mercado Libre",
+     "author": "Mercado Libre",
+     "date": null,
+     "description": "Combos nevera + lavadora: Haceb 243 L + lavadora 8,5 kg a $2.452.900 (39 % off); Challenger 325 L a $3.232.900; fecha de captura no indicada",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat4710026/Neveras-No-Frost",
+     "platform": "Web Homecenter",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Neveras No Frost de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Web Alkosto",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Black Days Alkosto: electrohogar, empotre y estufas",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ],
+   "drivers": [
+    "Descuentos de temporada"
+   ]
+  }
+ ],
+ "recommendations": [
+  {
+   "title": "Calendario Black Friday Homecenter",
+   "priority": "alta",
+   "format": "carrusel",
+   "channels": [
+    "Instagram",
+    "Facebook"
+   ],
+   "hook": "Del 24 nov al 2 dic: qué comprar primero",
+   "description": "Carrusel con fechas de Homecenter, Alkosto y Falabella y categorías clave.",
+   "products_to_feature": [
+    "Neveras no frost"
+   ],
+   "timing": "Esta semana",
+   "why": "Black Friday el 27 de nov.",
+   "trend_ids": [
+    "black-friday-colombia",
+    "electrohogar-black-friday"
+   ],
+   "product_ids": [
+    "neveras-precio-y-ahorro"
+   ]
+  },
+  {
+   "title": "Árbol de Navidad por presupuesto",
+   "priority": "alta",
+   "format": "Reel",
+   "channels": [
+    "TikTok",
+    "Instagram"
+   ],
+   "hook": "¿Cuánto cuesta armar tu árbol este año?",
+   "visual_hook": {
+    "category": "Surprise",
+    "idea": "Revelación del árbol armado tras un corte",
+    "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+   },
+   "description": "Comparativo de árboles, luces y adornos con precios verificados.",
+   "products_to_feature": [
+    "Árboles de Navidad"
+   ],
+   "timing": "Hoy",
+   "why": "Navidad activa y comparativos de precios.",
+   "trend_ids": [
+    "decoracion-navidena-2026",
+    "navidad-economica"
+   ],
+   "product_ids": [
+    "arboles-de-navidad"
+   ]
+  },
+  {
+   "title": "Freidora de aire: recetas rápidas",
+   "priority": "media",
+   "format": "TikTok",
+   "channels": [
+    "TikTok"
+   ],
+   "hook": "Cena lista en 15 minutos",
+   "description": "Tres recetas con freidora y enlace al catálogo.",
+   "products_to_feature": [
+    "Freidoras de aire"
+   ],
+   "timing": "Esta semana",
+   "why": "Ofertas visibles y Black Friday cerca.",
+   "trend_ids": [
+    "electrohogar-black-friday"
+   ],
+   "product_ids": [
+    "freidoras-de-aire"
+   ]
+  }
+ ],
+ "methodology": "No existía data/raw/2026-11-10 (ni signals.json ni chrome.json). Usé solo WebSearch del 10-nov; WebFetch a eltiempo.com falló por red bloqueada, así que esas notas solo se conocen por el resumen del buscador. Las búsquedas con site:tiktok.com e site:instagram.com no devolvieron publicaciones, por lo que no hay métricas de redes: mentions, authors y potential_reach van en null. Los ejemplos son páginas de tiendas y prensa, con fechas y precios no siempre verificables. Reporte reducido, sin Google Trends, X ni YouTube."
+}
