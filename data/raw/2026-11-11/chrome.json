@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-11",
+  "collected_at": "2026-11-11T13:04:23-05:00",
+  "queries": ["remodelación apartamento", "decoración navidad casa", "hack hogar", "herramientas recomendadas", "homecenter", "nevera", "lavadora", "freidora de aire"],
+  "posts": [],
+  "answerthepublic": null,
+  "errors": [
+    "Claude in Chrome no estaba conectado (0 navegadores conectados tras 2 intentos): no se hizo ninguna búsqueda ni se leyó ninguna publicación",
+    "No existía data/raw/2026-11-11/signals.json al correr: solo se planearon las 8 búsquedas fijas",
+    "AnswerThePublic omitido: sin navegador"
+  ]
+}
