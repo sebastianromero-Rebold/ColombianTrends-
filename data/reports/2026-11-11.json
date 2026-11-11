@@ -1,0 +1,652 @@
+{
+ "date": "2026-11-11",
+ "generated_at": "2026-11-11T07:30:00-05:00",
+ "headline": "Sin señales del día: Black Friday (27 nov.) y Navidad siguen siendo la ventana clave para Homecenter; la evidencia de hoy es solo de prensa y tiendas",
+ "summary": [
+  "Hoy no hubo señales automáticas ni de Chrome: el reporte se basa en búsquedas web y no incluye publicaciones de redes verificadas.",
+  "Black Friday 2026 cae el viernes 27 de noviembre y Cyber Monday el 30; Alkosto anuncia Black Days del 19 nov. al 4 dic. No encontré fechas confirmadas para Homecenter.",
+  "Navidad: la prensa reporta tendencia hacia decoración neutra, árboles más baratos o compactos y comparativos de precios de creadores en TikTok.",
+  "Electrodomésticos: una nota comercial sugiere desaceleración de la freidora de aire y auge de máquinas de hielo (fuente con tono publicitario, sin datos).",
+  "El Niño sigue como riesgo (Ideam confirma condiciones presentes); tema sensible: se registra, no se usa para Homecenter."
+ ],
+ "national_trends": [
+  {
+   "id": "black-friday-colombia",
+   "title": "Black Friday 2026 en Colombia",
+   "topic": "comercio",
+   "description": "Black Friday cae el 27 de noviembre y Cyber Monday el 30. No hay calendario oficial: cada comercio decide fechas y descuentos. Alkosto publica Black Days del 19 de noviembre al 4 de diciembre.",
+   "why_now": "Faltan 16 días y la prensa ya explica cómo preparar compras y detectar descuentos falsos.",
+   "brand_angle": "Anticipar con guías de compra y transparencia de precios; confirmar antes las fechas propias de Homecenter.",
+   "homecenter_fit": "alto",
+   "brand_safety": "segura",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [
+    "#BlackFriday"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Cobertura de varios medios sobre fechas y consejos",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/",
+     "platform": "Prensa",
+     "author": "Bloomberg Línea",
+     "date": null,
+     "description": "Black Friday 2026 cae el 27 de noviembre; no todos los productos tendrán descuento.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.calendariodecolombia.com/economia/black-friday-llega-el-viernes-27-de-noviembre-fechas-de-los-descuentos-y-del-cyber-monday-en-colombia-nxlm2q",
+     "platform": "Prensa",
+     "author": "calendariodecolombia.com",
+     "date": null,
+     "description": "Fechas: Black Friday 27 nov. y Cyber Monday 30 nov.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.publimetro.co/noticias/2026/11/06/black-friday-2026-como-saber-si-un-descuento-es-real-o-una-estrategia-para-vender-mas/",
+     "platform": "Prensa",
+     "author": "Publimetro",
+     "date": "2026-11-06",
+     "description": "Cómo saber si un descuento de Black Friday es real.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "el-nino-apagones",
+   "title": "El Niño y riesgo de racionamiento",
+   "topic": "clima",
+   "description": "El Ideam confirmó condiciones de El Niño; las autoridades descartan por ahora racionamiento, aunque medios advierten riesgo de racionamiento de energía a finales de 2026 o inicios de 2027.",
+   "why_now": "Embalses bajos y alertas de expertos mantienen el tema en prensa. No encontré fuente fechada hoy que confirme racionamiento vigente.",
+   "brand_angle": "Tema sensible: no usarlo para promover productos. Solo seguimiento.",
+   "homecenter_fit": "bajo",
+   "brand_safety": "evitar",
+   "strength": 2,
+   "momentum": "estable",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Notas de prensa; sin publicaciones de redes vistas",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.valoraanalitik.com/colombia-enfrenta-riesgos-de-racionamiento-electrico-bajo-un-nino-intenso/",
+     "platform": "Prensa",
+     "author": "Valora Analitik",
+     "date": null,
+     "description": "Riesgos de racionamiento eléctrico bajo un Niño intenso.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/economia/sectores/por-que-xm-recomienda-racionamientos-de-energia-en-pleno-fenomeno-de-el-nino-estas-serian-las-zonas-afectadas-3565071",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "XM y posibles zonas afectadas por racionamiento.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.portafolio.co/energia/racionamiento-energetico-un-fantasma-que-no-se-aleja-y-se-intensifica-por-el-fenomeno-de-el-nino-y-falta-de-gas-494408",
+     "platform": "Prensa",
+     "author": "Portafolio",
+     "date": null,
+     "description": "Racionamiento energético por El Niño y falta de gas.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "navidad-presupuesto-2026",
+   "title": "Navidad 2026: presupuesto y decoración",
+   "topic": "estilo de vida",
+   "description": "La prensa trata el costo de la Navidad: La República estima entre $3,23 y $6,45 millones una decoración de lujo (nota del 3 nov. de 2026), mientras creadores comparan precios de arbolitos y decoración barata.",
+   "why_now": "Arranca la temporada de compra navideña y la discusión de precios.",
+   "brand_angle": "Guías de decoración por presupuesto y comparativos de precios.",
+   "homecenter_fit": "alto",
+   "brand_safety": "segura",
+   "strength": 2,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa",
+    "TikTok"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Notas de prensa que citan a un creador de TikTok; no vi las publicaciones originales",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.larepublica.co/ocio/una-navidad-de-lujo-puede-costar-entre-3-23-millones-y-6-45-millones-en-decoracion-para-el-hogar-4515534",
+     "platform": "Prensa",
+     "author": "La República",
+     "date": "2026-11-03",
+     "description": "Costo de una Navidad de lujo en decoración del hogar.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa",
+     "author": "El Tiempo (cita a @elmandelosdescuentos en TikTok)",
+     "date": null,
+     "description": "Un tiktoker comparó precios de arbolitos de Navidad en distintas tiendas.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/buscando-decoracion-para-navidad-ofertas-desde-10-000-en-el-d1-828035",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "Decoración navideña desde $10.000 en D1.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "homecenter_trends": [
+  {
+   "id": "electrohogar-black-friday",
+   "title": "Electrohogar en Black Friday",
+   "subcategory": "electrodomésticos",
+   "conversation_type": "experiencia de compra",
+   "description": "Homecenter tiene landing de Black Friday/electrohogar y Black Days; sin fechas exactas publicadas en lo que vi. Alkosto, Falabella y Éxito compiten con ofertas de electrodomésticos.",
+   "why_now": "Las tiendas ya publican páginas de campaña antes del 27 de noviembre.",
+   "opportunity": "Calendario de ofertas y guías de compra por tipo de electrodoméstico antes de la campaña.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [
+    "#BlackFriday"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Páginas de campaña de tiendas; sin publicaciones de redes vistas",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría Electrohogar Black Friday de Homecenter.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Prensa",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Black Days de Alkosto en empotre y estufas.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.lafm.com.co/economia/electrodomesticos-con-descuento-en-el-exito",
+     "platform": "Prensa",
+     "author": "La FM",
+     "date": null,
+     "description": "Electrodomésticos con descuento en Éxito.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "decoracion-navidena-2026",
+   "title": "Decoración navideña neutra y económica",
+   "subcategory": "decoración",
+   "conversation_type": "idea",
+   "description": "El Tiempo reporta que los manteles tradicionales dan paso a textiles lisos, tonos neutros y materiales naturales para la Navidad 2026. Otras notas hablan de árboles más baratos o compactos.",
+   "why_now": "Inicio de temporada navideña.",
+   "opportunity": "Looks navideños neutros y de bajo costo con productos de decohogar.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa",
+    "TikTok"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Notas de prensa; sin publicaciones de redes vistas",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.eltiempo.com/autor/pablo-romero-agencias",
+     "platform": "Prensa",
+     "author": "El Tiempo",
+     "date": null,
+     "description": "Tendencia de decoración: adiós a manteles tradicionales en Navidad 2026.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.noticiasrcn.com/tendencias/arbol-de-navidad-la-nueva-tendencia-que-llega-en-2025-958948",
+     "platform": "Prensa",
+     "author": "Noticias RCN",
+     "date": null,
+     "description": "Alternativas más baratas al árbol de Navidad tradicional (nota de 2025).",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.lafm.com.co/estilo-de-vida/como-decorar-una-puerta-en-navidad-cuatro-ideas-sencillas-y-bonitas",
+     "platform": "Prensa",
+     "author": "La FM",
+     "date": null,
+     "description": "Ideas sencillas para decorar la puerta en Navidad.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "decoracion-luces-arbol",
+   "title": "Cómo poner las luces del árbol",
+   "subcategory": "DIY",
+   "conversation_type": "tutorial",
+   "description": "Publimetro recoge una forma de instalar luces rama por rama propuesta por usuarios de TikTok (nota de noviembre de 2025).",
+   "why_now": "Se repite cada temporada al armar el árbol; es dato de 2025, no de hoy.",
+   "opportunity": "Tutorial corto de luces con productos de iluminación.",
+   "strength": 1,
+   "momentum": "estable",
+   "platforms": [
+    "TikTok",
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Nota de prensa que cita videos de TikTok; no los vi",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.publimetro.co/entretenimiento/2025/11/27/cual-es-la-forma-correcta-de-poner-las-luces-en-el-arbol-navidad/",
+     "platform": "Prensa",
+     "author": "Publimetro",
+     "date": "2025-11-27",
+     "description": "Forma correcta de poner las luces del árbol según usuarios de TikTok.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "arboles-de-navidad",
+   "name": "Árboles de Navidad (económicos y compactos)",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Prensa y un creador de TikTok comparan precios y hablan de opciones más baratas o que ocupan menos espacio.",
+   "strength": 2,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Comparativos de precios y notas de ahorro en prensa; no vi búsquedas de compra medidas."
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Comparativo de tamaños y precios de árboles con luces para apartamento.",
+   "platforms": [
+    "TikTok",
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Sin publicaciones de redes vistas directamente",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa",
+     "author": "El Tiempo (cita a @elmandelosdescuentos)",
+     "date": null,
+     "description": "Comparación de precios de arbolitos.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.cronista.com/colombia/tiempo-libre/llega-el-fin-del-arbol-de-navidad-la-opcion-mas-elegida-que-no-ocupa-lugar-es-barata-y-gasta-poca-energia",
+     "platform": "Prensa",
+     "author": "El Cronista",
+     "date": null,
+     "description": "Opción de decoración que no ocupa lugar y gasta poca energía.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "freidoras-de-aire",
+   "name": "Freidoras de aire",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Siguen en ofertas (Makro ~$246.420) y hay avisos de seguridad por retiros de referencias; una nota comercial sugiere desaceleración de la demanda.",
+   "strength": 2,
+   "momentum": "estable",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Ofertas activas en Makro, Falabella y Homecenter; la nota que habla de desaceleración no cita fuente de datos."
+   },
+   "price_range": "~$246.420 (oferta Makro)",
+   "homecenter_availability": "lo vende",
+   "content_idea": "Cómo elegir una freidora segura y recetas rápidas.",
+   "platforms": [
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Sin publicaciones de redes vistas",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat10408/Freidoras-de-Aire-y-Freidoras/?cid=cat10404ftg",
+     "platform": "Prensa",
+     "author": "Homecenter",
+     "date": null,
+     "description": "Categoría de freidoras de aire de Homecenter.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.cronista.com/colombia/finanzas-y-economia/supermercados-makro-oferta-un-electrodomestico-indispensable-para-la-cocina-por-menos-de-250000",
+     "platform": "Prensa",
+     "author": "El Cronista",
+     "date": null,
+     "description": "Freidora en oferta en Makro por menos de $250.000.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.portafolio.co/negocios/empresas/air-fryer-retiran-algunas-referencias-por-posibles-incendios-564916",
+     "platform": "Prensa",
+     "author": "Portafolio",
+     "date": null,
+     "description": "Retiro de referencias de air fryer por posibles incendios.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "maquinas-de-hielo",
+   "name": "Máquinas de hielo para el hogar",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Una nota de El Cronista dice que están ganando terreno frente a la freidora de aire; tono publicitario y sin fuente de datos, se toma con cautela.",
+   "strength": 1,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "baja",
+    "evidence": "Solo catálogos de Alkosto, Ktronix y Alkomprar y una nota sin datos."
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Vigilar antes de producir contenido.",
+   "platforms": [
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "muestra",
+    "search_volume": null,
+    "visible_engagement": "Sin publicaciones de redes vistas",
+    "source": "Solo prensa y páginas de tiendas halladas hoy; no se vieron publicaciones de redes, por eso no se cuentan menciones ni alcance"
+   },
+   "examples": [
+    {
+     "url": "https://www.cronista.com/colombia/tiempo-libre/no-es-la-freidora-de-aire-este-nuevo-electrodomestico-es-mas-barato-y-esta-arrasando-en-ventas",
+     "platform": "Prensa",
+     "author": "El Cronista",
+     "date": null,
+     "description": "Máquinas de hielo como nuevo electrodoméstico en auge.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/electrodomesticos/grandes-electrodomesticos/refrigeracion/maquinas-fabricadoras-hielo/c/BI_A14_ALKOS",
+     "platform": "Prensa",
+     "author": "Alkosto",
+     "date": null,
+     "description": "Catálogo de fabricadoras de hielo.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "white_goods": [
+  {
+   "id": "neveras-lavado-eficiente",
+   "name": "Neveras Side by Side y lavadoras de bajo consumo",
+   "subcategory": "electrodomésticos",
+   "signal": "en crecimiento",
+   "why_trending": "Informe GfK 2025 citado por Portafolio: grandes electrodomésticos crecieron 20 % frente a 2024; las Side by Side ganaron terreno y el lavado de menor consumo de agua y energía se consolidó. Es dato de 2025.",
+   "drivers": [
+    "Capacidad y diseño (Side by Side)",
+    "Ahorro de agua y energía",
+    "Black Friday"
+   ],
+   "strength": 2,
+   "momentum": "estable",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Cifra de fuente publicada de 2025; sin datos de búsqueda de hoy."
+   },
+   "price_range": null,
+   "homecenter_availability": "lo vende",
+   "content_idea": "Guía de qué nevera y lavadora elegir según consumo antes de Black Friday.",
+   "platforms": [
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Crecimiento de 20 % en grandes electrodomésticos en 2025",
+    "source": "GfK vía Portafolio (2025)"
+   },
+   "examples": [
+    {
+     "url": "https://www.portafolio.co/negocios/empresas/mercado-de-electrodomesticos-proyecta-un-crecimiento-de-20-en-2025-impulsado-por-la-adopcion-de-tecnologias-484119",
+     "platform": "Prensa",
+     "author": "Portafolio",
+     "date": null,
+     "description": "Mercado de electrodomésticos proyecta crecer 20 % en 2025.",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "recommendations": [
+  {
+   "title": "Calendario de ofertas Black Friday en Homecenter",
+   "priority": "alta",
+   "format": "carrusel",
+   "channels": [
+    "Instagram",
+    "Facebook"
+   ],
+   "hook": "Lo que sí conviene comprar en Black Friday y lo que no",
+   "description": "Carrusel con fechas de campaña (una vez confirmadas), categorías clave y cómo verificar que un descuento es real.",
+   "products_to_feature": [
+    "Electrodomésticos",
+    "Neveras",
+    "Lavadoras"
+   ],
+   "timing": "Esta semana, antes del 27 de noviembre",
+   "why": "Black Friday el 27 de noviembre y prensa ya hablando de descuentos reales.",
+   "trend_ids": [
+    "black-friday-colombia",
+    "electrohogar-black-friday"
+   ],
+   "product_ids": [
+    "neveras-lavado-eficiente"
+   ]
+  },
+  {
+   "title": "Navidad neutra y económica",
+   "priority": "alta",
+   "format": "Reel",
+   "channels": [
+    "Instagram",
+    "TikTok"
+   ],
+   "hook": "Tu casa navideña por menos de lo que crees",
+   "visual_hook": {
+    "category": "Surprise",
+    "idea": "Revelación del árbol decorado con transición sorpresa",
+    "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+   },
+   "description": "Antes y después de una sala con decoración neutra, árbol compacto y luces, con precios a la vista.",
+   "products_to_feature": [
+    "Árboles de Navidad",
+    "Luces"
+   ],
+   "timing": "Esta semana",
+   "why": "Tendencia de decoración neutra y comparativos de precios de arbolitos.",
+   "trend_ids": [
+    "decoracion-navidena-2026",
+    "navidad-presupuesto-2026"
+   ],
+   "product_ids": [
+    "arboles-de-navidad"
+   ]
+  },
+  {
+   "title": "Tutorial de luces del árbol",
+   "priority": "media",
+   "format": "TikTok",
+   "channels": [
+    "TikTok"
+   ],
+   "hook": "El error con las luces que todos cometemos",
+   "description": "Video corto mostrando la técnica rama por rama.",
+   "products_to_feature": [
+    "Luces navideñas"
+   ],
+   "timing": "Desde la segunda semana de noviembre",
+   "why": "Contenido recurrente de temporada citado por prensa.",
+   "trend_ids": [
+    "decoracion-luces-arbol"
+   ],
+   "product_ids": [
+    "arboles-de-navidad"
+   ]
+  },
+  {
+   "title": "Freidora segura: cómo elegirla",
+   "priority": "media",
+   "format": "Reel",
+   "channels": [
+    "Instagram",
+    "TikTok"
+   ],
+   "hook": "Antes de comprar tu freidora, mira esto",
+   "description": "Guía breve de seguridad y capacidad, con recetas rápidas.",
+   "products_to_feature": [
+    "Freidoras de aire"
+   ],
+   "timing": "Antes de Black Friday",
+   "why": "Siguen en oferta y la prensa reporta retiros por seguridad.",
+   "trend_ids": [
+    "electrohogar-black-friday"
+   ],
+   "product_ids": [
+    "freidoras-de-aire"
+   ]
+  }
+ ],
+ "methodology": "Hoy no existían data/raw/2026-11-11/signals.json ni chrome.json (el último disponible es de 2026-11-10), así que no se usaron. Todo sale de WebSearch (7 búsquedas); los enlaces son de resultados de búsqueda y no abrí las páginas. Las búsquedas con site:tiktok.com y site:instagram.com no devolvieron publicaciones, por lo que no hay ejemplos de redes y menciones, autores y alcance van en null. Varias notas son de 2024 o 2025 y se marcan como tales. Ordenado por strength dentro de cada lista. Evidencia débil: tomar como borrador y completar con señales cuando estén."
+}
