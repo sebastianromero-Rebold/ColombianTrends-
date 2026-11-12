@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-12",
+   "headline": "Black Days y Navidad marcan el inicio de temporada: Alkosto abre el 19 de nov. y Homecenter ya promociona hasta 50% de descuento",
+   "counts": {
+    "national_trends": 5,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 3,
+    "recommendations": 7
+   }
+  },
+  {
    "date": "2026-11-11",
    "headline": "Sin señales del día: Black Friday (27 nov.) y Navidad siguen siendo la ventana clave para Homecenter; la evidencia de hoy es solo de prensa y tiendas",
    "counts": {
