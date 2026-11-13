@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-13",
+   "headline": "Arranca la carrera de Black Days: Éxito abre hoy, Falabella el 17 y Alkosto el 19 de nov.; Homecenter aún tiene solo 64 vistas en su video de campaña",
+   "counts": {
+    "national_trends": 5,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-12",
    "headline": "Black Days y Navidad marcan el inicio de temporada: Alkosto abre el 19 de nov. y Homecenter ya promociona hasta 50% de descuento",
    "counts": {
