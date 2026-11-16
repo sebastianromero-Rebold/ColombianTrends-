@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-16",
+   "headline": "Lunes previo a Black Friday: Éxito ya corre, Falabella y Alkosto abren esta semana y la Navidad económica sigue como la conversación de hogar más fuerte; Homecenter aún sin tracción en redes",
+   "counts": {
+    "national_trends": 7,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-15",
    "headline": "Domingo previo a Black Friday: Éxito ya abrió (desde el 13-nov), Falabella y Alkosto abren esta semana y la Navidad económica sigue siendo la conversación de hogar más fuerte; Homecenter aún sin tracción en redes",
    "counts": {
