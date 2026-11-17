@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-17",
+   "headline": "Faltan 10 días para Black Friday (27-nov): Alkosto abre entre el 19 y el 20, Navidad económica y línea blanca siguen como lo más fuerte del hogar; hoy no hubo señales nuevas, así que el radar reutiliza las de 12 a 15-nov",
+   "counts": {
+    "national_trends": 7,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-16",
    "headline": "Lunes previo a Black Friday: Éxito ya corre, Falabella y Alkosto abren esta semana y la Navidad económica sigue como la conversación de hogar más fuerte; Homecenter aún sin tracción en redes",
    "counts": {
