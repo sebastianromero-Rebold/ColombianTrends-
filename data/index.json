@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-19",
+   "headline": "Hoy es el paro nacional (tema a evitar) y se lanza GTA VI; Alkosto abre Black Days el 19-20 nov y Homecenter concentra sus ofertas del 24-nov al 2-dic: línea blanca y Navidad económica siguen como lo más fuerte del hogar",
+   "counts": {
+    "national_trends": 7,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-18",
    "headline": "Faltan 9 días para Black Friday: Alkosto abre entre el 19 y 20-nov y la Navidad económica y la línea blanca siguen como lo más fuerte del hogar; el paro del 19-nov es tema a evitar",
    "counts": {
