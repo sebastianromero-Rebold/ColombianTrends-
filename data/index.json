@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-21",
+   "headline": "Black Friday del hogar en marcha (Alkosto Black Days desde el 19-nov; Homecenter con ofertas fuertes del 23-nov al 2-dic) y hoy 21-nov hay movilizaciones, tema a evitar para la marca",
+   "counts": {
+    "national_trends": 9,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-20",
    "headline": "Arranca el Black Friday del hogar: Alkosto Black Days corre del 19-nov al 4-dic y Homecenter concentra ofertas del 24-nov al 2-dic; el 21-nov hay movilizaciones (tema a evitar) y línea blanca y Navidad económica siguen como lo más fuerte del hogar",
    "counts": {
