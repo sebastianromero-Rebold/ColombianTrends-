@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-23",
+   "headline": "Arranca la ventana fuerte de Black Friday en Homecenter (23-nov al 2-dic) y la conversación nacional la dominan el tenis y el fútbol; política y orden público, a evitar",
+   "counts": {
+    "national_trends": 8,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-22",
    "headline": "Black Friday del hogar en su recta final: Homecenter con ofertas fuertes del 24-nov al 2-dic; radar sin señales nuevas del día, se reutiliza la muestra previa",
    "counts": {
