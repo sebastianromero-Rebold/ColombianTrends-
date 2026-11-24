@@ -1,0 +1,110 @@
+{
+  "date": "2026-11-24",
+  "collected_at": "2026-11-24T23:26:53-05:00",
+  "queries": [
+    "real betis",
+    "porto vs",
+    "chapecoense - palmeiras",
+    "championship",
+    "Maldita",
+    "Senegal",
+    "Nobel",
+    "remodelación apartamento",
+    "decoración navidad casa",
+    "hack hogar",
+    "herramientas recomendadas",
+    "homecenter",
+    "nevera",
+    "lavadora",
+    "freidora de aire"
+  ],
+  "posts": [
+    {
+      "query": "remodelación apartamento",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/reels/DgDBoFUhfJL/",
+      "author": "@jalconstruccionesibague",
+      "date": "2026-11-22",
+      "text": "remodelacion de apartamento #ibague #remodelacion #pintura #carpinteria #obracivil",
+      "views": null,
+      "likes": 71,
+      "comments": 5,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "remodelación apartamento",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/disenoyconstruccionarquitectos/reel/Df8X9rtxXu2/",
+      "author": "@disenoyconstruccionarquitectos",
+      "date": "2026-11-19",
+      "text": "Te vas enamorar de este majestuoso apartamento que entregamos en la ciudad de Ibague. Somos especialistas en el diseño y remodelación de aptos de alta gama",
+      "views": null,
+      "likes": 61,
+      "comments": 1,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "remodelación apartamento",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/reel/1650757399879965",
+      "author": "Decoplus Ibague",
+      "date": null,
+      "text": "¿No te alcanza para remodelar todo tu apartamento? Empieza por lo esencial. Con nuestro Plan Esencial puedes renovar pisos, paredes, pintura e instalaciones",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "remodelación apartamento",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/reel/1148425037782344/",
+      "author": "El Mundo de la Decoracion",
+      "date": null,
+      "text": "¿Te imaginas remodelar todo un apartamento desde cualquier lugar sin estar Colombia? Así transformamos este proyecto, con una asesoría ...",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "decoración navidad casa",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/CasaideasColombia/posts/-ya-viene-navidad-a-casa-ideas-es-momento-de-empezar-a-llenar-tu-hogar-de-magia-/1453523160224361/",
+      "author": "Casaideas Colombia",
+      "date": null,
+      "text": "¡Ya viene Navidad a Casa Ideas! Es momento... Descubre nuestra exclusiva colección de decoraciones navideñas para transformar tu casa en un lugar mágico.",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "decoración navidad casa",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/reel/2316919269088040",
+      "author": "Todo Accesorios Colombia Sas",
+      "date": null,
+      "text": "¿OTRA VEZ EL MISMO ÁRBOL DE NAVIDAD? Rompe la ... Árboles, figuras, luces, y una increíble variedad de decoraciones que, de verdad, transforman tus espacios.",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "followers": null
+    }
+  ],
+  "answerthepublic": null,
+  "errors": [
+    "Google ya no expone las URL de destino en los resultados (enlaces cifrados /goto): no funcionó el extractor de enlaces por JavaScript; las URL se obtuvieron abriendo cada resultado desde Google y leyendo la dirección final",
+    "Ningún resultado de TikTok en las 15 búsquedas: 0 videos con cifras",
+    "Google devolvió 0 publicaciones sociales para: hack hogar, herramientas recomendadas, homecenter, nevera, lavadora, freidora de aire, real betis, porto vs, chapecoense - palmeiras, championship, Maldita, Senegal, Nobel (resultados vacíos o de sitios no sociales)",
+    "Tendencia de X 'Villavicencio' descartada por tema sensible (orden público: carro bomba); también se omitieron Antonio Medina, #AbelardoRenuncieYa, La Paz, FARC, Acuerdo de Paz, Dumek, Taiwán y Pablo Escobar por política/orden público",
+    "Facebook: og:description vacío en las 4 publicaciones; texto tomado del título/fragmento de Google y cifras en null",
+    "AnswerThePublic: no hay sesión iniciada; se omitió (semilla del martes: remodelar)"
+  ]
+}
