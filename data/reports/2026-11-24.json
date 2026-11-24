@@ -1,0 +1,1821 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:30:00-05:00",
+  "headline": "Black Friday (27-nov) en pleno arranque y la Navidad barata domina el hogar; en lo nacional, salario mínimo 2027 y fútbol, con política y orden público a evitar",
+  "summary": [
+    "Black Friday es el 27-nov; Homecenter concentra ofertas del 23-nov al 2-dic (su página también menciona vigencia desde el 28-oct) y Alkosto corre Black Days del 19-nov al 4-dic.",
+    "Nacional: 'salario mínimo 2027' (2000+ búsquedas) abre la negociación; Sebastián Villa/Boca y el video de Anuel siguen fuertes. #DianDeBolsillo y el ataque en La Jagua de Ibirico son 'evitar'.",
+    "Hogar: decoración navideña económica (hasta 25 mil vistas en videos de la muestra), organización y jardinería; en Mercado Libre crecen 'luces led', 'mesa plegable' y 'ventilador recargable'.",
+    "Autocompletar nuevo del 23-nov: 'mejor taladro a batería calidad precio', 'closet de pared', 'jardín vertical para balcón' y 'quiero remodelar mi baño': oportunidad para guías de compra.",
+    "Hoy no hubo señales del 24-nov; se usaron las del 23-nov (17:12 hora Colombia)."
+  ],
+  "national_trends": [
+    {
+      "id": "black-friday-colombia",
+      "title": "Black Friday 2026: viernes 27-nov y Black Days",
+      "topic": "comercio",
+      "description": "Black Friday cae el 27-nov. Alkosto y Ktronix corren Black Days del 19-nov al 4-dic; Homecenter indica ofertas fuertes del 23-nov al 2-dic (su página también menciona vigencia desde el 28-oct).",
+      "why_now": "Arranca hoy la ventana fuerte de Homecenter.",
+      "brand_angle": "Mostrar ofertas por categoría y guías de compra; comparar precios.",
+      "homecenter_fit": "alto",
+      "brand_safety": "segura",
+      "strength": 5,
+      "momentum": "subiendo",
+      "platforms": [
+        "Web",
+        "Prensa",
+        "YouTube"
+      ],
+      "hashtags": [
+        "#BlackFriday"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin cifras de redes; fechas confirmadas en prensa y tiendas",
+        "source": "Fechas: Bloomberg Línea, páginas de Homecenter y Alkosto (WebSearch del 23-nov)"
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=Qdp9Fgz34RQ",
+          "platform": "YouTube",
+          "author": "PESO A PESO",
+          "date": "2026-11-21",
+          "description": "Black Friday: 7 trampas para gastar de más",
+          "engagement": "Vistas no visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.bloomberglinea.com/latinoamerica/colombia/cuando-es-el-black-friday-2026-en-colombia-cae-el-27-de-noviembre-y-asi-puede-preparar-sus-compras/",
+          "platform": "Prensa",
+          "author": "Bloomberg Línea",
+          "date": null,
+          "description": "Black Friday cae el 27 de noviembre",
+          "engagement": "—",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/",
+          "platform": "Web",
+          "author": "Homecenter Colombia",
+          "date": null,
+          "description": "Landing de Black Days de Homecenter (ofertas fuertes del 23-nov al 2-dic según su página)",
+          "engagement": "—",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+          "platform": "Web",
+          "author": "Alkosto",
+          "date": null,
+          "description": "Black Days de Alkosto (19-nov a 4-dic según resultados de búsqueda)",
+          "engagement": "—",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "sebastian-villa-boca-mineiro",
+      "title": "Sebastián Villa, Boca y la final vs Mineiro",
+      "topic": "deportes",
+      "description": "'Villa' fue la tendencia n.º 1 de X Colombia (71.295 tuits) durante las 6 horas medidas; 'Mineiro' y 'Boca Juniors' también están en el top. Los videos hablan de la final de Villa con Boca y su pedido de Selección.",
+      "why_now": "Partido definitivo jugado el 21-nov y debate sobre convocatoria a la Selección.",
+      "brand_angle": "Conversación futbolera masiva; para Homecenter solo con humor sobre 'asado/parrilla' y sin asociar a jugadores.",
+      "homecenter_fit": "bajo",
+      "brand_safety": "precaución",
+      "strength": 4,
+      "momentum": "pico",
+      "platforms": [
+        "X",
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": 36241,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "71.295 tuits de 'Villa' en X (6 h en el top)",
+        "source": "Muestra: videos de YouTube de signals.json del 22-nov (recolectado 13:01 hora Colombia); no es el universo de la conversación."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=MYd_QJtcPJM",
+          "platform": "YouTube",
+          "author": "FUTBOL MUNDIAL X",
+          "date": "2026-11-22",
+          "description": "Sebastián Villa con Boca pide Selección",
+          "engagement": "26.871 vistas",
+          "reach": 26871,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=o7kHs9_juYw",
+          "platform": "YouTube",
+          "author": "Tukeldinho",
+          "date": "2026-11-21",
+          "description": "Sebastián Villa juega la final de su vida vs Mineiro",
+          "engagement": "9.370 vistas",
+          "reach": 9370,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "anuel-nuevo-video",
+      "title": "Anuel AA y su nuevo video",
+      "topic": "entretenimiento",
+      "description": "'Anuel' estuvo 6 horas en el top de X Colombia. El video oficial nuevo de Anuel AA suma más de 7 millones de vistas en un día.",
+      "why_now": "Lanzamiento reciente del video y reacciones.",
+      "brand_angle": "Lenguaje explícito y temas de drogas/depresión: no recomendable para una marca de hogar.",
+      "homecenter_fit": "ninguno",
+      "brand_safety": "evitar",
+      "strength": 4,
+      "momentum": "pico",
+      "platforms": [
+        "X",
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 4,
+        "potential_reach": 8660172,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Video oficial con 7,1 M de vistas",
+        "source": "Muestra: videos de YouTube de signals.json del 22-nov (recolectado 13:01 hora Colombia); no es el universo de la conversación."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=1lOvAvBlzSM",
+          "platform": "YouTube",
+          "author": "Anuel AA",
+          "date": "2026-11-21",
+          "description": "Video oficial nuevo de Anuel AA",
+          "engagement": "7.143.786 vistas",
+          "reach": 7143786,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mtTZ_-VbS30",
+          "platform": "YouTube",
+          "author": "Love Trip",
+          "date": "2026-11-15",
+          "description": "Lyric video 'Adicto' de Tainy, Anuel AA y Ozuna",
+          "engagement": "1.482.782 vistas",
+          "reach": 1482782,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mQYuE5ut0WM",
+          "platform": "YouTube",
+          "author": "UrbanoVideosTV",
+          "date": "2026-11-21",
+          "description": "Anuel AA - Depresión y Dinero",
+          "engagement": "24.841 vistas",
+          "reach": 24841,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Qe6dlnnhQO8",
+          "platform": "YouTube",
+          "author": "TrapUrbanoTV",
+          "date": "2026-11-21",
+          "description": "Anuel AA - Drogas y Depresión",
+          "engagement": "8.763 vistas",
+          "reach": 8763,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "navidad-presupuesto-2026",
+      "title": "Navidad 2026: decorar el hogar y cuánto cuesta",
+      "topic": "comercio",
+      "description": "Los videos de recorridos por tiendas de Navidad (D1, Falabella, Dollarcity) superan las decenas de miles de vistas esta semana. La República publicó el 3 de nov. un cálculo de presupuesto de decoración para el hogar.",
+      "why_now": "Decoración y alumbrados navideños ya empezaron; La República estima el costo de vestir un hogar entre $3,23 y $6,45 millones según nivel.",
+      "brand_angle": "Contenido de 'Navidad completa por X pesos' y recorridos de tienda que compitan con los de D1 y Falabella.",
+      "homecenter_fit": "alto",
+      "brand_safety": "segura",
+      "strength": 4,
+      "momentum": "subiendo",
+      "platforms": [
+        "YouTube",
+        "Prensa"
+      ],
+      "hashtags": [
+        "#Navidad2026"
+      ],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 42536,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "25.253 vistas el mayor (23-nov)",
+        "source": "Muestra: videos de YouTube de signals.json del 23-nov (recolectado 17:12 hora Colombia); no es el universo de la conversación."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=EDrZ-8rc_yM",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-21",
+          "description": "Planes para decorar de Navidad",
+          "engagement": "25.253 vistas",
+          "reach": 25253,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=4DcsW3dpEgQ",
+          "platform": "YouTube",
+          "author": "Noticias Caracol",
+          "date": "2026-11-21",
+          "description": "Llegó la Navidad: alumbrados en Medellín, Cali y Santander",
+          "engagement": "14.479 vistas",
+          "reach": 14479,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J61eskEaLiA",
+          "platform": "YouTube",
+          "author": "Cindy vlogs y familia",
+          "date": "2026-11-18",
+          "description": "Decoración navideña de su cocina",
+          "engagement": "2.804 vistas",
+          "reach": 2804,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.larepublica.co/ocio/una-navidad-de-lujo-puede-costar-entre-3-23-millones-y-6-45-millones-en-decoracion-para-el-hogar-4515534",
+          "platform": "Prensa",
+          "author": "La República",
+          "date": null,
+          "description": "Estima que una Navidad de lujo cuesta entre $3,23 millones y $6,45 millones en decoración del hogar",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "dian-de-bolsillo",
+      "title": "#DianDeBolsillo: polémica por la dirección de la DIAN",
+      "topic": "política",
+      "description": "El hashtag #DianDeBolsillo fue tendencia n.º 1 en X Colombia durante las 6 horas medidas. Un reporte de Daniel Coronell sobre la dirección de la DIAN suma 36 mil vistas.",
+      "why_now": "Debate político-tributario en pleno ciclo electoral.",
+      "brand_angle": "Tema político: no participar.",
+      "homecenter_fit": "ninguno",
+      "brand_safety": "evitar",
+      "strength": 3,
+      "momentum": "pico",
+      "platforms": [
+        "X",
+        "YouTube"
+      ],
+      "hashtags": [
+        "#DianDeBolsillo"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": 48110,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "36.799 vistas el video más visto",
+        "source": "Muestra: videos de YouTube de signals.json del 22-nov (recolectado 13:01 hora Colombia); no es el universo de la conversación."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=A5CTwkzTWss",
+          "platform": "YouTube",
+          "author": "Daniel Coronell",
+          "date": "2026-11-22",
+          "description": "Reporte sobre quién dirige la DIAN",
+          "engagement": "36.799 vistas",
+          "reach": 36799,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eIJmkZbu7Cg",
+          "platform": "YouTube",
+          "author": "Noticias Caracol",
+          "date": "2026-11-19",
+          "description": "Cambios tributarios en discusión y su efecto en el bolsillo",
+          "engagement": "11.311 vistas",
+          "reach": 11311,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "ataque-la-jagua-de-ibirico",
+      "title": "Ataque a batallón en La Jagua de Ibirico (Cesar)",
+      "topic": "otro",
+      "description": "'La Jagua de Ibirico' estuvo 6 horas en el top de X. Medios reportan un ataque con explosivos contra un batallón con un militar muerto y 12 heridos.",
+      "why_now": "Hecho ocurrido el 22-nov.",
+      "brand_angle": "Tragedia y orden público: no usar para marca.",
+      "homecenter_fit": "ninguno",
+      "brand_safety": "evitar",
+      "strength": 3,
+      "momentum": "pico",
+      "platforms": [
+        "X",
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 4,
+        "potential_reach": 16791,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "10.921 vistas el video mayor",
+        "source": "Muestra: videos de YouTube de signals.json del 22-nov (recolectado 13:01 hora Colombia); no es el universo de la conversación."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=oshEyJynbG0",
+          "platform": "YouTube",
+          "author": "Blu Radio",
+          "date": "2026-11-22",
+          "description": "Ataque contra batallón en el Cesar: un militar muerto y 12 heridos",
+          "engagement": "10.921 vistas",
+          "reach": 10921,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XOXlmjssgp4",
+          "platform": "YouTube",
+          "author": "Gustavo Petro Fans",
+          "date": "2026-11-22",
+          "description": "Atentado en La Jagua de Ibirico",
+          "engagement": "4.761 vistas",
+          "reach": 4761,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=eRNUf-DJyv0",
+          "platform": "YouTube",
+          "author": "CANAL CNC VALLEDUPAR",
+          "date": "2026-11-22",
+          "description": "Un soldado muerto, 12 heridos y toque de queda",
+          "engagement": "1.040 vistas",
+          "reach": 1040,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Zr_d2J-70eA",
+          "platform": "YouTube",
+          "author": "CityTv",
+          "date": "2026-11-22",
+          "description": "Ataque con explosivos en La Jagua de Ibirico",
+          "engagement": "69 vistas",
+          "reach": 69,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "salario-minimo-2027",
+      "title": "Salario mínimo 2027: arranca la negociación",
+      "topic": "economía",
+      "description": "'Salario mínimo 2027' es de lo más buscado en Google Colombia hoy (2000+ búsquedas). La mesa de concertación tiene hasta el 15-dic para acordar y el Gobierno hasta el 30-dic para decretar; los gremios piden no superar 9 % y los analistas ubican el alza entre 7 % y 9 % (búsqueda web, medios como Portafolio y Valora Analitik).",
+      "why_now": "Se acerca el inicio de las reuniones técnicas (26-nov según las fuentes consultadas, que no coinciden en todas las fechas) y la conversación mezcla datos con política.",
+      "brand_angle": "Contenido útil sobre presupuesto del hogar, primas y compras de fin de año; evitar tomar postura sobre el debate político o sindical.",
+      "homecenter_fit": "bajo",
+      "brand_safety": "precaución",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": [
+        "YouTube",
+        "Prensa"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 3,
+        "potential_reach": 136676,
+        "basis": "muestra",
+        "search_volume": "2000+",
+        "visible_engagement": "73.464 vistas el mayor (RED MÁS Noticias)",
+        "source": "Muestra: videos de YouTube de signals.json del 23-nov; volumen de Google Trends del 23-nov. Solo se vio YouTube."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=hGT2j0CsfI4",
+          "platform": "YouTube",
+          "author": "Blu Radio",
+          "date": "2026-11-21",
+          "description": "¿Cuánto debería subir el salario mínimo? Acopi revela su posición para 2027",
+          "engagement": "33.389 vistas",
+          "reach": 33389,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=nS-2ifnA77A",
+          "platform": "YouTube",
+          "author": "RED MÁS Noticias",
+          "date": "2026-11-19",
+          "description": "El salario mínimo de Abelardo De La Espriella, entre el golpe de opinión y la cruda realidad",
+          "engagement": "73.464 vistas",
+          "reach": 73464,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=BID9gxEF7jg",
+          "platform": "YouTube",
+          "author": "La Kalle",
+          "date": "2026-11-19",
+          "description": "¿Salario mínimo 2027 subirá un 35%? Daniel Briceño explica el aumento",
+          "engagement": "23.265 vistas",
+          "reach": 23265,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=pApK3ihod6s",
+          "platform": "YouTube",
+          "author": "La Kalle",
+          "date": "2026-11-19",
+          "description": "Proponen tope para el salario mínimo de 2027 en Colombia",
+          "engagement": "6.558 vistas",
+          "reach": 6558,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://cambiocolombia.com/salario-minimo-2027-inicio-negociacion-aumento",
+          "platform": "Prensa",
+          "author": "Cambio Colombia",
+          "date": null,
+          "description": "Inicio de la negociación del salario mínimo 2027",
+          "engagement": "",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    }
+  ],
+  "homecenter_trends": [
+    {
+      "id": "decoracion-navidena-2026",
+      "title": "Decoración navideña: tours de tienda y ofertas",
+      "subcategory": "decoración",
+      "conversation_type": "experiencia de compra",
+      "description": "Los recorridos de tiendas (D1, Dollarcity, Falabella) lideran en YouTube y compiten por la decoración navideña económica. En el autocompletar de hoy aparecen búsquedas nuevas de 'cortinas de luces navideñas' y 'cortinas navideñas para sala'.",
+      "why_now": "Alumbrados y decoración navideña arrancaron; 'decoración navidad' es búsqueda activa y Homecenter tiene ofertas Black Friday de decoración.",
+      "opportunity": "Responder con recorridos propios de Homecenter y combos de decoración con precio visible.",
+      "strength": 4,
+      "momentum": "subiendo",
+      "platforms": [
+        "YouTube",
+        "Facebook",
+        "Instagram",
+        "TikTok"
+      ],
+      "hashtags": [
+        "#Navidad2026"
+      ],
+      "metrics": {
+        "mentions": 9,
+        "authors": 8,
+        "potential_reach": 206521,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "TikTok de @bualavinilos con 75.800 vistas; reel de @almacencasaviva con 519 likes; más tours de tiendas en YouTube",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov. Actualizado 23-nov con YouTube del 22-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=EDrZ-8rc_yM",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-21",
+          "description": "Planes para decorar de Navidad",
+          "engagement": "21.475 vistas",
+          "reach": 21475,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.tiktok.com/@almacencasaviva/video/7705546880435948821",
+          "platform": "TikTok",
+          "author": "@almacencasaviva",
+          "date": "2026-11-07",
+          "description": "Tienda de Navidad en Ibagué: tour de decoración navideña",
+          "engagement": "13.800 vistas · 296 likes · 8 comentarios",
+          "reach": 13800,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.tiktok.com/@bualavinilos/video/7705566495677451540",
+          "platform": "TikTok",
+          "author": "@bualavinilos",
+          "date": "2026-11-07",
+          "description": "Vinilos decorativos navideños para casa, oficina y local",
+          "engagement": "75.800 vistas · 981 likes · 46 comentarios",
+          "reach": 75800,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.instagram.com/reel/Dfe6QhcOSCQ/",
+          "platform": "Instagram",
+          "author": "@almacencasaviva",
+          "date": "2026-11-08",
+          "description": "Reel de ideas para decorar la Navidad como profesional",
+          "engagement": "519 likes · 17 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/CasaideasColombia/posts/-ya-viene-navidad-a-casa-ideas-es-momento-de-empezar-a-llenar-tu-hogar-de-magia-/1445202064389804/",
+          "platform": "Facebook",
+          "author": "Casaideas Colombia",
+          "date": null,
+          "description": "Casa Ideas: decoración de pasillos navideños",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "black-days-electrohogar",
+      "title": "Black Days: electrohogar y ferretería en oferta",
+      "subcategory": "electrodomésticos",
+      "conversation_type": "experiencia de compra",
+      "description": "Los retailers ya publican calendarios de Black Days: Alkosto 19 nov.–4 dic., Éxito 13 nov.–2 dic. y Falabella desde el 17 nov. según una nota. Homecenter tiene su landing de Black Days y un video con 'hasta 50% de descuento'; sus páginas dan fechas distintas (28 oct.–2 dic. en una), así que hay que confirmarlas con el equipo. Financiadores como Addi y Sistecrédito aparecen en las promociones.",
+      "why_now": "Hoy 23-nov arranca la ventana fuerte de Homecenter (hasta el 2-dic); Black Friday es el 27-nov.",
+      "opportunity": "Adelantar la comunicación de Black Days antes del 19 de nov. con fechas claras.",
+      "strength": 4,
+      "momentum": "subiendo",
+      "platforms": [
+        "YouTube",
+        "Web",
+        "Instagram"
+      ],
+      "hashtags": [
+        "#BlackDays"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": 64,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Solo 64 vistas en el video de Homecenter; en Instagram el post de Surticréditos con Haceb aún tiene 0 likes",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/",
+          "platform": "Web",
+          "author": "Homecenter Colombia",
+          "date": null,
+          "description": "Landing de Black Days de Homecenter",
+          "engagement": "—",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.instagram.com/p/DfkepCZlfTf/",
+          "platform": "Instagram",
+          "author": "@surticreditos_",
+          "date": "2026-11-10",
+          "description": "Haceb con tecnología Inverter en los Black Days de Surticréditos, con pago por Sistecrédito y Addi",
+          "engagement": "0 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Ig_DDM2QK1s",
+          "platform": "YouTube",
+          "author": "Homecenter Colombia",
+          "date": "2026-11-11",
+          "description": "Homecenter Colombia: Black Days con hasta 50% de descuento",
+          "engagement": "64 vistas",
+          "reach": 64,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.alkosto.com/especiales/blackdays/computadores",
+          "platform": "Web",
+          "author": "Alkosto",
+          "date": null,
+          "description": "Black Days Alkosto: 19 nov.–4 dic. 2026",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.calendariodecolombia.com/economia/black-friday-llega-el-viernes-27-de-noviembre-fechas-de-los-descuentos-y-del-cyber-monday-en-colombia-nxlm2q",
+          "platform": "Prensa",
+          "author": "Calendario de Colombia",
+          "date": "2026-11-11",
+          "description": "Fechas de Black Friday (27 nov.) y Cyber Monday (30 nov.)",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "tiendas-economicas-hogar",
+      "title": "Hauls de D1 y Dollarcity para el hogar",
+      "subcategory": "mejoramiento del hogar",
+      "conversation_type": "recomendación",
+      "description": "Creadoras muestran compras de organizadores y decoración en D1 y Dollarcity, con 12 mil a 46 mil vistas. El formato 'encontré el producto perfecto' domina.",
+      "why_now": "Llegan nuevas mercancías de Navidad a esas tiendas y las creadoras las reseñan.",
+      "opportunity": "Alianzas con creadoras de hogar para hauls de Homecenter con precios en pesos.",
+      "strength": 4,
+      "momentum": "estable",
+      "platforms": [
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 5,
+        "authors": 4,
+        "potential_reach": 117748,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "46.289 vistas el video de D1 de Día de Sol; 38.712 el de ELIFASHION TV",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=hxP4hoBHeCM",
+          "platform": "YouTube",
+          "author": "Milena Blogs",
+          "date": "2026-11-18",
+          "description": "Nuevos extraordinarios de Tiendas D1 para el hogar",
+          "engagement": "27.151 vistas",
+          "reach": 27151,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GZrQ4ZAp0eg",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-05",
+          "description": "Organización con un producto de Tiendas D1",
+          "engagement": "46,289 vistas",
+          "reach": 46289,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Wv53zt8OVjM",
+          "platform": "YouTube",
+          "author": "ELIFASHION TV",
+          "date": "2026-11-06",
+          "description": "Mercancía nueva en D1: decoración y organizadores",
+          "engagement": "38,712 vistas",
+          "reach": 38712,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=te2hEHo4Hhc",
+          "platform": "YouTube",
+          "author": "Annytips",
+          "date": "2026-11-05",
+          "description": "Joyas de Dollarcity: hogar, belleza y Navidad",
+          "engagement": "12,579 vistas",
+          "reach": 12579,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=rtf9Tdf-H5Y",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-07",
+          "description": "Rutina de organización de la casa",
+          "engagement": "17,571 vistas",
+          "reach": 17571,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "hacks-organizacion-hogar",
+      "title": "Organización del hogar con productos económicos",
+      "subcategory": "mejoramiento del hogar",
+      "conversation_type": "tutorial",
+      "description": "Rutinas de orden y organizadores acumulan decenas de miles de vistas; 'organizador de cartón' es una búsqueda nueva en el autocompletar de hoy.",
+      "why_now": "Se prepara la casa para Navidad y visitas.",
+      "opportunity": "Series de 'organiza por menos de $X' con cajas, rejillas y repisas.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "platforms": [
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 3,
+        "potential_reach": 66851,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Hasta 46.289 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=rtf9Tdf-H5Y",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-07",
+          "description": "Cómo organiza su casa y trabajo online",
+          "engagement": "17,571 vistas",
+          "reach": 17571,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=GZrQ4ZAp0eg",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-05",
+          "description": "Organizador encontrado en Tiendas D1",
+          "engagement": "46,289 vistas",
+          "reach": 46289,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=gl3exBY5UkE",
+          "platform": "YouTube",
+          "author": "Hildanys Betancur",
+          "date": "2026-11-07",
+          "description": "Tour por la cocina con cambios de organización",
+          "engagement": "2,597 vistas",
+          "reach": 2597,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=RTTOcEK4loM",
+          "platform": "YouTube",
+          "author": "Método Japones",
+          "date": "2026-11-11",
+          "description": "20 formas de despejar la casa sin dinero",
+          "engagement": "394 vistas",
+          "reach": 394,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "jardineria-plantas-interior",
+      "title": "Jardines y plantas",
+      "subcategory": "jardinería",
+      "conversation_type": "idea",
+      "description": "Videos de jardinería y flores con hasta 10 mil vistas; 'materas de barro' y 'plantas de interior grandes y resistentes' aparecen como búsquedas nuevas en Google.",
+      "why_now": "Interés constante; no hay un detonante nuevo hoy.",
+      "opportunity": "Contenido de materas y plantas de interior para Navidad.",
+      "strength": 3,
+      "momentum": "estable",
+      "platforms": [
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 23486,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "10.412 vistas el mayor",
+        "source": "Muestra: videos de YouTube de signals.json del 22-nov (recolectado 13:01 hora Colombia); no es el universo de la conversación."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=kvwlIXptG6s",
+          "platform": "YouTube",
+          "author": "Aventura Paisajística",
+          "date": "2026-11-21",
+          "description": "Truco campesino para que las plantas florezcan",
+          "engagement": "10.412 vistas",
+          "reach": 10412,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=3N74IUAVAHw",
+          "platform": "YouTube",
+          "author": "De todo un poco con Luz",
+          "date": "2026-11-17",
+          "description": "Orquídeas y anturios en un mismo lugar",
+          "engagement": "6.619 vistas",
+          "reach": 6619,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=J5kaIkKV8WQ",
+          "platform": "YouTube",
+          "author": "Señoras de las Plantas",
+          "date": "2026-11-20",
+          "description": "Las plantas que nos prohibimos comprar",
+          "engagement": "6.455 vistas",
+          "reach": 6455,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "remodelacion-bajo-costo",
+      "title": "Remodelar con poco dinero",
+      "subcategory": "remodelación",
+      "conversation_type": "idea",
+      "description": "'Remodelar cocina con poco dinero' es búsqueda nueva en el autocompletar; también aparecen 'remodelar cocina sin obra', 'remodelar baño con láminas de PVC' y 'con papel tapiz'. Los videos de flipping y remodelación de apartamentos tienen vistas bajas. Autocompletar del 22-nov: 'remodelar cocina sin obra', 'con PVC', 'con IA' y 'remodelar baño con láminas de PVC'.",
+      "why_now": "La gente busca renovar antes de las fiestas con presupuesto bajo.",
+      "opportunity": "Carrusel y video 'cocina nueva sin obra' con vinilo, PVC y pintura.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "platforms": [
+        "YouTube",
+        "Google",
+        "Instagram"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 4,
+        "potential_reach": 9103,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Video más visto de la muestra: 6.361 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/Dfngj-AD6hY/",
+          "platform": "Instagram",
+          "author": "@revistaaxxis",
+          "date": "2026-11-11",
+          "description": "Revista AXXIS: apartamento en Bogotá con madera como eje de la remodelación",
+          "engagement": "270 likes · 3 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=wW7ExU55Fgg",
+          "platform": "YouTube",
+          "author": "Carlos Devis",
+          "date": "2026-11-10",
+          "description": "Cómo convertir una casa vieja en 9 arriendos",
+          "engagement": "6,361 vistas",
+          "reach": 6361,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=0_2NApDvMXY",
+          "platform": "YouTube",
+          "author": "Gabriel Obrien // Flipping & Bienes Raíces",
+          "date": "2026-11-04",
+          "description": "Compra, remodelación y venta de apartamento (flipping, Medellín)",
+          "engagement": "251 vistas",
+          "reach": 251,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=airPfC5gOMo",
+          "platform": "YouTube",
+          "author": "CF ROJAS",
+          "date": "2026-11-08",
+          "description": "Apartamento comprado a $148 millones y remodelado",
+          "engagement": "2,491 vistas",
+          "reach": 2491,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "herramientas-recomendadas",
+      "title": "Taladros: calidad-precio y cómo usarlos",
+      "subcategory": "herramientas",
+      "conversation_type": "recomendación",
+      "description": "El autocompletar trae búsquedas nuevas: 'mejor taladro a batería calidad precio', 'mejor taladro percutor profesional con cable' y 'cómo usar taladro para paredes'. Los videos del tema son de nicho.",
+      "why_now": "Búsquedas nuevas ayer sin precedente; señal temprana.",
+      "opportunity": "Guía comparativa de taladros con tabla de precios y tutorial de perforar pared.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "platforms": [
+        "Google",
+        "YouTube",
+        "Instagram",
+        "TikTok"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 4,
+        "authors": 4,
+        "potential_reach": 813,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "179 y 67 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.tiktok.com/@tecnoherramientasbga/video/7706267629853396230",
+          "platform": "TikTok",
+          "author": "@tecnoherramientasbga",
+          "date": "2026-11-11",
+          "description": "Esmeril de banco de 150 W para afilado y desbaste",
+          "engagement": "567 vistas · 22 likes · 3 comentarios",
+          "reach": 567,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.instagram.com/reel/Dfh0YH0B9G8/",
+          "platform": "Instagram",
+          "author": "@tvgancolombia",
+          "date": "2026-11-09",
+          "description": "Cómo elegir guadañadora: hilo de nylon o cuchilla y mantenimiento",
+          "engagement": "37 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=ewS82ot9MUo",
+          "platform": "YouTube",
+          "author": "Brico con Criterio",
+          "date": "2026-11-05",
+          "description": "Top 5 cinturones portaherramientas 2026",
+          "engagement": "179 vistas",
+          "reach": 179,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zVQu-jEVyjk",
+          "platform": "YouTube",
+          "author": "INSTA-YA FERRETERÍA PITALITO",
+          "date": "2026-11-07",
+          "description": "Herramientas Ingco en ferretería de Pitalito (Huila)",
+          "engagement": "67 vistas",
+          "reach": 67,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "muebles-closet-escritorio",
+      "title": "Closets de melamina y escritorios",
+      "subcategory": "muebles",
+      "conversation_type": "producto",
+      "description": "Búsquedas nuevas de 'closet de melamina', 'closet tour' y 'mejor escritorio gaming'; en Mercado Libre 'silla gamer' y 'silla escritorio' están entre las que más crecen.",
+      "why_now": "Intención de compra de muebles de oficina y gaming en Mercado Libre. 'silla escritorio' y 'silla gamer' están entre las búsquedas que más crecen en Mercado Libre Colombia (17-nov).",
+      "opportunity": "Mostrar closets y escritorios con medidas y precios antes de Black Friday.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "platforms": [
+        "Google",
+        "YouTube"
+      ],
+      "hashtags": [],
+      "metrics": {
+        "mentions": 2,
+        "authors": 1,
+        "potential_reach": 19,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Videos de marca con 13 y 6 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=mpETm_FNfwg",
+          "platform": "YouTube",
+          "author": "AKIVOY COLOMBIA",
+          "date": "2026-11-06",
+          "description": "Alacena Capri blanca para organizar la cocina (AKIVOY)",
+          "engagement": "6 vistas",
+          "reach": 6,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=5S46jmip68o",
+          "platform": "YouTube",
+          "author": "AKIVOY COLOMBIA",
+          "date": "2026-11-06",
+          "description": "Clóset Oslo blanco de 6 puertas y 2 cajones (AKIVOY)",
+          "engagement": "13 vistas",
+          "reach": 13,
+          "reach_basis": "vistas"
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "adornos-navidenos-economicos",
+      "name": "Adornos navideños económicos",
+      "subcategory": "decoración",
+      "signal": "estacional",
+      "why_trending": "Los recorridos por tiendas económicas lideran las vistas de decoración navideña.",
+      "strength": 4,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "alta",
+        "evidence": "Videos de tours de tienda con 28 mil a 62 mil vistas esta semana."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Recorrido por el pasillo navideño con precio de cada adorno.",
+      "platforms": [
+        "YouTube"
+      ],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 103502,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "62.533 vistas el mayor",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=EjAOMdy8DWU",
+          "platform": "YouTube",
+          "author": "ELIFASHION TV",
+          "date": "2026-11-04",
+          "description": "Novedades navideñas de D1: decoración y adornos",
+          "engagement": "62,533 vistas",
+          "reach": 62533,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=HL5RLSttSLU",
+          "platform": "YouTube",
+          "author": "SoyDianis",
+          "date": "2026-11-07",
+          "description": "Tour de Navidad en Dollarcity",
+          "engagement": "28,390 vistas",
+          "reach": 28390,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=te2hEHo4Hhc",
+          "platform": "YouTube",
+          "author": "Annytips",
+          "date": "2026-11-05",
+          "description": "Joyas de Dollarcity para hogar y Navidad",
+          "engagement": "12,579 vistas",
+          "reach": 12579,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "arboles-de-navidad",
+      "name": "Árboles de Navidad",
+      "subcategory": "decoración",
+      "signal": "estacional",
+      "why_trending": "Video del árbol 2026 con 17 mil vistas y recorridos por tiendas que lo muestran.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Videos de árbol de Navidad 2026 y recorridos de tiendas; sin datos de búsqueda de precio hoy."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Comparativo de 3 árboles por tamaño y precio.",
+      "platforms": [
+        "YouTube"
+      ],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 25998,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "17.063 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=qEsz475zZIU",
+          "platform": "YouTube",
+          "author": "Laura WeymanDeColin",
+          "date": "2026-11-05",
+          "description": "Árbol de Navidad 2026 clásico",
+          "engagement": "17,063 vistas",
+          "reach": 17063,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=OV1_aSxoYyI",
+          "platform": "YouTube",
+          "author": "Lina H. Vlogs",
+          "date": "2026-11-05",
+          "description": "Árboles y decoración en Falabella",
+          "engagement": "8,917 vistas",
+          "reach": 8917,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=basD8udBx14",
+          "platform": "YouTube",
+          "author": "IKEA Colombia",
+          "date": "2026-11-07",
+          "description": "IKEA Colombia: Navidad en casa",
+          "engagement": "18 vistas",
+          "reach": 18,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "organizadores-hogar",
+      "name": "Organizadores para el hogar",
+      "subcategory": "mejoramiento del hogar",
+      "signal": "en crecimiento",
+      "why_trending": "Los videos de organizadores en D1 superan las 38 mil vistas; 'organizador de cartón' es búsqueda nueva.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "'organizador de carton' aparece en autocomplete_new y hay hauls con 38 a 46 mil vistas. 'Mesa plegable' también crece en Mercado Libre (22-nov)."
+      },
+      "price_range": null,
+      "homecenter_availability": "alternativa similar",
+      "content_idea": "Antes y después de un armario con organizadores de Homecenter.",
+      "platforms": [
+        "YouTube"
+      ],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 85007,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "46.289 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=GZrQ4ZAp0eg",
+          "platform": "YouTube",
+          "author": "Día de Sol | By Laura Vásquez",
+          "date": "2026-11-05",
+          "description": "Organizador de D1 'producto perfecto'",
+          "engagement": "46,289 vistas",
+          "reach": 46289,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=Wv53zt8OVjM",
+          "platform": "YouTube",
+          "author": "ELIFASHION TV",
+          "date": "2026-11-06",
+          "description": "Organizadores y decoración nuevos en D1",
+          "engagement": "38,712 vistas",
+          "reach": 38712,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mpETm_FNfwg",
+          "platform": "YouTube",
+          "author": "AKIVOY COLOMBIA",
+          "date": "2026-11-06",
+          "description": "Alacena Capri de AKIVOY",
+          "engagement": "6 vistas",
+          "reach": 6,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "cortinas-luces-navidenas",
+      "name": "Cortinas de luces navideñas",
+      "subcategory": "decoración",
+      "signal": "estacional",
+      "why_trending": "'Cortinas de luces navideñas' y 'cortinas navideñas para sala' son búsquedas nuevas hoy.",
+      "strength": 3,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Dos búsquedas nuevas en el autocompletar; sin videos específicos del producto. 'Luces led' está entre las búsquedas que más crecen en Mercado Libre Colombia (22-nov). 'Luces led' está entre las búsquedas que más crecen en Mercado Libre Colombia (señales del 23-nov)."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Tutorial para instalarlas sin dañar la pared.",
+      "platforms": [
+        "Google"
+      ],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin publicaciones específicas del producto en la muestra",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=OV1_aSxoYyI",
+          "platform": "YouTube",
+          "author": "Lina H. Vlogs",
+          "date": "2026-11-05",
+          "description": "Decoración navideña de Falabella",
+          "engagement": "8,917 vistas",
+          "reach": 8917,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=EjAOMdy8DWU",
+          "platform": "YouTube",
+          "author": "ELIFASHION TV",
+          "date": "2026-11-04",
+          "description": "Adornos y sorpresas de D1",
+          "engagement": "62,533 vistas",
+          "reach": 62533,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "taladros-inalambricos",
+      "name": "Taladros a batería y percutores",
+      "subcategory": "herramientas",
+      "signal": "en crecimiento",
+      "why_trending": "Cuatro búsquedas nuevas sobre taladros en el autocompletar.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "'mejor taladro a batería calidad precio' y 'mejor taladro percutor profesional con cable' en autocomplete_new. En el autocompletar nuevo del 23-nov aparecen 'mejor taladro a batería calidad precio', 'precio de taladro total' y 'precio de taladros inalámbricos'."
+      },
+      "price_range": null,
+      "homecenter_availability": "lo vende",
+      "content_idea": "Comparativo de 3 taladros por precio y uso.",
+      "platforms": [
+        "Google"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": 246,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Videos de nicho",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=ewS82ot9MUo",
+          "platform": "YouTube",
+          "author": "Brico con Criterio",
+          "date": "2026-11-05",
+          "description": "Top 5 cinturones portaherramientas 2026",
+          "engagement": "179 vistas",
+          "reach": 179,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=zVQu-jEVyjk",
+          "platform": "YouTube",
+          "author": "INSTA-YA FERRETERÍA PITALITO",
+          "date": "2026-11-07",
+          "description": "Ingco en ferretería de Pitalito",
+          "engagement": "67 vistas",
+          "reach": 67,
+          "reach_basis": "vistas"
+        }
+      ]
+    },
+    {
+      "id": "closets-melamina",
+      "name": "Closets de melamina",
+      "subcategory": "muebles",
+      "signal": "en crecimiento",
+      "why_trending": "'Closet de melamina' y 'closet tour' son búsquedas nuevas; 'silla gamer' y 'silla escritorio' crecen en Mercado Libre.",
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "autocomplete_new con closet de melamina y mejor escritorio gaming; silla gamer en most_growth de Mercado Libre. Autocompletar nuevo del 23-nov: 'closet de pared', 'escritorios homecenter' y 'que tornillos utilizar para melamina de 15mm'."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Tour de closet armado con medidas y precio.",
+      "platforms": [
+        "Google",
+        "YouTube"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 1,
+        "potential_reach": 19,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Videos de marca con muy pocas vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.youtube.com/watch?v=5S46jmip68o",
+          "platform": "YouTube",
+          "author": "AKIVOY COLOMBIA",
+          "date": "2026-11-06",
+          "description": "Clóset Oslo blanco 6 puertas (AKIVOY)",
+          "engagement": "13 vistas",
+          "reach": 13,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=mpETm_FNfwg",
+          "platform": "YouTube",
+          "author": "AKIVOY COLOMBIA",
+          "date": "2026-11-06",
+          "description": "Alacena Capri blanca (AKIVOY)",
+          "engagement": "6 vistas",
+          "reach": 6,
+          "reach_basis": "vistas"
+        }
+      ]
+    }
+  ],
+  "white_goods": [
+    {
+      "id": "neveras-nueva-precio",
+      "name": "Neveras: compra y diseño de cocina",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "El video de compra de una nevera nueva con precio supera 42 mil vistas y otro sobre nichos de cocina tiene 8 mil.",
+      "drivers": [
+        "Curiosidad por el precio ('¿cuánto me costó?')",
+        "Medidas y diseño de cocina",
+        "Black Days de Alkosto desde el 19 de nov."
+      ],
+      "strength": 3,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Video de compra con 42.479 vistas y Black Days cercanos; sin datos de búsqueda de precio en el autocompletar hoy. Autocompletar del 22-nov: 'mejor nevera calidad precio 2026' y 'precio neveras exito'. Alkosto señala neveras y lavadoras entre las categorías de mayor rotación en Black Days."
+      },
+      "price_range": null,
+      "homecenter_availability": "lo vende",
+      "content_idea": "Guía 'cómo medir tu cocina antes de comprar nevera' con modelos de Homecenter.",
+      "platforms": [
+        "YouTube",
+        "Instagram"
+      ],
+      "metrics": {
+        "mentions": 3,
+        "authors": 3,
+        "potential_reach": 50650,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "42.479 vistas",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/DfkepCZlfTf/",
+          "platform": "Instagram",
+          "author": "@surticreditos_",
+          "date": "2026-11-10",
+          "description": "Haceb con compresor Inverter y 10 años de garantía en los Black Days de Surticréditos",
+          "engagement": "0 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=LuaEfxFlIYE",
+          "platform": "YouTube",
+          "author": "Iro Ramirez",
+          "date": "2026-11-07",
+          "description": "Compré nevera nueva en Colombia: ¿cuánto me costó?",
+          "engagement": "42,479 vistas",
+          "reach": 42479,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://www.youtube.com/watch?v=XrXuOlK5eek",
+          "platform": "YouTube",
+          "author": "REFRILAVADORAS",
+          "date": "2026-11-08",
+          "description": "Refrigeradores encajonados: cuidado con este diseño de cocina",
+          "engagement": "8,171 vistas",
+          "reach": 8171,
+          "reach_basis": "vistas"
+        },
+        {
+          "url": "https://lakalle.bluradio.com/noticias/economia/black-friday-falabella-y-alkosto-lanzan-descuentos-de-hasta-el-73-en-tecnologia-y-mas-so35",
+          "platform": "Prensa",
+          "author": "Blu Radio",
+          "date": null,
+          "description": "Reporta Black Friday de Alkosto y Falabella con rebajas en neveras y lavadoras de hasta 43%; sin fecha de año visible",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "estufas-de-gas",
+      "name": "Estufas de gas calidad-precio",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "Dos búsquedas nuevas: 'mejor estufa de gas calidad precio' y 'mejor estufa de gas para interior'.",
+      "drivers": [
+        "Comparativos 'calidad precio'",
+        "Black Days de Alkosto en empotre y estufas"
+      ],
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "alta",
+        "evidence": "Búsquedas de 'mejor… calidad precio' en autocomplete_new; Alkosto ya tiene página de Black Days de estufas. Autocompletar del 22-nov: 'estufa haceb' y 'precio estufa haceb 4 puestos con horno'."
+      },
+      "price_range": null,
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Comparativo de 3 estufas a gas por precio y tamaño.",
+      "platforms": [
+        "Google",
+        "Web"
+      ],
+      "metrics": {
+        "mentions": null,
+        "authors": null,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin publicaciones de redes sobre estufas en la muestra",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+          "platform": "Web",
+          "author": "Alkosto",
+          "date": null,
+          "description": "Página de Black Days de Alkosto con estufas y empotre",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "lavavajillas-lavadoras",
+      "name": "Lavavajillas y lavadoras",
+      "subcategory": "electrodomésticos",
+      "signal": "estacional",
+      "why_trending": "Dos publicaciones de oferta de lavadoras de gran capacidad (14 y 19 kilos) y búsquedas nuevas como 'lavadora mabe no centrifuga' y 'lavadora whirlpool no exprime'; 'lavavajillas cómo conectar' sigue entre las búsquedas nuevas.",
+      "drivers": [
+        "Capacidad familiar (14 a 19 kg)",
+        "Fallas frecuentes: 'no centrifuga' / 'no exprime'",
+        "Dudas de instalación de lavavajillas",
+        "Black Days de electrohogar"
+      ],
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Ofertas con precio publicado ($740.000 la Midea de 14 kg) y búsquedas nuevas de fallas de lavadoras Mabe y Whirlpool en el autocompletar; las publicaciones tienen pocas interacciones. Autocompletar del 22-nov: 'mejor secadora 2026' y 'precio lavadora secadora samsung'."
+      },
+      "price_range": "Midea 14 kg: $740.000 (publicado en Instagram el 9-nov-2026)",
+      "homecenter_availability": "verificar disponibilidad",
+      "content_idea": "Guía 'qué hacer si tu lavadora no centrifuga' + comparativo de capacidad (14 vs 19 kg) con modelos de Homecenter.",
+      "platforms": [
+        "Instagram",
+        "Facebook",
+        "Google"
+      ],
+      "metrics": {
+        "mentions": 2,
+        "authors": 2,
+        "potential_reach": 0,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Sin publicaciones de redes en la muestra",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/reel/DfhpdntvjSQ/",
+          "platform": "Instagram",
+          "author": "@casaofertas07",
+          "date": "2026-11-09",
+          "description": "Feria de lavadoras: Midea de 14 kilos por $740.000",
+          "engagement": "12 likes · 1 comentarios",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.facebook.com/loquepasa.co/posts/lava-todo-de-una-lleg%C3%B3-la-maxipromo-2026-con-la-lavadora-tcl-de-carga-superior-1/1688085526691583/",
+          "platform": "Facebook",
+          "author": "Lo Que Pasa En Bucaramanga y Colombia.com",
+          "date": null,
+          "description": "Maxipromo 2026: lavadora TCL de carga superior de 19 kilos",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://lakalle.bluradio.com/noticias/economia/black-friday-falabella-y-alkosto-lanzan-descuentos-de-hasta-el-73-en-tecnologia-y-mas-so35",
+          "platform": "Prensa",
+          "author": "Blu Radio",
+          "date": null,
+          "description": "Alkosto y Falabella lanzan Black Friday; rebajas en neveras y lavadoras de hasta 43%, sin año visible",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        },
+        {
+          "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+          "platform": "Web",
+          "author": "Alkosto",
+          "date": null,
+          "description": "Black Days Alkosto electrohogar",
+          "engagement": "sin métricas visibles",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    },
+    {
+      "id": "freidoras-de-aire",
+      "name": "Freidoras de aire",
+      "subcategory": "electrodomésticos",
+      "signal": "en crecimiento",
+      "why_trending": "En el autocompletar aparecen búsquedas nuevas 'cómo lavar freidora de aire' y 'cómo utilizar freidora de aire'; una oferta de aniversario en Instagram muestra una freidora de 6,3 litros a $179.900 (precio regular $350.000 según el post).",
+      "drivers": [
+        "Dudas de uso y limpieza",
+        "Ofertas de aniversario y Black Days",
+        "Cocina rápida y ahorro de energía"
+      ],
+      "strength": 2,
+      "momentum": "subiendo",
+      "purchase_intent": {
+        "level": "media",
+        "evidence": "Búsquedas nuevas de uso y limpieza (usuarios que ya la compraron o van a comprar) y publicación con precio de oferta; sin videos de reseña con vistas en la muestra."
+      },
+      "price_range": "$179.900 (oferta publicada en Instagram el 7-nov-2026, 6,3 L)",
+      "homecenter_availability": "alternativa similar",
+      "content_idea": "Reel '3 errores al limpiar tu freidora de aire' con modelos del catálogo de Homecenter.",
+      "platforms": [
+        "Instagram",
+        "Google"
+      ],
+      "metrics": {
+        "mentions": 1,
+        "authors": 1,
+        "potential_reach": null,
+        "basis": "muestra",
+        "search_volume": null,
+        "visible_engagement": "Un post de Instagram con 3 likes; sin vistas visibles",
+        "source": "Muestra: publicaciones de Chrome del 12-nov (TikTok, Instagram, Facebook), YouTube y autocompletar de signals.json del 15-nov (recolectado 15-nov 12:23). No es el universo de la conversación; el 16-nov no hubo señales nuevas. Actualizado 19-nov: sin señales nuevas del día; se usó signals.json del 18-nov."
+      },
+      "examples": [
+        {
+          "url": "https://www.instagram.com/p/Dfccgigphrz/",
+          "platform": "Instagram",
+          "author": "@luisxv.online",
+          "date": "2026-11-07",
+          "description": "Oferta de aniversario: freidora de aire Kalley de 6,3 litros por $179.900",
+          "engagement": "3 likes · 0 comentarios",
+          "reach": null,
+          "reach_basis": null
+        }
+      ]
+    }
+  ],
+  "recommendations": [
+    {
+      "title": "Black Days: lo que viene en línea blanca",
+      "priority": "alta",
+      "format": "Reel",
+      "channels": [
+        "Instagram",
+        "TikTok"
+      ],
+      "hook": "Antes del 20 de nov., ¿qué nevera comprarías?",
+      "description": "Reel de 30 s con 3 electrodomésticos y fechas confirmadas de Black Days.",
+      "products_to_feature": [
+        "Neveras",
+        "Estufas",
+        "Lavadoras"
+      ],
+      "timing": "Hoy 23-nov, arranque de la ventana Homecenter hasta el 2-dic",
+      "why": "Éxito ya arrancó, Falabella el 17 y Alkosto el 19-20 de nov.; Homecenter ya tiene landing de Black Days pero solo 64 vistas en su video.",
+      "trend_ids": [
+        "black-friday-colombia",
+        "black-days-electrohogar"
+      ],
+      "product_ids": [
+        "neveras-nueva-precio",
+        "estufas-de-gas",
+        "lavavajillas-lavadoras"
+      ],
+      "visual_hook": {
+        "category": "Surprise",
+        "idea": "Apertura con caja que se abre y revela la oferta",
+        "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+      }
+    },
+    {
+      "title": "Navidad completa por menos de $X",
+      "priority": "alta",
+      "format": "UGC con creador",
+      "channels": [
+        "TikTok",
+        "Instagram",
+        "YouTube"
+      ],
+      "hook": "Armé mi sala navideña con esto",
+      "description": "Creadora recorre Homecenter y arma árbol, luces y adornos con precios en pantalla.",
+      "products_to_feature": [
+        "Árboles de Navidad",
+        "Adornos",
+        "Cortinas de luces"
+      ],
+      "timing": "Esta semana",
+      "why": "Los tours de D1 y Dollarcity tienen 28 mil a 62 mil vistas.",
+      "trend_ids": [
+        "decoracion-navidena-2026",
+        "navidad-presupuesto-2026",
+        "tiendas-economicas-hogar"
+      ],
+      "product_ids": [
+        "arboles-de-navidad",
+        "adornos-navidenos-economicos",
+        "cortinas-luces-navidenas"
+      ],
+      "visual_hook": {
+        "category": "Holiday",
+        "idea": "Transición de sala vacía a sala decorada",
+        "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+      }
+    },
+    {
+      "title": "Cocina nueva sin obra",
+      "priority": "media",
+      "format": "carrusel",
+      "channels": [
+        "Instagram"
+      ],
+      "hook": "Renueva tu cocina sin romper nada",
+      "description": "Carrusel con vinilo, PVC y pintura para cocina y baño.",
+      "products_to_feature": [
+        "Vinilo",
+        "Pintura",
+        "Papel tapiz"
+      ],
+      "timing": "Esta semana",
+      "why": "'Remodelar cocina con poco dinero' es búsqueda nueva hoy.",
+      "trend_ids": [
+        "remodelacion-bajo-costo"
+      ],
+      "product_ids": []
+    },
+    {
+      "title": "Tutorial: perforar pared con taladro",
+      "priority": "media",
+      "format": "TikTok",
+      "channels": [
+        "TikTok",
+        "YouTube"
+      ],
+      "hook": "Así se taladra una pared sin errores",
+      "description": "Video corto con técnica, broca correcta y comparativo de 3 taladros.",
+      "products_to_feature": [
+        "Taladros a batería"
+      ],
+      "timing": "Esta semana",
+      "why": "Cuatro búsquedas nuevas sobre taladros en el autocompletar.",
+      "trend_ids": [
+        "herramientas-recomendadas"
+      ],
+      "product_ids": [
+        "taladros-inalambricos"
+      ]
+    },
+    {
+      "title": "Antes y después: closet organizado",
+      "priority": "media",
+      "format": "Reel",
+      "channels": [
+        "Instagram",
+        "TikTok"
+      ],
+      "hook": "Mi closet pasó de caos a orden",
+      "description": "Armario con organizadores y closet de melamina.",
+      "products_to_feature": [
+        "Organizadores",
+        "Closets de melamina"
+      ],
+      "timing": "Esta semana",
+      "why": "Hauls de organización en D1 superan las 38 mil vistas.",
+      "trend_ids": [
+        "hacks-organizacion-hogar",
+        "muebles-closet-escritorio"
+      ],
+      "product_ids": [
+        "organizadores-hogar",
+        "closets-melamina"
+      ],
+      "visual_hook": {
+        "category": "Surprise",
+        "idea": "Puerta del closet que se abre y revela el orden",
+        "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+      }
+    },
+    {
+      "title": "Cómo medir tu cocina antes de comprar nevera",
+      "priority": "media",
+      "format": "Reel",
+      "channels": [
+        "Instagram",
+        "YouTube"
+      ],
+      "hook": "No compres nevera sin medir esto",
+      "description": "Guía con cinta métrica y modelos disponibles.",
+      "products_to_feature": [
+        "Neveras"
+      ],
+      "timing": "Antes del Black Friday",
+      "why": "Video sobre diseño de cocina y nevera tiene 8 mil vistas.",
+      "trend_ids": [
+        "black-days-electrohogar"
+      ],
+      "product_ids": [
+        "neveras-nueva-precio"
+      ]
+    },
+    {
+      "title": "Tutorial de conexión de lavavajillas",
+      "priority": "baja",
+      "format": "blog/SEO",
+      "channels": [
+        "Blog"
+      ],
+      "hook": "¿Cómo se conecta un lavavajillas?",
+      "description": "Artículo con pasos y video corto.",
+      "products_to_feature": [
+        "Lavavajillas"
+      ],
+      "timing": "Este mes",
+      "why": "Dos búsquedas nuevas de hoy sobre cómo conectar un lavavajillas.",
+      "trend_ids": [
+        "black-days-electrohogar"
+      ],
+      "product_ids": [
+        "lavavajillas-lavadoras"
+      ]
+    },
+    {
+      "title": "Qué hacer si tu lavadora no centrifuga",
+      "priority": "media",
+      "format": "TikTok",
+      "channels": [
+        "TikTok",
+        "Instagram"
+      ],
+      "hook": "Tu lavadora deja la ropa chorreando: 3 cosas que revisar antes de llamar al técnico",
+      "description": "Video corto de diagnóstico con 3 revisiones básicas (nivelación, carga desbalanceada, desagüe) y cierre con lavadoras de 14 a 19 kg del catálogo.",
+      "products_to_feature": [
+        "Lavadoras de carga superior de 14 a 19 kg"
+      ],
+      "timing": "Esta semana, antes del Black Friday",
+      "why": "'Lavadora mabe no centrifuga' y 'lavadora whirlpool no exprime' son búsquedas nuevas en el autocompletar y las ofertas de lavadoras grandes circulan en Instagram y Facebook.",
+      "trend_ids": [
+        "black-days-electrohogar"
+      ],
+      "product_ids": [
+        "lavavajillas-lavadoras"
+      ]
+    },
+    {
+      "title": "Freidora de aire: limpieza y primeras recetas",
+      "priority": "baja",
+      "format": "Reel",
+      "channels": [
+        "Instagram",
+        "TikTok"
+      ],
+      "hook": "Cómo lavar tu freidora de aire en 2 minutos",
+      "description": "Reel de limpieza rápida y 3 recetas básicas, con freidoras del catálogo.",
+      "products_to_feature": [
+        "Freidoras de aire"
+      ],
+      "timing": "Esta semana",
+      "why": "'Cómo lavar freidora de aire' y 'cómo utilizar freidora de aire' son búsquedas nuevas hoy.",
+      "trend_ids": [
+        "black-days-electrohogar"
+      ],
+      "product_ids": [
+        "freidoras-de-aire"
+      ]
+    }
+  ],
+  "methodology": "Hoy (24-nov) no existían data/raw/2026-11-24/signals.json ni chrome.json. Se usó signals.json del 23-nov (recolectado 17:12 hora Colombia: Google Trends, X, YouTube, autocompletar, Mercado Libre) y el radar del 23-nov para ítems sin señales nuevas (las publicaciones de TikTok, Instagram y Facebook son de muestras de días previos, no actualizadas hoy). WebSearch del 24-nov: calendario de la negociación del salario mínimo 2027 y fechas de Black Friday (Alkosto 19-nov a 4-dic; Homecenter 23-nov a 2-dic, con vigencia desde el 28-oct en sus términos; sin precios concretos hallados). No se pudo confirmar el resultado del clásico paisa por búsqueda y se omitió. No se hallaron publicaciones nuevas de TikTok/Instagram por búsqueda. Cifras de 'muestra' son de los videos vistos, no del universo. Fuerza y momentum son estimaciones."
+}
