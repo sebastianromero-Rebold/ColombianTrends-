@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-26",
+   "headline": "Black Friday (viernes 27-nov) ya está en marcha: Homecenter, Alkosto y Éxito compiten con descuentos en electrohogar y decoración; en lo nacional, la mesa del salario mínimo 2027 arranca y el atentado en Villavicencio sigue siendo tema a evitar",
+   "counts": {
+    "national_trends": 8,
+    "homecenter_trends": 8,
+    "products": 6,
+    "white_goods": 4,
+    "recommendations": 9
+   }
+  },
+  {
    "date": "2026-11-25",
    "headline": "Black Friday (viernes 27-nov) ya arrancó con las promociones fuertes de Homecenter y Alkosto; en lo nacional dominan el atentado en Villavicencio (tema a evitar) y la negociación del salario mínimo",
    "counts": {
