@@ -1,0 +1,87 @@
+{
+  "date": "2026-11-26",
+  "collected_at": "2026-11-26T22:20:02-05:00",
+  "queries": [
+    "union saint-gilloise",
+    "crystal palace - real sociedad",
+    "besiktas vs",
+    "productividad",
+    "Cartagena",
+    "Thanksgiving",
+    "Westcol",
+    "#GoldenDiscAwards",
+    "remodelación apartamento",
+    "decoración navidad casa",
+    "hack hogar",
+    "herramientas recomendadas",
+    "homecenter",
+    "nevera",
+    "lavadora",
+    "freidora de aire"
+  ],
+  "posts": [
+    {
+      "query": "remodelación apartamento",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/disenoyconstruccionarquitectos/reel/Df8X9rtxXu2/",
+      "author": "@disenoyconstruccionarquitectos",
+      "date": "2026-11-19",
+      "text": "Te vas enamorar de este majestuoso apartamento que entregamos en la ciudad de Ibague. Somos especialistas en el diseño y remodelación de aptos de alta gama con un alto valor de innovación prestigio y exclusividad",
+      "views": null,
+      "likes": 65,
+      "comments": 1,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "decoración navidad casa",
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/reels/DgDIbUHEmXF/",
+      "author": "@homecenter_co",
+      "date": "2026-11-22",
+      "text": "Tu Navidad merece una entrada espectacular. 🎄✨ Dale la bienvenida a la temporada con una corona hecha a tu estilo: combina colores, texturas y accesorios para crear una decoración única. ¡Inspírate en Homecenter con las colecciones de…",
+      "views": null,
+      "likes": 1118,
+      "comments": 55,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "decoración navidad casa",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/CasaideasColombia/posts/-ya-viene-navidad-a-casa-ideas-es-momento-de-empezar-a-llenar-tu-hogar-de-magia-/1453533156890028/",
+      "author": "Casaideas Colombia",
+      "date": null,
+      "text": "🎄✨ ¡Ya viene Navidad a Casa Ideas! Es momento... (título de la publicación)",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "followers": null
+    },
+    {
+      "query": "decoración navidad casa",
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/ElColombiano/posts/-decorar-la-casa-para-navidad-no-tiene-que-representar-un-gasto-elevado-d1-y-ara/1605807024904929/",
+      "author": "El Colombiano",
+      "date": null,
+      "text": "🎄 Decorar la casa para Navidad no tiene que... (título de la publicación)",
+      "views": null,
+      "likes": null,
+      "comments": null,
+      "shares": null,
+      "followers": null
+    }
+  ],
+  "answerthepublic": null,
+  "errors": [
+    "Google ya no expone la URL de destino en los resultados (enlaces cifrados /goto?url=…): el extractor JS del prompt devuelve 0 enlaces; las URLs se obtuvieron abriendo cada resultado",
+    "Google ignoró en gran parte el filtro (site:tiktok.com OR site:instagram.com OR site:facebook.com): 0 resultados sociales para hack hogar, herramientas recomendadas, homecenter (sin resultados), nevera, lavadora, freidora de aire, Westcol, productividad, union saint-gilloise, crystal palace - real sociedad, besiktas vs",
+    "Ningún video de TikTok apareció en las búsquedas; se intentó site:tiktok.com solo y Google mostró CAPTCHA (no resuelto)",
+    "CAPTCHA de Google tras ~16 búsquedas: no se abrieron 2 publicaciones de Facebook de 'remodelación apartamento' (El Mundo de la Decoracion, Aglomerados De Colombia) ni la de 'Cartagena' (Mckocean swimsuits)",
+    "Descartadas por no ser de Colombia o ser de grupos: Thanksgiving (@saboresdecolombiaminehill, @ilovemitierracolombia — restaurantes colombianos en EE. UU.; foto de grupo de Facebook), #GoldenDiscAwards (@hyyh_ecu7 Ecuador; perfil personal de fans en Facebook)",
+    "Facebook no expuso og:description: solo título, cifras en null",
+    "AnswerThePublic: sin sesión iniciada, se omitió (semilla del jueves: herramientas)",
+    "Temas de signals.json omitidos por sensibles: gobierno, asamblea constituyente y nombres políticos de x_trends (Mondragón, Abelardo, Medina)"
+  ]
+}
