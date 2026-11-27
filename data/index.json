@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-27",
+   "headline": "Hoy es Black Friday (27-nov) y las cadenas ya compiten con campañas largas: Homecenter hasta el 2 de dic., Alkosto hasta el 4 de dic.; el radar de hoy es reducido por falta de señales de redes",
+   "counts": {
+    "national_trends": 3,
+    "homecenter_trends": 3,
+    "products": 3,
+    "white_goods": 1,
+    "recommendations": 3
+   }
+  },
+  {
    "date": "2026-11-26",
    "headline": "Black Friday (viernes 27-nov) ya está en marcha: Homecenter, Alkosto y Éxito compiten con descuentos en electrohogar y decoración; en lo nacional, la mesa del salario mínimo 2027 arranca y el atentado en Villavicencio sigue siendo tema a evitar",
    "counts": {
