@@ -1,0 +1,588 @@
+{
+ "date": "2026-11-28",
+ "generated_at": "2026-11-28T07:00:00-05:00",
+ "headline": "Pasó el Black Friday (27-nov) pero las campañas siguen: Alkosto hasta el 4 de dic., Homecenter hasta el 2 de dic. y Cyber Monday el lunes 30; el radar de hoy es reducido por falta de señales de redes",
+ "summary": [
+  "Black Friday fue ayer 27-nov; Alkosto corre Black Days del 19-nov al 4-dic y Homecenter declara vigencia del 28-oct al 2-dic o hasta agotar existencias. El Cyber Monday cae el lunes 30-nov.",
+  "Neveras y lavadoras figuran entre las categorías de mayor rotación en Alkosto; Homecenter promociona electrohogar y pequeños electrodomésticos: la línea blanca concentra la intención de compra.",
+  "Decoración navideña sigue activa: en Falabella hay árboles de 180–210 cm desde $169.900 hasta $599.900 según listados de hoy.",
+  "La mesa del salario mínimo 2027 se instaló el 18-nov y las reuniones técnicas comenzaron el 26-nov, sin cifra oficial; tema sensible, solo monitorear.",
+  "Limitación: hoy no hubo signals.json ni chrome.json y las búsquedas no devolvieron publicaciones de redes; menciones, autores y alcance van en null."
+ ],
+ "national_trends": [
+  {
+   "id": "black-friday-colombia",
+   "title": "Black Friday Colombia",
+   "topic": "comercio",
+   "description": "Black Friday cae hoy 27-nov. Cada cadena corre su propia campaña: Alkosto y Alkomprar del 19-nov al 4-dic (incluye Cyber Monday el 30-nov) y Homecenter con vigencia del 28-oct al 2-dic.",
+   "why_now": "Es el día central del evento y las campañas siguen abiertas hasta diciembre.",
+   "brand_angle": "Ofertas claras con fecha límite y comparativos de precio; Homecenter ya tiene landing y categorías Black Friday.",
+   "homecenter_fit": "alto",
+   "brand_safety": "segura",
+   "strength": 5,
+   "momentum": "pico",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "hashtags": [
+    "#BlackFriday"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/computadores",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Landing de Black Days Alkosto (19-nov al 4-dic)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/landing/black-days/",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Landing de Black Days de Homecenter, vigencia 28-oct al 2-dic",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.portafolio.co/mis-finanzas/ahorro/black-friday-en-colombia-ropa-tecnologia-y-electrodomesticos-encabezan-las-compras-durante-las-ofertas-506625",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Portafolio: ropa, tecnología y electrodomésticos encabezan las compras",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.mercadolibre.com.co/black-friday",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Landing Black Friday de Mercado Libre Colombia",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "salario-minimo-2027",
+   "title": "Negociación del salario mínimo 2027",
+   "topic": "economía",
+   "description": "La mesa de concertación avanza sin cifra oficial. Las propuestas van del 8 % al 38,5 %; empresarios piden no pasar del 9 % y hay fuentes que apuntan a un piso cerca del 7 %. Las fuentes difieren en fechas de inicio.",
+   "why_now": "Se concentra entre finales de noviembre y comienzos de diciembre.",
+   "brand_angle": "Tema político y económico: solo monitorear, no usar en contenido de marca.",
+   "homecenter_fit": "ninguno",
+   "brand_safety": "evitar",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "Prensa"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Propuestas del 8 % al 38,5 % según Portafolio",
+    "source": "Prensa económica (Portafolio, Bloomberg Línea) consultada hoy"
+   },
+   "examples": [
+    {
+     "url": "https://cambiocolombia.com/salario-minimo-2027-inicio-negociacion-aumento",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Inicio de la negociación",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.portafolio.co/economia/aumento-del-salario-minimo-2027-propuestas-van-del-8-al-38-505643",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Propuestas del 8 % al 38 %",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "tiktok-black-friday-ventas",
+   "title": "TikTok como canal de compra en Black Friday",
+   "topic": "tecnología",
+   "description": "RCN cita datos de la plataforma según los cuales el 82 % de sus usuarios ha considerado comprar un producto tras verlo en la red.",
+   "why_now": "Temporada de Black Friday: las marcas buscan ventas desde el contenido.",
+   "brand_angle": "Contenido de producto con precio y oferta visibles en TikTok.",
+   "homecenter_fit": "medio",
+   "brand_safety": "segura",
+   "strength": 2,
+   "momentum": "estable",
+   "platforms": [
+    "TikTok"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "82 % de usuarios de TikTok ha considerado comprar tras ver un producto (según la plataforma)",
+    "source": "Cifra del 82 % citada por RCN, dato de la propia plataforma"
+   },
+   "examples": [
+    {
+     "url": "https://www.noticiasrcn.com/tendencias/como-vender-en-tiktok-black-friday-1080570",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Artículo de RCN sobre vender en TikTok en Black Friday",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "homecenter_trends": [
+  {
+   "id": "black-days-electrohogar",
+   "title": "Black Days electrohogar",
+   "subcategory": "electrodomésticos",
+   "conversation_type": "experiencia de compra",
+   "description": "Alkosto, Alkomprar y Homecenter tienen campañas de electrohogar activas; Homecenter tiene categoría específica de electrohogar Black Friday.",
+   "why_now": "Black Friday es hoy y Cyber Monday el 30-nov.",
+   "opportunity": "Contenido que ayude a elegir y comparar, con fecha de cierre de la oferta.",
+   "strength": 4,
+   "momentum": "pico",
+   "platforms": [
+    "Web"
+   ],
+   "hashtags": [
+    "#BlackFriday"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Categoría Electrohogar Black Friday de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Alkosto: empotre y estufas en Black Days",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040027/pequenos-electrodomesticos-black-friday/",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Homecenter: pequeños electrodomésticos Black Friday",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "decoracion-navidena-2026",
+   "title": "Decoración navideña y comparativos de precio",
+   "subcategory": "decoración",
+   "conversation_type": "idea",
+   "description": "Homecenter y Falabella tienen categorías de Navidad con árboles y adornos; la prensa reporta comparativos de precio de un tiktoker, con adornos desde $14.990 en D1.",
+   "why_now": "Se acerca diciembre y coincide con Black Friday.",
+   "opportunity": "Comparativo de árboles y adornos por presupuesto.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "platforms": [
+    "TikTok",
+    "Web"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Set de renos decorativos en $14.990 (D1), según El Tiempo",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/donde-es-mas-barato-comprar-un-arbolito-de-navidad-tiktoker-hizo-la-comparacion-828028",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Comparación de precios de árboles hecha por un tiktoker",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/buscando-decoracion-para-navidad-ofertas-desde-10-000-en-el-d1-828035",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Decoración navideña desde $10.000 en D1",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat40002/navidad/?cid=btnhom1008670",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Categoría Navidad de Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "muebles-decohogar-black-friday",
+   "title": "Closets, muebles y decohogar en oferta",
+   "subcategory": "muebles",
+   "conversation_type": "producto",
+   "description": "Homecenter tiene categorías Black Friday de decohogar y de closets y muebles de habitación.",
+   "why_now": "Campaña vigente hasta el 2-dic.",
+   "opportunity": "Proyectos de habitación o sala con productos en oferta.",
+   "strength": 2,
+   "momentum": "estable",
+   "platforms": [
+    "Web"
+   ],
+   "hashtags": [],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040081/closet-y-muebles-de-habitacion-black-friday/?currentpage=1",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Closets y muebles de habitación Black Friday",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "products": [
+  {
+   "id": "arboles-de-navidad",
+   "name": "Árboles de Navidad",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Temporada navideña; hay comparativos de precio en prensa y listados en Homecenter y Falabella.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Categorías específicas de árboles en Homecenter y Falabella y notas de prensa sobre dónde comprarlos más barato"
+   },
+   "price_range": "$169.900 a $599.900 (árboles de 180–210 cm en Falabella, listados de hoy)",
+   "homecenter_availability": "lo vende",
+   "content_idea": "Guía de tamaño y presupuesto de árboles, con precios reales.",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat5230016/arboles-de-navidad/?cid=_lnd_1402149",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Categoría de árboles de Navidad en Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.falabella.com.co/falabella-co/shop/arbol-de-navidad-con-luces",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Falabella: árboles con luces (180 cm desde $169.900; 210 cm combo $359.990, precios de listado)",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "adornos-navidenos-economicos",
+   "name": "Adornos navideños económicos",
+   "subcategory": "decoración",
+   "signal": "estacional",
+   "why_trending": "Prensa reporta adornos desde $10.000 en D1 y set de renos a $14.990.",
+   "strength": 3,
+   "momentum": "subiendo",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Notas de El Tiempo sobre ofertas desde $10.000"
+   },
+   "price_range": "Desde $10.000 (D1, según El Tiempo)",
+   "homecenter_availability": "alternativa similar",
+   "content_idea": "Decoración navideña por menos de cierto presupuesto.",
+   "platforms": [
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.eltiempo.com/cultura/gente/buscando-decoracion-para-navidad-ofertas-desde-10-000-en-el-d1-828035",
+     "platform": "Prensa",
+     "author": null,
+     "date": null,
+     "description": "Ofertas de decoración navideña desde $10.000",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  },
+  {
+   "id": "estufas-empotre",
+   "name": "Estufas y hornos de empotre",
+   "subcategory": "electrodomésticos",
+   "signal": "estacional",
+   "why_trending": "Alkosto tiene sección de empotre y estufas dentro de Black Days.",
+   "strength": 2,
+   "momentum": "estable",
+   "purchase_intent": {
+    "level": "media",
+    "evidence": "Sección propia en Black Days de Alkosto"
+   },
+   "price_range": null,
+   "homecenter_availability": "verificar disponibilidad",
+   "content_idea": "Guía de qué considerar al comprar estufa de empotre en oferta.",
+   "platforms": [
+    "Web"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.alkosto.com/especiales/blackdays/electrohogar/empotre-y-estufas",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Empotre y estufas en Black Days de Alkosto",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "white_goods": [
+  {
+   "id": "neveras-lavadoras-black-days",
+   "name": "Neveras y lavadoras en Black Days",
+   "subcategory": "electrodomésticos",
+   "signal": "estacional",
+   "why_trending": "Alkosto las lista entre las categorías de mayor rotación en Black Days.",
+   "drivers": [
+    "Temporada Black Friday / Cyber Monday",
+    "Financiación a crédito (Alkomprar)"
+   ],
+   "strength": 3,
+   "momentum": "pico",
+   "purchase_intent": {
+    "level": "alta",
+    "evidence": "Alkosto las señala entre las de mayor rotación; sin cifras de búsqueda hoy"
+   },
+   "price_range": "Referencia sin fecha de El Tiempo: neveras desde ~$1.000.000 y lavadoras desde $1.300.000",
+   "homecenter_availability": "lo vende",
+   "content_idea": "Comparador rápido de neveras y lavadoras antes del cierre de la oferta.",
+   "platforms": [
+    "Web",
+    "Prensa"
+   ],
+   "metrics": {
+    "mentions": null,
+    "authors": null,
+    "potential_reach": null,
+    "basis": "fuente publicada",
+    "search_volume": null,
+    "visible_engagement": "Sin métricas de redes disponibles hoy",
+    "source": "Páginas de tiendas y prensa halladas con búsqueda hoy; no se vieron publicaciones de redes"
+   },
+   "examples": [
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat8040031/electrohogar-black-friday/?cid=_lnd_1448380",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Electrohogar Black Friday en Homecenter",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    },
+    {
+     "url": "https://www.homecenter.com.co/homecenter-co/category/cat4710026/Neveras-No-Frost",
+     "platform": "Web",
+     "author": null,
+     "date": null,
+     "description": "Homecenter: neveras No Frost",
+     "engagement": "Sin métricas visibles",
+     "reach": null,
+     "reach_basis": null
+    }
+   ]
+  }
+ ],
+ "recommendations": [
+  {
+   "title": "Guía exprés de línea blanca en Black Friday",
+   "priority": "alta",
+   "format": "Reel",
+   "channels": [
+    "Instagram",
+    "TikTok"
+   ],
+   "hook": "Hoy cierra el Black Friday: ¿nevera o lavadora primero?",
+   "description": "Reel de 30 s que compara 3 neveras y 3 lavadoras con precio y fecha final de la oferta (2-dic).",
+   "products_to_feature": [
+    "Neveras",
+    "Lavadoras"
+   ],
+   "timing": "Hoy y el fin de semana, antes del Cyber Monday (30-nov)",
+   "why": "Alkosto señala neveras y lavadoras como categorías de mayor rotación y Homecenter tiene la campaña vigente hasta el 2-dic.",
+   "trend_ids": [
+    "black-friday-colombia",
+    "black-days-electrohogar"
+   ],
+   "product_ids": [
+    "neveras-lavadoras-black-days"
+   ],
+   "visual_hook": {
+    "category": "Surprise",
+    "idea": "Caja que se abre y revela la oferta",
+    "url": "https://transitionalhooks.com/social-media-video-hook-library/"
+   }
+  },
+  {
+   "title": "Navidad por presupuesto",
+   "priority": "media",
+   "format": "TikTok",
+   "channels": [
+    "TikTok",
+    "Instagram"
+   ],
+   "hook": "Árbol y adornos completos por menos de $200.000",
+   "description": "Armar una sala navideña con productos de Homecenter y mostrar el total.",
+   "products_to_feature": [
+    "Árboles de Navidad",
+    "Adornos navideños"
+   ],
+   "timing": "Esta semana",
+   "why": "La prensa compara precios de decoración y hay interés en opciones económicas.",
+   "trend_ids": [
+    "decoracion-navidena-2026"
+   ],
+   "product_ids": [
+    "arboles-de-navidad",
+    "adornos-navidenos-economicos"
+   ]
+  },
+  {
+   "title": "Cómo elegir estufa de empotre",
+   "priority": "baja",
+   "format": "carrusel",
+   "channels": [
+    "Instagram"
+   ],
+   "hook": "Antes de comprar estufa en oferta, revisa esto",
+   "description": "Carrusel con medidas, tipo de gas y garantía.",
+   "products_to_feature": [
+    "Estufas de empotre"
+   ],
+   "timing": "Antes del 2-dic.",
+   "why": "Alkosto tiene sección de empotre y estufas en Black Days.",
+   "trend_ids": [
+    "black-days-electrohogar"
+   ],
+   "product_ids": [
+    "estufas-empotre"
+   ]
+  }
+ ],
+ "methodology": "Hoy no existían data/raw/2026-11-28/signals.json ni chrome.json, así que el radar se basó en WebSearch (páginas de tiendas y prensa) y en la continuidad del reporte de ayer, conservando solo enlaces que reaparecieron en las búsquedas de hoy. Las búsquedas con site: no devolvieron publicaciones de TikTok, Instagram ni Facebook: no hay ejemplos de redes ni métricas, por eso mentions, authors y potential_reach van en null y las fortalezas son estimaciones prudentes. No se cubrieron Google Trends, X ni YouTube. Algunas fechas de campaña difieren entre páginas de las tiendas (Alkosto 19-nov al 4-dic o 20-nov al 5-dic)."
+}
