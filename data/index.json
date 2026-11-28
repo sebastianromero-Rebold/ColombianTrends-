@@ -1,6 +1,17 @@
 {
  "reports": [
   {
+   "date": "2026-11-28",
+   "headline": "Pasó el Black Friday (27-nov) pero las campañas siguen: Alkosto hasta el 4 de dic., Homecenter hasta el 2 de dic. y Cyber Monday el lunes 30; el radar de hoy es reducido por falta de señales de redes",
+   "counts": {
+    "national_trends": 3,
+    "homecenter_trends": 3,
+    "products": 3,
+    "white_goods": 1,
+    "recommendations": 3
+   }
+  },
+  {
    "date": "2026-11-27",
    "headline": "Hoy es Black Friday (27-nov) y las cadenas ya compiten con campañas largas: Homecenter hasta el 2 de dic., Alkosto hasta el 4 de dic.; el radar de hoy es reducido por falta de señales de redes",
    "counts": {
